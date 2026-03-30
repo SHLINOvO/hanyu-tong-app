@@ -1,0 +1,26 @@
+# 自动检测文本文件
+* text=auto
+
+# 始终将以下文件视为文本文件，并使用LF行尾符
+*.dart text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+
+# 始终将以下文件视为二进制文件（不进行行尾符转换）
+*.lock binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.gz binary
+
+# 特定文件处理
+pubspec.lock binary
+.DS_Store binary
+Thumbs.db binary
