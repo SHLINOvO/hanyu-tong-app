@@ -3,13 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../widgets/step_indicator.dart';
+import '../l10n/app_localizations.dart';
 
-const _goals = [
-  {'value': 5, 'emoji': '⚡', 'title': '5 分钟/天', 'desc': '轻松入门，随时随地'},
-  {'value': 15, 'emoji': '🎯', 'title': '15 分钟/天', 'desc': '稳步提升，每日打卡'},
-  {'value': 30, 'emoji': '🔥', 'title': '30 分钟/天', 'desc': '高效学习，快速进步'},
-  {'value': 60, 'emoji': '🏅', 'title': '60 分钟/天', 'desc': '深度沉浸，全面突破'},
-];
+// 目标选项数据将在build方法中动态创建，以便使用本地化文本
 
 class GoalSetting extends StatefulWidget {
   const GoalSetting({super.key});
@@ -27,6 +23,16 @@ class _GoalSettingState extends State<GoalSetting> {
     context.go('/app');
   }
 
+  List<Map<String, Object>> _buildGoals(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    return [
+      {'value': 5, 'emoji': '⚡', 'title': loc.goal5min, 'desc': '轻松入门，随时随地'}, // 这个描述也需要本地化，但目前没有对应的键
+      {'value': 15, 'emoji': '🎯', 'title': loc.goal15min, 'desc': '稳步提升，每日打卡'}, // 这个描述也需要本地化，但目前没有对应的键
+      {'value': 30, 'emoji': '🔥', 'title': loc.goal30min, 'desc': '高效学习，快速进步'}, // 这个描述也需要本地化，但目前没有对应的键
+      {'value': 60, 'emoji': '🏅', 'title': loc.goal60min, 'desc': '深度沉浸，全面突破'}, // 这个描述也需要本地化，但目前没有对应的键
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,22 +47,22 @@ class _GoalSettingState extends State<GoalSetting> {
                   children: [
                     const StepIndicator(total: 3, current: 2),
                     const SizedBox(height: 48),
-                    const Text(
-                      '来定个学习目标吧',
+                    Text(
+                      AppLocalizations.of(context)!.setLearningGoal,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
                         color: Color(0xFF333333),
                       ),
                     ),
                     const SizedBox(height: 8),
-                    const Text(
-                      '每天坚持一点，进步看得见',
-                      style: TextStyle(color: Color(0xFF999999)),
+                    Text(
+                      AppLocalizations.of(context)!.dailyConsistency,
+                      style: const TextStyle(color: Color(0xFF999999)),
                     ),
                     const SizedBox(height: 32),
-                    ..._goals.map((goal) => _GoalCard(
+                    ..._buildGoals(context).map((goal) => _GoalCard(
                           goal: goal,
                           isSelected: _selected == goal['value'],
                           onTap: () =>
@@ -83,9 +89,9 @@ class _GoalSettingState extends State<GoalSetting> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  child: const Text(
-                    '开始学习',
-                    style: TextStyle(
+                  child: Text(
+                    AppLocalizations.of(context)!.startLearning,
+                    style: const TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                         color: Colors.white),

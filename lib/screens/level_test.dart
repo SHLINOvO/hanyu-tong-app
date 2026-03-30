@@ -3,33 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import '../app_state.dart';
 import '../widgets/step_indicator.dart';
+import '../l10n/app_localizations.dart';
 
-const _levels = [
-  {
-    'id': 'beginner',
-    'emoji': '🌱',
-    'title': '入门',
-    'desc': '刚开始学习，认识少量汉字',
-  },
-  {
-    'id': 'elementary',
-    'emoji': '📗',
-    'title': '初级',
-    'desc': '能进行简单日常对话',
-  },
-  {
-    'id': 'intermediate',
-    'emoji': '📘',
-    'title': '中级',
-    'desc': '掌握常用词汇，能读短文',
-  },
-  {
-    'id': 'advanced',
-    'emoji': '🏆',
-    'title': '高级',
-    'desc': '熟悉成语古诗，挑战深度中文',
-  },
-];
+// 水平选项数据将在build方法中动态创建，以便使用本地化文本
 
 class LevelTest extends StatefulWidget {
   const LevelTest({super.key});
@@ -48,6 +24,36 @@ class _LevelTestState extends State<LevelTest> {
     }
   }
 
+  List<Map<String, String>> _buildLevels(BuildContext context) {
+    final loc = AppLocalizations.of(context)!;
+    return [
+      {
+        'id': 'beginner',
+        'emoji': '🌱',
+        'title': loc.levelBeginner,
+        'desc': '刚开始学习，认识少量汉字', // 这个描述也需要本地化，但目前没有对应的键
+      },
+      {
+        'id': 'elementary',
+        'emoji': '📗',
+        'title': loc.levelElementary,
+        'desc': '能进行简单日常对话', // 这个描述也需要本地化，但目前没有对应的键
+      },
+      {
+        'id': 'intermediate',
+        'emoji': '📘',
+        'title': loc.levelIntermediate,
+        'desc': '掌握常用词汇，能读短文', // 这个描述也需要本地化，但目前没有对应的键
+      },
+      {
+        'id': 'advanced',
+        'emoji': '🏆',
+        'title': loc.levelAdvanced,
+        'desc': '熟悉成语古诗，挑战深度中文', // 这个描述也需要本地化，但目前没有对应的键
+      },
+    ];
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,22 +68,22 @@ class _LevelTestState extends State<LevelTest> {
                   children: [
                     const StepIndicator(total: 3, current: 1),
                     const SizedBox(height: 48),
-                    const Text(
-                      '你的中文水平是？',
+                    Text(
+                      AppLocalizations.of(context)!.whatsYourLevel,
                       textAlign: TextAlign.center,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
                         color: Color(0xFF333333),
                       ),
                     ),
                     const SizedBox(height: 8),
-                    const Text(
-                      '选择最符合你现在情况的选项',
-                      style: TextStyle(color: Color(0xFF999999)),
+                    Text(
+                      AppLocalizations.of(context)!.selectBestOption,
+                      style: const TextStyle(color: Color(0xFF999999)),
                     ),
                     const SizedBox(height: 32),
-                    ..._levels.map((lvl) => _LevelCard(
+                    ..._buildLevels(context).map((lvl) => _LevelCard(
                           level: lvl,
                           isSelected: _selected == lvl['id'],
                           onTap: () =>
@@ -105,9 +111,9 @@ class _LevelTestState extends State<LevelTest> {
                       borderRadius: BorderRadius.circular(12),
                     ),
                   ),
-                  child: const Text(
-                    '下一步',
-                    style: TextStyle(
+                  child: Text(
+                    AppLocalizations.of(context)!.nextStep,
+                    style: const TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,
                       color: Colors.white,

@@ -890,6 +890,24 @@ class AppLocalizations {
   String get myAchievements => _localizedValues[locale.languageCode]?['myAchievements'] ?? 'My Achievements';
   String get learningProgress => _localizedValues[locale.languageCode]?['learningProgress'] ?? 'Learning Progress';
 
+  // level_test.dart中的文本
+  String get whatsYourLevel => _localizedValues[locale.languageCode]?['whatsYourLevel'] ?? 'What is your Chinese level?';
+  String get selectBestOption => _localizedValues[locale.languageCode]?['selectBestOption'] ?? 'Select the option that best matches your current situation';
+  String get nextStep => _localizedValues[locale.languageCode]?['nextStep'] ?? 'Next Step';
+  String get levelBeginner => _localizedValues[locale.languageCode]?['levelBeginner'] ?? 'Beginner';
+  String get levelElementary => _localizedValues[locale.languageCode]?['levelElementary'] ?? 'Elementary';
+  String get levelIntermediate => _localizedValues[locale.languageCode]?['levelIntermediate'] ?? 'Intermediate';
+  String get levelAdvanced => _localizedValues[locale.languageCode]?['levelAdvanced'] ?? 'Advanced';
+
+  // goal_setting.dart中的文本
+  String get setLearningGoal => _localizedValues[locale.languageCode]?['setLearningGoal'] ?? 'Set a learning goal';
+  String get dailyConsistency => _localizedValues[locale.languageCode]?['dailyConsistency'] ?? 'Consistency brings visible progress';
+  String get startLearning => _localizedValues[locale.languageCode]?['startLearning'] ?? 'Start Learning';
+  String get goal5min => _localizedValues[locale.languageCode]?['goal5min'] ?? '5 min/day';
+  String get goal15min => _localizedValues[locale.languageCode]?['goal15min'] ?? '15 min/day';
+  String get goal30min => _localizedValues[locale.languageCode]?['goal30min'] ?? '30 min/day';
+  String get goal60min => _localizedValues[locale.languageCode]?['goal60min'] ?? '60 min/day';
+
   // 动态文本方法
   String minutesText(int count) => '$count ${_localizedValues[locale.languageCode]?['minutes'] ?? 'minutes'}';
   
