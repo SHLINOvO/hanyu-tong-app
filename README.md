@@ -7,6 +7,7 @@
 ## 目录
 
 - [项目简介](#项目简介)
+- [界面展示](#界面展示)
 - [核心功能](#核心功能)
 - [技术架构](#技术架构)
 - [多语言支持](#多语言支持)
@@ -34,6 +35,32 @@
 | 初级 | HSK 3–4 级 | hsk3_4.json |
 | 中级 | HSK 5–6 级 | hsk5_6.json |
 | 高级 | HSK 7–9 级 | hsk7_9.json |
+
+---
+
+## 界面展示
+
+### LTR 语言界面（Windows 桌面）
+
+| | | |
+|---|---|---|
+| ![](_figure/1.png) | ![](_figure/2.png) | ![](_figure/3.png) |
+| ![](_figure/4.png) | ![](_figure/5.png) | ![](_figure/6.png) |
+| ![](_figure/7.png) | ![](_figure/8.png) | ![](_figure/9.png) |
+| ![](_figure/10.png) | ![](_figure/11.png) | ![](_figure/12.png) |
+| ![](_figure/13.png) | | |
+
+### RTL 语言界面（Windows 桌面）
+
+| | | |
+|---|---|---|
+| ![](_figure/14.png) | ![](_figure/15.png) | ![](_figure/16.png) |
+
+### Android 真机界面
+
+| | | |
+|---|---|---|
+| ![](_figure/17.png) | ![](_figure/18.png) | ![](_figure/19.png) |
 
 ---
 
