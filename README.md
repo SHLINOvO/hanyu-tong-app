@@ -1,6 +1,6 @@
 # HanYu Tong — 汉语通
 
-> 面向外国人的中文学习 App，支持 5 种母语界面，覆盖词汇、成语、谚语、诗词、语法、文化六大学习模块，帮助学习者从零基础到高阶全面提升中文水平。
+> 面向外国人的中文学习 App，支持 5 种母语界面，覆盖词汇、成语、谚语、诗词、语法、文化六大学习模块，接入 AI 语音识别与智能评分，帮助学习者从零基础到高阶全面提升中文水平。
 
 ---
 
@@ -24,7 +24,7 @@
 
 **HanYu Tong（汉语通）** 是一款专为外国人设计的中文学习 App。用户可以：
 
-1. **听 → 解释**：听中文词汇/成语/古诗词，用母语语音解释含义，AI 进行三维评分
+1. **听 → 解释**：听中文词汇/成语/谚语，用母语语音解释含义，AI 进行智能评分
 2. **读 → 评测**：朗读中文，AI 评测发音与声调准确度
 
 分级体系覆盖从零基础到高阶：
@@ -70,9 +70,9 @@
 
 | 模块 | 说明 | 评测 |
 |------|------|------|
-| **词汇学习** | 按难度分级的中文词汇，支持母语翻译、拼音、掌握追踪 | ✅ |
-| **成语学习** | 常用成语及其母语释义，支持跳转、翻页 | ✅ |
-| **谚语学习** | 中文谚语俗语及母语翻译，支持跳转、翻页 | ✅ |
+| **词汇学习** | 按难度分级的中文词汇，支持母语翻译、拼音、掌握追踪 | ✅ 两步 AI 评分 |
+| **成语学习** | 常用成语及其母语释义，支持跳转、翻页 | ✅ 两步 AI 评分 |
+| **谚语学习** | 中文谚语俗语及母语翻译，支持跳转、翻页 | ✅ 两步 AI 评分 |
 | **诗词学习** | 古诗词原文+中文释义+母语释义，支持收藏、详情页 | 纯浏览 |
 | **语法学习** | 5 种语言的语法知识 PNG 图片，按难度分 4 级 | 纯浏览 |
 | **文化知识** | 24 节气 + 13 节日，纯文本展示，支持序号跳转、翻页 | 纯浏览 |
@@ -82,14 +82,25 @@
 - 首页显示 4 条学习进度条（词语/成语/谚语/诗词），实时反映掌握进度
 - 收藏页 4 个选项卡：词语、成语、谚语、诗词
 
-### 🤖 AI 评分系统（计划中）
-两步评分流程，覆盖朗读和语义理解：
-- **Step 1（朗读）**：用户朗读中文词卡，AI 评测发音与声调准确度
-- **Step 2（解释）**：用户用母语语音解释含义，AI 三维评分：
-  - **字面义**：对字面意思的理解
-  - **引申义**：对隐含意思的理解
-  - **现实意义**：在实际语境中的运用
-- 三层评分机制：关键词匹配 → 语义相似度（sentence-transformers）→ LLM 深度判断（DeepSeek）
+### 🤖 AI 评分系统（已接入）
+两步评分流程，基于阿里云百炼（DashScope）API：
+
+**Step 1（朗读评测）**：
+- 用户朗读中文词卡，按住麦克风录音
+- 语音识别：Qwen-ASR-Flash 将录音转为文字
+- 发音评分：通义千问（qwen-turbo）对比用户朗读与正确答案，给出 0-100 分
+- 支持重试：可反复录音练习，满意后再进入下一步
+
+**Step 2（语义评测）**：
+- 用户用母语语音解释含义
+- 语音识别：Qwen-ASR-Flash 将母语音频转为文字
+- 语义评分：通义千问对比用户解释与标准翻译（来自数据文件），给出 0-100 分
+- 评分门槛：≥ 70 分标记为"已掌握"，< 70 分需重试
+
+### 🔊 TTS 语音合成
+- 接入 Edge TTS（微软在线语音合成），中文发音质量高
+- 学习页词卡的中文词语、成语、谚语均可点击播放标准发音
+- 支持 Windows、Android、iOS 平台
 
 ### 🔍 通用功能
 - **序号跳转**：词汇/成语/谚语/诗词/语法/文化知识均支持序号输入跳转
@@ -105,14 +116,15 @@
 框架：Flutter（支持 Android、iOS、Windows Desktop）
 状态管理：Provider + SharedPreferences
 路由：go_router（自定义淡入淡出动画 200ms）
-国际化：自定义 AppLocalizations（5 种语言，100+ 键值）
+国际化：自定义 AppLocalizations（5 种语言，120+ 键值）
 ```
 
-### 后端（计划）
+### AI 服务（阿里云百炼 DashScope）
 ```
-语音识别：OpenAI Whisper large-v3（后端部署，移动端上传音频文件）
-语义评分：sentence-transformers（语义相似度）+ DeepSeek API（深度判断）
-备选方案：科大讯飞星火（有免费额度）
+语音识别：Qwen-ASR-Flash（录音转文字，支持中文 + 英/俄/土/波/阿 5 种母语）
+发音评分：通义千问 qwen-turbo（对比朗读与正确答案）
+语义评分：通义千问 qwen-turbo（对比用户解释与标准翻译）
+语音合成：Edge TTS（微软在线中文语音）
 ```
 
 ### 主要依赖
@@ -123,6 +135,12 @@ shared_preferences: ^2.3.2    # 本地存储
 window_manager: ^0.3.9        # Windows 窗口控制（手机比例 390×844）
 flutter_localizations          # 国际化支持
 intl: ^0.20.2                 # 国际化工具
+record: ^5.2.1                # 录音（Android + Windows + iOS）
+permission_handler: ^11.3.1   # 权限申请（麦克风等）
+path_provider: ^2.1.4         # 获取临时目录（录音文件）
+edge_tts: ^0.1.4              # Edge TTS 语音合成
+audioplayers: ^6.1.0          # 音频播放
+http: ^1.2.0                  # HTTP 客户端（调用 DashScope API）
 ```
 
 ---
@@ -141,7 +159,7 @@ App 支持 **5 种界面语言**，涵盖 LTR 和 RTL 两种布局方向：
 
 ### 实现方式
 
-- **本地化类**（`lib/l10n/app_localizations.dart`）：100+ 个本地化键值，覆盖所有界面文本
+- **本地化类**（`lib/l10n/app_localizations.dart`）：120+ 个本地化键值，覆盖所有界面文本
 - **语言配置**（`lib/config/app_languages.dart`）：`AppLanguage` 数据类 + `supportedLanguages` 全局列表
 - **RTL 布局支持**（`lib/utils/rtl_utils.dart` / `lib/utils/rtl_layout.dart`）：自动检测语言方向，提供 `RtlAwareWidget` 包装组件
 - 支持在运行时动态切换语言，无需重启 App
@@ -164,7 +182,7 @@ lib/
 │   └── app_languages.dart           # 语言配置（AppLanguage 类，supportedLanguages 列表）
 │
 ├── l10n/
-│   └── app_localizations.dart       # 本地化类（5 种语言，100+ 键值）
+│   └── app_localizations.dart       # 本地化类（5 种语言，120+ 键值）
 │
 ├── models/
 │   ├── word_model.dart              # 词汇数据模型
@@ -187,8 +205,8 @@ lib/
 │   ├── home_tab.dart                # 首页（学习进度、快速入口）
 │   ├── learn_tab.dart               # 学习页（模块选择）
 │   ├── profile_tab.dart             # 我的页面
-│   ├── practice_page.dart           # 词汇学习（卡片式+掌握标记+序号跳转）
-│   ├── advanced_practice.dart       # 成语/诗词学习
+│   ├── practice_page.dart           # 词汇学习（卡片式+AI评分+掌握标记+序号跳转）
+│   ├── advanced_practice.dart       # 成语/谚语学习（卡片式+AI评分+掌握标记）
 │   ├── idioms_review_page.dart      # 成语复习
 │   ├── proverbs_review_page.dart    # 谚语复习
 │   ├── words_review_page.dart       # 词汇复习
@@ -200,12 +218,16 @@ lib/
 │   ├── settings_page.dart           # 设置页
 │   └── empty_page.dart              # 占位页面
 │
+├── services/
+│   ├── ai_service.dart              # AI 评分服务（DashScope ASR + 通义千问评分）
+│   └── tts_service.dart             # TTS 语音合成服务（Edge TTS）
+│
 ├── utils/
 │   ├── rtl_utils.dart               # RTL 语言检测工具
 │   └── rtl_layout.dart              # RTL 布局包装组件
 │
 └── widgets/
-    ├── sound_wave_button.dart       # 声波喇叭按钮组件
+    ├── sound_wave_button.dart       # 声波喇叭按钮组件（录音+TTS 播放）
     └── step_indicator.dart          # 步骤指示器组件
 ```
 
@@ -269,8 +291,8 @@ word → pinyin → english → russian → turkish → arabic → persian
 
 ```bash
 # 1. 克隆项目
-git clone https://gitee.com/linlinsh/han-yu_-tong_temp1.git
-cd chinese_go_app_v2
+git clone https://gitee.com/linlinsh/han-yu_-tong_-app_basic.git
+cd han-yu_-tong_-app_basic
 
 # 2. 安装依赖
 flutter pub get
@@ -290,6 +312,12 @@ flutter run -d windows
 flutter run -d <device-id>
 ```
 
+### API 配置
+
+AI 评分功能需要配置阿里云百炼 API Key：
+
+在 `lib/services/ai_service.dart` 中修改 `_apiKey` 为你的 DashScope API Key（在[阿里云百炼控制台](https://bailian.console.aliyun.com/)获取）。
+
 ---
 
 ## 页面说明
@@ -302,19 +330,21 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 ### 主界面（底部导航栏）
 | Tab | 功能 |
 |-----|------|
-| 首页 | 学习进度条（4 模块）、快速进入各学习模块 |
-| 学习 | 按模块选择：词汇、成语、谚语、诗词、语法、文化知识 |
-| 我的 | 个人信息、学习统计、设置 |
+| 首页 | 学习统计（连续天数、累计天数、学习时长）、已掌握统计（词语/成语/谚语）、复习入口、收藏入口 |
+| 学习 | 按模块选择：词汇、语法、成语、谚语、诗词、文化知识、HSK 大纲、HSK 资料 |
+| 我的 | 个人信息、学习统计、设置（重置引导、重置学习记录） |
 
 ### 学习模块导航
 ```
 学习页
-├── 词汇学习 → 按难度选择 → 卡片式学习（可标记掌握、序号跳转）
-├── 成语学习 → 卡片式学习（可标记掌握、序号跳转）
-├── 谚语学习 → 卡片式学习（可标记掌握、序号跳转）
-├── 诗词学习 → 翻页浏览（中文释义+母语释义，可收藏）
+├── 词汇学习 → 按难度选择 → 卡片式学习（AI 发音评分 + 语义评分 → 标记掌握）
 ├── 语法学习 → 按难度选择 → PNG 图片翻页（5 种语言）
-└── 文化知识 → 24 节气 + 13 节日翻页浏览
+├── 成语学习 → 卡片式学习（AI 评分 + 标记掌握 + 序号跳转）
+├── 谚语学习 → 卡片式学习（AI 评分 + 标记掌握 + 序号跳转）
+├── 诗词学习 → 翻页浏览（中文释义+母语释义，可收藏，纯浏览无评分）
+├── 文化知识 → 24 节气 + 13 节日翻页浏览
+├── HSK 大纲 → 占位页（即将推出）
+└── HSK 资料 → 占位页（即将推出）
 ```
 
 ### 复习系统
@@ -322,19 +352,20 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 - **成语/谚语复习**：独立复习页面，筛选已掌握项
 - **收藏页**：4 个选项卡（词语/成语/谚语/诗词），显示收藏列表
 
-### 练习模式
+### AI 评分流程
 
-**词汇练习**（`practice_page.dart`）
-- Step 1（朗读）：展示中文词卡（大字+拼音），按住麦克风录音朗读，上滑取消，松手提交发音评分（声调+发音）
-- Step 2（解释）：按住麦克风用母语解释含义，松手提交语义评分（字面义+引申义+现实意义）
-- 两步均通过（均分≥70）自动标记为"已掌握"，否则可重新录音
-- 支持跳过（可选择是否标记掌握）、查看答案、收藏、序号跳转
+**词汇/成语/谚语练习**（`practice_page.dart` / `advanced_practice.dart`）
+- Step 1（朗读）：展示中文词卡（大字+拼音），点击喇叭播放 TTS 发音，按住麦克风录音朗读，松手提交发音评分
+  - 评分弹窗显示分数（≥80 绿 / ≥60 橙 / <60 红）
+  - **再试一次**：关闭弹窗，留在发音步骤，可重新录音
+  - **下一步**：进入语义评测步骤
+- Step 2（解释）：按住麦克风用母语解释含义，松手提交语义评分
+  - 评分弹窗显示分数
+  - ≥ 70 分：显示"掌握成功 ✅" + "继续"按钮
+  - < 70 分：显示"再试一次"按钮，需重新录音
+- 两步均通过自动标记为"已掌握"
 
-**高阶练习**（`advanced_practice.dart`）
-- 适用于成语、谚语、诗词三种类型
-- **成语/谚语**：与词汇练习相同的两步评分流程（朗读+解释），通过后标记已掌握
-- **诗词**：纯翻页浏览模式，无评分；点击"中文释义"和"母语释义"两个按钮查看翻译，两个都点过后标记为"已学习"
-- 支持收藏、序号跳转、跳过（成语/谚语可选择是否标记掌握）、上一页/下一页翻页
+**诗词学习**：纯翻页浏览模式，无评分；点击"中文释义"和"母语释义"两个按钮查看翻译，两个都点过后标记为"已学习"
 
 ---
 
@@ -348,7 +379,7 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 - [x] Windows Desktop 运行支持
 - [x] 5 种界面语言（英/俄/土/波斯/阿拉伯）
 - [x] RTL 布局完整支持（波斯语/阿拉伯语）
-- [x] 所有界面文本完整本地化（100+ 键值）
+- [x] 所有界面文本完整本地化（120+ 键值）
 - [x] 真实词汇数据接入（4 个难度 JSON 文件）
 - [x] 成语学习接入真实数据（idioms.json）
 - [x] 谚语学习接入真实数据（proverb_saying.json）
@@ -362,23 +393,27 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 - [x] 诗词详情页（原文 + 释义）
 - [x] 项目重命名为 HanYu_Tong
 - [x] Android 真机部署支持
+- [x] iOS 代码准备（Info.plist 麦克风权限、Podfile）
 - [x] flutter analyze 零错误零警告
 - [x] Git 配置（.gitattributes，LF 行尾符）
-
-### 进行中 🔄
-- [ ] 后端接口对接（语音识别、评分 API）
-- [ ] TTS（flutter_tts）接入
-- [ ] 录音功能（record 包）实现
+- [x] 录音功能接入（record + permission_handler，支持 Windows + Android + iOS）
+- [x] TTS 语音合成接入（Edge TTS + audioplayers，中文标准发音）
+- [x] AI 语音识别接入（Qwen-ASR-Flash，DashScope API）
+- [x] AI 发音评分接入（通义千问 qwen-turbo，对比朗读与正确答案）
+- [x] AI 语义评分接入（通义千问 qwen-turbo，对比用户解释与标准翻译）
+- [x] 发音评分支持重试（"再试一次"按钮）
+- [x] 完整两步评分链路（录音 → ASR 转文字 → 大模型评分 → 掌握判定）
 
 ### 计划中 📋
-- [ ] iOS 适配测试
+- [ ] iOS 真机测试
 - [ ] 用户账号系统
 - [ ] 学习数据云同步
 - [ ] 网页版（Web 平台）
+- [ ] HSK 大纲与资料页面内容
 
 ---
 
 ## 仓库信息
 
-- **Gitee**：https://gitee.com/linlinsh/han-yu_-tong_temp1.git
+- **Gitee**：https://gitee.com/linlinsh/han-yu_-tong_-app_basic
 - **分支**：master
