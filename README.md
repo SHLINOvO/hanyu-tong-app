@@ -88,12 +88,14 @@
 **Step 1（朗读评测）**：
 - 用户朗读中文词卡，按住麦克风录音
 - 语音识别：Qwen-ASR-Flash 将录音转为文字
+- **空音频防护**：录音文件 < 5KB 或 API 返回"音频为空"时直接返回 0 分
 - 发音评分：通义千问（qwen-turbo）对比用户朗读与正确答案，给出 0-100 分
 - 支持重试：可反复录音练习，满意后再进入下一步
 
 **Step 2（语义评测）**：
 - 用户用母语语音解释含义
 - 语音识别：Qwen-ASR-Flash 将母语音频转为文字
+- **空音频防护**：未发声时直接返回 0 分
 - **安全加固**：检测到中文字符时直接返回 0-10 分，防止读中文原文得高分
 - 语义评分：通义千问对比用户解释与标准翻译，给出 0-100 分
 - 评分门槛：≥ 70 分标记为"已掌握"，< 70 分需重试
@@ -337,12 +339,6 @@ AI 评分功能需要配置阿里云百炼 API Key：
 
 在 `lib/services/ai_service.dart` 中修改 `_apiKey` 为你的 DashScope API Key（在[阿里云百炼控制台](https://bailian.console.aliyun.com/)获取）。
 
-### Android 权限说明
-
-Android APK 需要以下权限（已配置在 AndroidManifest.xml）：
-- `INTERNET`：访问网络（Edge TTS + DashScope API）
-- `RECORD_AUDIO`：麦克风录音
-
 ---
 
 ## 页面说明
@@ -430,6 +426,7 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 - [x] Android APK 网络权限修复（INTERNET 权限）
 - [x] TTS 调试日志功能
 - [x] Android release APK 打包（32.4MB，arm64 单架构）
+- [x] AI 评分空音频修复（用户不说话时返回 0 分，而非随机高分）
 
 ### 计划中 📋
 - [ ] iOS 真机测试
