@@ -20,34 +20,44 @@ class HomeTab extends StatelessWidget {
             // Top Bar
             Row(
               children: [
-                _TopButton(
-                  child: Row(children: [
-                    const Icon(Icons.language, size: 18, color: Color(0xFF666666)),
-                    const SizedBox(width: 8),
-                    Text(
-                      getLanguage(state.language)?.nativeName ?? 'English',
-                      style: const TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w500,
-                          color: Color(0xFF666666)),
-                    ),
-                  ]),
-                  onTap: () => _showLanguageSelector(context, state),
+                Expanded(
+                  child: _TopButton(
+                    child: Row(children: [
+                      const Icon(Icons.language, size: 18, color: Color(0xFF666666)),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          getLanguage(state.language)?.nativeName ?? 'English',
+                          style: const TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500,
+                              color: Color(0xFF666666)),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ]),
+                    onTap: () => _showLanguageSelector(context, state),
+                  ),
                 ),
                 const SizedBox(width: 8),
-                _TopButton(
-                  child: Row(children: [
-                    const Text('🎯', style: TextStyle(fontSize: 18)),
-                    const SizedBox(width: 8),
-                    Text(
-                      '${state.dailyGoal} ${AppLocalizations.of(context)!.minutes}',
-                      style: const TextStyle(
-                          fontSize: 13,
-                          fontWeight: FontWeight.w500,
-                          color: Color(0xFF666666)),
-                    ),
-                  ]),
-                  onTap: () => _showGoalSelector(context, state),
+                Expanded(
+                  child: _TopButton(
+                    child: Row(children: [
+                      const Text('🎯', style: TextStyle(fontSize: 18)),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          '${state.dailyGoal} ${AppLocalizations.of(context)!.minutes}',
+                          style: const TextStyle(
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500,
+                              color: Color(0xFF666666)),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ]),
+                    onTap: () => _showGoalSelector(context, state),
+                  ),
                 ),
               ],
             ),
