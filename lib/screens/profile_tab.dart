@@ -166,11 +166,12 @@ class _ProfileTabState extends State<ProfileTab> {
 
   /// 构建最新成就展示（最多4个）
   Widget _buildLatestBadges(AppState state) {
+    final loc = AppLocalizations.of(context)!;
     final latestBadges = state.getLatestUnlockedBadges(4);
 
     if (latestBadges.isEmpty) {
       // 无成就时显示提示
-      return       Container(
+      return Container(
         padding: const EdgeInsets.symmetric(vertical: 24),
         child: Center(
           child: Text(
