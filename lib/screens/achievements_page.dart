@@ -227,69 +227,6 @@ class AchievementsPage extends StatelessWidget {
     );
   }
 
-  /// 成就网格项
-  Widget _buildBadgeItem({
-    required BadgeDef badge,
-    required bool unlocked,
-    required VoidCallback onTap,
-  }) {
-    return GestureDetector(
-      onTap: onTap,
-      child: Card(
-        elevation: unlocked ? 3 : 0.5,
-        shadowColor: unlocked ? badge.color.withValues(alpha: 0.3) : Colors.grey.shade200,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-          side: BorderSide(
-            color: unlocked ? badge.color.withValues(alpha: 0.3) : const Color(0xFFE0E0E0),
-            width: 1,
-          ),
-        ),
-        child: Container(
-          padding: const EdgeInsets.all(12),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(12),
-            color: unlocked
-                ? badge.color.withValues(alpha: 0.05)
-                : const Color(0xFFFAFAFA),
-          ),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 44,
-                height: 44,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: unlocked
-                      ? badge.color.withValues(alpha: 0.15)
-                      : const Color(0xFFF0F0F0),
-                ),
-                child: Icon(
-                  badge.icon,
-                  size: 24,
-                  color: unlocked ? badge.color : const Color(0xFFBDBDBD),
-                ),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                _getBadgeTitle(context, badge.id.name),
-                style: TextStyle(
-                  fontSize: 12,
-                  fontWeight: FontWeight.w600,
-                  color: unlocked ? const Color(0xFF333333) : const Color(0xFFAAAAAA),
-                ),
-                textAlign: TextAlign.center,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
   /// 徽章详情弹窗
   void _showBadgeDialog(BuildContext context, BadgeDef badge, bool unlocked) {
     final loc = AppLocalizations.of(context)!;
