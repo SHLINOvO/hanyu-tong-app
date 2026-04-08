@@ -67,6 +67,9 @@ class AchievementsPage extends StatelessWidget {
                   icon: Icons.auto_stories_rounded,
                   color: const Color(0xFF4285F4),
                   badges: BadgeDef.all.where((b) =>
+                    b.id.name == 'word10' ||
+                    b.id.name == 'word50' ||
+                    b.id.name == 'word100' ||
                     b.id.name == 'word500' ||
                     b.id.name == 'word1000' ||
                     b.id.name == 'word3000'
@@ -318,6 +321,9 @@ class AchievementsPage extends StatelessWidget {
   String _getBadgeTitle(BuildContext context, String badgeId) {
     final loc = AppLocalizations.of(context)!;
     switch (badgeId) {
+      case 'word10':       return loc.badgeWord10;
+      case 'word50':       return loc.badgeWord50;
+      case 'word100':      return loc.badgeWord100;
       case 'word500':      return loc.badgeWord500;
       case 'word1000':     return loc.badgeWord1000;
       case 'word3000':     return loc.badgeWord3000;
@@ -357,6 +363,9 @@ class AchievementsPage extends StatelessWidget {
   String _getBadgeDesc(BuildContext context, String badgeId) {
     final loc = AppLocalizations.of(context)!;
     switch (badgeId) {
+      case 'word10':       return loc.badgeWord10Desc;
+      case 'word50':       return loc.badgeWord50Desc;
+      case 'word100':      return loc.badgeWord100Desc;
       case 'word500':      return loc.badgeWord500Desc;
       case 'word1000':     return loc.badgeWord1000Desc;
       case 'word3000':     return loc.badgeWord3000Desc;
@@ -469,6 +478,9 @@ class _BadgeGridItem extends StatelessWidget {
 
   String _getBadgeTitleFromLoc(AppLocalizations loc, String badgeId) {
     switch (badgeId) {
+      case 'word10':       return loc.badgeWord10;
+      case 'word50':       return loc.badgeWord50;
+      case 'word100':      return loc.badgeWord100;
       case 'word500':      return loc.badgeWord500;
       case 'word1000':     return loc.badgeWord1000;
       case 'word3000':     return loc.badgeWord3000;
