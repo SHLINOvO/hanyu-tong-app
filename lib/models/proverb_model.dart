@@ -52,6 +52,6 @@ class ProverbModel {
     }
   }
 
-  /// 作为收藏 ID（使用谚语文本本身）
-  String get id => sentence;
+  /// 作为收藏 ID（使用谚语文本本身，前缀避免与词语 ID 冲突）
+  String get id => 'proverb:$sentence';
 }

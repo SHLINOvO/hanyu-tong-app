@@ -79,6 +79,6 @@ class PoetryModel {
     }
   }
 
-  /// 作为收藏 ID（使用诗题）
-  String get id => title;
+  /// 作为收藏 ID（使用诗题，前缀避免与其他类型 ID 冲突）
+  String get id => 'poem:$title';
 }

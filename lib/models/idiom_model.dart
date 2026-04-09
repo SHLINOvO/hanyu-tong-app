@@ -52,6 +52,6 @@ class IdiomModel {
     }
   }
 
-  /// 作为收藏 ID（使用成语本身）
-  String get id => word;
+  /// 作为收藏 ID（使用成语本身，前缀避免与词语 ID 冲突）
+  String get id => 'idiom:$word';
 }
