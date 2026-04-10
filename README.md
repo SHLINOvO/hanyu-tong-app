@@ -338,13 +338,19 @@ flutter run -d <device-id>
 ### Android APK 打包
 
 ```bash
-# 确保 android/key.properties 文件存在（含签名密钥密码）
-# 打包 release 版本
+# 打包 debug 版本（无需配置签名，可直接安装到手机测试）
+flutter build apk --debug
+
+# 打包 release 版本（需配置签名，体积更小，推荐正式发布）
+# 1. 在 android/ 目录创建 key.properties 文件，配置签名信息
+# 2. 修改 android/app/build.gradle.kts 添加签名配置
+# 3. 执行以下命令
 flutter build apk --release
 ```
 
-> **APK 输出路径**：`build/app/outputs/flutter-apk/app-release.apk`
-> **APK 大小**：约 32.4MB（arm64 单架构）
+> **debug APK 输出路径**：`build/app/outputs/flutter-apk/app-debug.apk`
+> **debug APK 大小**：约 91.7MB（arm64 单架构）
+> **debug APK 特性**：自带签名，可直接安装，无需配置签名文件
 
 ### Android 权限说明
 
@@ -444,7 +450,7 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 - [x] 语义评分安全加固（防止读中文原文得高分）
 - [x] Android APK 网络权限修复（INTERNET 权限）
 - [x] TTS 调试日志功能
-- [x] Android release APK 打包（32.4MB，arm64 单架构）
+- [x] Android APK 打包（debug 约 91.7MB，release 约 32.4MB，arm64 单架构）
 - [x] AI 评分空音频修复（用户不说话时返回 0 分，而非随机高分）
 - [x] **成就系统**（7 类 34 个徽章：词汇/成语/谚语/诗词/收藏/连续学习/累计天数）
 - [x] 通知页面（暂无通知占位界面）
