@@ -14,7 +14,7 @@ if (keystorePropertiesFile.exists()) {
 }
 
 android {
-    namespace = "com.example.chinese_go_app"
+    namespace = "com.example.hanyutong_app"
     compileSdk = flutter.compileSdkVersion
     buildToolsVersion = "36.1.0"
 
@@ -30,7 +30,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.chinese_go_app"
+        applicationId = "com.example.hanyutong_app"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode

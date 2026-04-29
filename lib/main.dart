@@ -39,19 +39,19 @@ void main() async {
   runApp(
     ChangeNotifierProvider(
       create: (_) => appState,
-      child: const ChineseGoApp(),
+      child: const HanyuTongApp(),
     ),
   );
 }
 
-class ChineseGoApp extends StatefulWidget {
-  const ChineseGoApp({super.key});
+class HanyuTongApp extends StatefulWidget {
+  const HanyuTongApp({super.key});
 
   @override
-  State<ChineseGoApp> createState() => _ChineseGoAppState();
+  State<HanyuTongApp> createState() => _HanyuTongAppState();
 }
 
-class _ChineseGoAppState extends State<ChineseGoApp> {
+class _HanyuTongAppState extends State<HanyuTongApp> {
   @override
   void initState() {
     super.initState();

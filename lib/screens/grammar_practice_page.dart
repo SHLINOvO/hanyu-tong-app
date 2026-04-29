@@ -5,7 +5,7 @@ import '../app_state.dart';
 import '../l10n/app_localizations.dart';
 
 /// 语法学习页面
-/// 支持 5 种语言（en/ru/tr/ar/fa），按难度显示对应文件夹下的 PNG 图片（翻页浏览）
+/// 支持 8 种语言（en/ru/tr/ar/fa/id/vi/km），按难度显示对应文件夹下的 PNG 图片（翻页浏览）
 class GrammarPracticePage extends StatefulWidget {
   const GrammarPracticePage({super.key});
 
@@ -26,7 +26,7 @@ class _GrammarPracticePageState extends State<GrammarPracticePage> {
   };
 
   /// 支持 grammar 图片的语言列表
-  static const _supportedLanguages = ['en', 'ru', 'tr', 'ar', 'fa'];
+  static const _supportedLanguages = ['en', 'ru', 'tr', 'ar', 'fa', 'id', 'vi', 'km'];
 
   /// 各语言 × 各难度下的图片数量
   static const Map<String, Map<String, int>> _langLevelCountMap = {
@@ -35,6 +35,9 @@ class _GrammarPracticePageState extends State<GrammarPracticePage> {
     'tr': {'beginner': 7, 'elementary': 5, 'intermediate': 5, 'advanced': 7},
     'ar': {'beginner': 6, 'elementary': 4, 'intermediate': 4, 'advanced': 6},
     'fa': {'beginner': 7, 'elementary': 4, 'intermediate': 4, 'advanced': 6},
+    'id': {'beginner': 7, 'elementary': 6, 'intermediate': 4, 'advanced': 7},
+    'vi': {'beginner': 6, 'elementary': 4, 'intermediate': 4, 'advanced': 6},
+    'km': {'beginner': 7, 'elementary': 5, 'intermediate': 4, 'advanced': 7},
   };
 
   @override

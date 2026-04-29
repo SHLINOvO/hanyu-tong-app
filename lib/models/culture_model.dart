@@ -8,6 +8,9 @@ class CultureModel {
   final String tr;             // 土耳其语翻译
   final String fa;             // 波斯语翻译
   final String ar;             // 阿拉伯语翻译
+  final String indonesian;     // 印尼语翻译
+  final String vietnamese;     // 越南语翻译
+  final String khmer;          // 高棉语翻译
   final bool isFestival;       // 是否为节日（区分节气和节日）
 
   const CultureModel({
@@ -19,6 +22,9 @@ class CultureModel {
     required this.tr,
     required this.fa,
     required this.ar,
+    required this.indonesian,
+    required this.vietnamese,
+    required this.khmer,
     this.isFestival = false,
   });
 
@@ -32,6 +38,9 @@ class CultureModel {
       tr: json['tr'] as String? ?? '',
       fa: json['fa'] as String? ?? '',
       ar: json['ar'] as String? ?? '',
+      indonesian: json['id'] as String? ?? '',
+      vietnamese: json['vi'] as String? ?? '',
+      khmer: json['km'] as String? ?? '',
       isFestival: false,
     );
   }
@@ -47,6 +56,9 @@ class CultureModel {
       tr: json['tr'] as String? ?? '',
       fa: json['fa'] as String? ?? '',
       ar: json['ar'] as String? ?? '',
+      indonesian: json['id'] as String? ?? '',
+      vietnamese: json['vi'] as String? ?? '',
+      khmer: json['km'] as String? ?? '',
       isFestival: true,
     );
   }
@@ -72,6 +84,12 @@ class CultureModel {
         return ar;
       case 'fa':
         return fa;
+      case 'id':
+        return indonesian;
+      case 'vi':
+        return vietnamese;
+      case 'km':
+        return khmer;
       default:
         return en;
     }

@@ -191,42 +191,83 @@ class HomeTab extends StatelessWidget {
 
   void _showLanguageSelector(BuildContext context, AppState state) {
     const langs = supportedLanguages;
-    showModalBottomSheet(
+    showDialog(
       context: context,
-      shape: const RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(top: Radius.circular(20))),
-      builder: (_) => ListView(
-        shrinkWrap: true,
-        padding: const EdgeInsets.all(16),
-        children: [
-          Text(AppLocalizations.of(context)!.chooseNativeLanguage,
-              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              textAlign: TextAlign.center),
-          const SizedBox(height: 12),
-          ...langs.map((l) => ListTile(
-                title: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      l.nativeName,
-                      textDirection: l.isRTL ? TextDirection.rtl : TextDirection.ltr,
-                      style: const TextStyle(fontWeight: FontWeight.w500),
+      barrierDismissible: true,
+      builder: (dialogContext) => Scaffold(
+        backgroundColor: Colors.white,
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          leading: IconButton(
+            icon: const Icon(Icons.close, color: Color(0xFF333333)),
+            onPressed: () => Navigator.pop(dialogContext),
+          ),
+          title: Text(
+            AppLocalizations.of(context)!.chooseNativeLanguage,
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.bold,
+              color: Color(0xFF333333),
+            ),
+          ),
+          centerTitle: true,
+          elevation: 0,
+        ),
+        body: ListView.separated(
+          padding: const EdgeInsets.symmetric(vertical: 16),
+          itemCount: langs.length,
+          separatorBuilder: (_, __) => const Divider(height: 1),
+          itemBuilder: (_, i) {
+            final l = langs[i];
+            final isSelected = state.language == l.code;
+            return Directionality(
+              textDirection: TextDirection.ltr,
+              child: ListTile(
+                contentPadding: const EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                leading: Container(
+                  width: 48,
+                  height: 48,
+                  decoration: BoxDecoration(
+                    color: isSelected ? const Color(0xFF4285F4).withValues(alpha: 0.1) : const Color(0xFFF5F5F5),
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                  child: Center(
+                    child: Text(
+                      l.code.toUpperCase(),
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: isSelected ? const Color(0xFF4285F4) : const Color(0xFF666666),
+                      ),
                     ),
-                    Text(
-                      l.englishName,
-                      style: const TextStyle(fontSize: 12, color: Colors.grey),
-                    ),
-                  ],
+                  ),
                 ),
-                trailing: state.language == l.code
-                    ? const Icon(Icons.check, color: Color(0xFF4285F4))
-                    : null,
+                title: Directionality(
+                  textDirection: l.isRTL ? TextDirection.rtl : TextDirection.ltr,
+                  child: Text(
+                    l.nativeName,
+                    style: TextStyle(
+                      fontWeight: isSelected ? FontWeight.bold : FontWeight.w500,
+                      fontSize: 16,
+                      color: isSelected ? const Color(0xFF4285F4) : const Color(0xFF333333),
+                    ),
+                  ),
+                ),
+                subtitle: Text(
+                  l.englishName,
+                  style: const TextStyle(fontSize: 13, color: Color(0xFF999999)),
+                ),
+                trailing: isSelected
+                    ? const Icon(Icons.check_circle, color: Color(0xFF4285F4))
+                    : const Icon(Icons.circle_outlined, color: Color(0xFFE0E0E0)),
                 onTap: () {
                   state.setLanguage(l.code);
-                  Navigator.pop(context);
+                  Navigator.pop(dialogContext);
                 },
-              )),
-        ],
+              ),
+            );
+          },
+        ),
       ),
     );
   }

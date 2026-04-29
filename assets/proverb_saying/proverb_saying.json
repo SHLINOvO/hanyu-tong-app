@@ -7,7 +7,10 @@
     "ru": "Поровну; никто не в пролёте.",
     "tr": "Denk; kimse zarar görmez.",
     "fa": "برابرند؛ هیچ‌کس ضرر نمی‌کند.",
-    "ar": "متعادلان؛ لا خاسر."
+    "ar": "متعادلان؛ لا خاسر.",
+    "id": "Saling setara, tidak ada pihak yang dirugikan.",
+    "vi": "Tương đương nhau, không ai chịu thiệt.",
+    "km": "សូម្បីតែការប្រកួតក៏ដោយ គ្មានក្រុមណាមួយចាញ់ដែរ ។"
   },
   {
     "sentence": "铁打的公鸡——一毛不拔",
@@ -17,7 +20,10 @@
     "ru": "Чрезвычайно скуп; ни копейки не даст.",
     "tr": "Son derece cimri; tek kuruş vermez.",
     "fa": "خیلی خسیس؛ یک سکه هم نمی‌دهد.",
-    "ar": "بخيل جدًّا؛ لا يعطي ولو فلسًا واحدًا."
+    "ar": "بخيل جدًّا؛ لا يعطي ولو فلسًا واحدًا.",
+    "id": "Sangat pelit, tidak mau mengeluarkan uang sedikit pun.",
+    "vi": "Rất keo kiệt, không chịu bỏ ra một đồng.",
+    "km": "លុយកាក់ មិនល្អ មិន ត្រូវ បញ្ចេញ ប្រាក់ រកស៊ី ។"
   },
   {
     "sentence": "张飞卖豆腐——人硬货不硬",
@@ -27,7 +33,10 @@
     "ru": "Вид крутой, а товар слабый.",
     "tr": "Dışı sert, malı sıradan.",
     "fa": "ظاهر سخت، باطن معمولی.",
-    "ar": "قاسي الظاهرٍ وعاديّ الجوهر."
+    "ar": "قاسي الظاهرٍ وعاديّ الجوهر.",
+    "id": "Tampak tangguh di luar, tetapi barangnya biasa saja.",
+    "vi": "Bề ngoài trông giỏi nhưng thực tế hàng hóa bình thường.",
+    "km": "វា មាន ភាព ស្រស់ ស្អាត ប៉ុន្តែ វា មាន ភាព ស្រស់ ស្អាត ក្នុង ខ្លួន ។"
   },
   {
     "sentence": "吃一堑，长一智",
@@ -37,7 +46,10 @@
     "ru": "Ошибка поучает и прибавляет мудрости.",
     "tr": "Her terslik bir ders verir ve bilgeliği artırır.",
     "fa": "یک شکست درس می‌آورد و خرد می‌افزاید.",
-    "ar": "كل عثرة تعلّم درسًا وتزيد الحكمة."
+    "ar": "كل عثرة تعلّم درسًا وتزيد الحكمة.",
+    "id": "Mengalami satu kemunduran dapat menjadi pelajaran dan menambah kebijaksanaan.",
+    "vi": "Trải qua một lần vấp ngã, có thể rút ra bài học và thêm phần khôn ngoan.",
+    "km": "ការធ្លាក់ចុះបង្រៀនមេរៀន និងបន្ថែមប្រាជ្ញា ។"
   },
   {
     "sentence": "头顶上生眼睛——目中无人",
@@ -47,7 +59,10 @@
     "ru": "Надменен; презирает всех.",
     "tr": "Kibirli; herkesi küçümser.",
     "fa": "متکبر؛ همه را حقیر می‌بیند.",
-    "ar": "متعالٍ يحتقر الجميع."
+    "ar": "متعالٍ يحتقر الجميع.",
+    "id": "Sombong, meremehkan orang lain.",
+    "vi": "Kiêu ngạo, coi thường người khác.",
+    "km": "អយុត្តិធម៌; មើល ទៅ មនុស្ស គ្រប់ គ្នា ។"
   },
   {
     "sentence": "孔夫子搬家——净是书（输）",
@@ -57,7 +72,10 @@
     "ru": "Постоянно проигрывает; одни неудачи.",
     "tr": "Sürekli kaybediyor; hep başarısız.",
     "fa": "همیشه می‌بازد؛ مدام شکست می‌خورد.",
-    "ar": "دائم الخسارة؛ يفشل مرارًا."
+    "ar": "دائم الخسارة؛ يفشل مرارًا.",
+    "id": "Selalu kalah, terus gagal.",
+    "vi": "Toàn là thua, luôn thất bại.",
+    "km": "តែងតែចាញ់; បន្តបរាជ័យ ។"
   },
   {
     "sentence": "箭在弦上——不得不发",
@@ -67,7 +85,10 @@
     "ru": "Нужно действовать; пути назад нет.",
     "tr": "Geri dönüş yok; yapılacak.",
     "fa": "باید جلو برود؛ برگشتی نیست.",
-    "ar": "لا بدّ من المضيّ؛ لا رجعةَ الآن."
+    "ar": "لا بدّ من المضيّ؛ لا رجعةَ الآن.",
+    "id": "Harus dilakukan, tidak bisa dihindari.",
+    "vi": "Buộc phải thực hiện, không thể quay lại.",
+    "km": "យើង ត្រូវ តែ បន្ត ទៅ មុខ ទៀត គ្មាន ការ វិល ត្រឡប់ មក វិញ នៅ ពេល នេះ ទេ ។"
   },
   {
     "sentence": "杨家将上阵——全家出动",
@@ -77,7 +98,10 @@
     "ru": "Выступает вся семья вместе.",
     "tr": "Bütün aile birlikte hareket eder.",
     "fa": "تمام خانواده با هم حرکت می‌کنند.",
-    "ar": "تتحرّك العائلة كلّها معًا."
+    "ar": "تتحرّك العائلة كلّها معًا.",
+    "id": "Seluruh keluarga turun tangan bersama-sama.",
+    "vi": "Cả gia đình cùng xuất động.",
+    "km": "ក្រុម គ្រួសារ ទាំង មូល ស្ថិត ក្រោម ការពារ ។"
   },
   {
     "sentence": "姜太公钓鱼——愿者上钩",
@@ -87,7 +111,10 @@
     "ru": "Попадётся только тот, кто сам захочет.",
     "tr": "Yemeyi ancak isteyen yer.",
     "fa": "فقط کسی گول می‌خورد که خودش بخواهد.",
-    "ar": "من أراد أن يُوقَع في الفخ وقع فيه طواعية."
+    "ar": "من أراد أن يُوقَع في الفخ وقع فيه طواعية.",
+    "id": "Hanya orang yang rela yang akan tertipu.",
+    "vi": "Chỉ ai tự nguyện mới bị lừa.",
+    "km": "មាន តែ អ្នក ដែល ចូល ចិត្ត ថត រូប ប៉ុណ្ណោះ ទើប អាច ថត រូប បាន ។"
   },
   {
     "sentence": "浪子回头金不换",
@@ -97,7 +124,10 @@
     "ru": "Сбившийся с пути, но исправившийся, дороже золота.",
     "tr": "Yanlış yoldan dönenin değeri altından fazladır.",
     "fa": "کسی که گمراه بوده و بازگردد گرانبهاتر از طلاست.",
-    "ar": "من ضل ثم تاب ورجع أثمن من الذهب."
+    "ar": "من ضل ثم تاب ورجع أثمن من الذهب.",
+    "id": "Orang yang tersesat jika mau memperbaiki kesalahannya, nilainya lebih berharga dari emas.",
+    "vi": "Người lầm đường quay về quý hơn vàng; ý nói người sai lầm biết sửa lỗi thì vô giá.",
+    "km": "មនុស្ស ដែល វិល ត្រឡប់ មក វិញ និង វិល ត្រឡប់ មក វិញ មាន តម្លៃ ជាង មាស ។"
   },
   {
     "sentence": "开弓没有回头箭",
@@ -107,7 +137,10 @@
     "ru": "Начав дело, назад дороги нет — нужно довести до конца.",
     "tr": "İş bir kez başlayınca geri dönüş yoktur; sonuna kadar gitmek gerekir.",
     "fa": "وقتی آغاز شد دورگرد نیست؛ باید تا پایان ماند.",
-    "ar": "بدا الأمر فلا عودة للوراء؛ ينبغي إتمامه."
+    "ar": "بدا الأمر فلا عودة للوراء؛ ينبغي إتمامه.",
+    "id": "Setelah sesuatu dimulai, tidak bisa kembali lagi dan harus dilanjutkan sampai selesai.",
+    "vi": "Mũi tên đã lên dây không thể không bắn; ý nói việc đã bắt đầu thì không thể quay lại.",
+    "km": "ពេល ដែល អ្នក ចាប់ផ្តើម វា មិន មាន ការ វិល ត្រឡប់ មក វិញ ទេ អ្នក ត្រូវ តែ មើល វា ។"
   },
   {
     "sentence": "天下兴亡，匹夫有责",
@@ -117,7 +150,10 @@
     "ru": "За процветание или гибель страны отвечает и простой человек.",
     "tr": "Ülkenin yükselişi veya çöküşünde sıradan her vatandaşın sorumluluğu vardır.",
     "fa": "هر شهروند عادی در سرنوشت شکوفایی یا فروپاشی کشور سهیم است.",
-    "ar": "للمواطن العادي نصيب من مسؤولية ازدهار الوطن أو انحداره."
+    "ar": "للمواطن العادي نصيب من مسؤولية ازدهار الوطن أو انحداره.",
+    "id": "Kebangkitan dan keruntuhan negara adalah tanggung jawab setiap orang biasa.",
+    "vi": "Sự hưng thịnh hay diệt vong của đất nước, mỗi người bình thường đều có trách nhiệm.",
+    "km": "មនុស្ស ធម្មតា ម្នាក់ៗ ម្នាក់ ត្រូវ តែ ទទួល ខុស ត្រូវ ចំពោះ ការ ឡើង ឬ ធ្លាក់ របស់ ប្រទេស ។"
   },
   {
     "sentence": "一年之计在于春，一日之计在于晨",
@@ -127,7 +163,10 @@
     "ru": "Планируй год весной, день — утром; акцент на заблаговременном планировании.",
     "tr": "Yıllık planı ilkbaharda, günlük planı sabah yapın; erken planlamayı vurgular.",
     "fa": "برنامه سال را در بهار و برنامه روز را در صبح بچین؛ بر برنامه‌ریزی زودهنگام تأکید دارد.",
-    "ar": "يُخطَّط للسنة في الربيع ولليوم في الصباح؛ يؤكد على التخطيط مبكرًا."
+    "ar": "يُخطَّط للسنة في الربيع ولليوم في الصباح؛ يؤكد على التخطيط مبكرًا.",
+    "id": "Rencana setahun harus disusun di musim semi, rencana sehari harus disusun di pagi hari, menekankan pentingnya persiapan awal.",
+    "vi": "Kế hoạch của một năm phải làm từ mùa xuân, kế hoạch của một ngày phải làm từ buổi sáng; nhấn mạnh việc lên kế hoạch sớm.",
+    "km": "ថ្ងៃ ព្រហស្បតិ៍ នេះ មិន មែន ជា ថ្ងៃ ដែល គេ ធ្វើ អ្វី នោះ ទេ គឺ ជា ថ្ងៃ ដែល គេ ធ្វើ អ្វី នោះ ។"
   },
   {
     "sentence": "病从口入，祸从口出",
@@ -137,7 +176,10 @@
     "ru": "Болезни часто от неосторожного питания, беды — от неосторожных слов.",
     "tr": "Hastalık çoğu zaman yanlış beslenmeden, felaket ise dikkatsiz sözlerden doğar.",
     "fa": "بیماری اغلب از بدخوری و بلایا از بی‌احتیاطی در گفتار می‌آید.",
-    "ar": "المرض غالبًا من سوء التغذية، والمصائب من تهور اللسان."
+    "ar": "المرض غالبًا من سوء التغذية، والمصائب من تهور اللسان.",
+    "id": "Penyakit sering berasal dari pola makan yang tidak tepat, dan bencana sering dipicu oleh ucapan yang tidak hati-hati.",
+    "vi": "Bệnh tật thường do ăn uống không cẩn thận, tai họa thường do nói năng bất cẩn.",
+    "km": "ជំងឺជារឿយៗកើតចេញពីការបរិភោគដោយមិនយកចិត្តទុកដាក់ ។ ជោគវាសនាជាញឹកញាប់កើតចេញពីការនិយាយដោយមិនយកចិត្តទុកដាក់ ។"
   },
   {
     "sentence": "蚊子衔秤砣——好大的口气",
@@ -147,7 +189,10 @@
     "ru": "Большие слова; любит хвастаться.",
     "tr": "Büyük konuşur; böbürlenmeyi sever.",
     "fa": "حرف بزرگ می‌زند؛ عاشق لاف زدن است.",
-    "ar": "يتكلم بكلام عظيم؛ يحب التباهي."
+    "ar": "يتكلم بكلام عظيم؛ يحب التباهي.",
+    "id": "Bicara besar, suka membual.",
+    "vi": "Nói quá lời, thích khoe khoang.",
+    "km": "គាត់ និយាយ ច្រើន ណាស់ គាត់ ចូល ចិត្ត អួត អាង ។"
   },
   {
     "sentence": "不怕人不敬，就怕己不正",
@@ -157,7 +202,10 @@
     "ru": "Не страшно, если другие не уважают; страшнее собственное дурное поведение.",
     "tr": "Korkulacak şey başkalarının saygısızlığı değil, kendi yanlış davranışındır.",
     "fa": "نه بی‌احترامی دیگران که رفتار نادرست خود را باید ترسید.",
-    "ar": "لا تخشى احتقار الناس بقدر ما تخشى سوء سلوكك."
+    "ar": "لا تخشى احتقار الناس بقدر ما تخشى سوء سلوكك.",
+    "id": "Tidak perlu takut orang lain tidak menghormati kita, yang perlu ditakuti adalah perilaku diri sendiri yang tidak baik.",
+    "vi": "Không sợ người khác không tôn trọng mình, chỉ sợ hành vi của mình không ngay thẳng.",
+    "km": "អ្នក មិន ត្រូវ ខ្លាច ការ មិន គោរព របស់ អ្នក ដទៃ ទេ គឺ ត្រូវ ខ្លាច ការ ប្រព្រឹត្ត ខុស របស់ ខ្លួន ឯង ។"
   },
   {
     "sentence": "水涨船高",
@@ -167,7 +215,10 @@
     "ru": "Всё поднимается вместе с той основой, на которой держится.",
     "tr": "Şeyler, dayandığı temel yükseldikçe yükselir.",
     "fa": "چیزها با بالا رفتن پایه و زیربنایشان بالا می‌روند.",
-    "ar": "ترتفع الأمور مع ارتقاء أساسها الذي تعتمد عليه."
+    "ar": "ترتفع الأمور مع ارتقاء أساسها الذي تعتمد عليه.",
+    "id": "Sesuatu akan meningkat seiring dengan peningkatan dasar yang mendukungnya.",
+    "vi": "Mọi thứ nâng cao cùng với nền tảng mà nó dựa vào.",
+    "km": "អ្វី ដែល កើត ឡើង ជាមួយ នឹង មូលដ្ឋាន ដែល ពួកគេ ឈរ លើ ។"
   },
   {
     "sentence": "靠山山倒，靠水水流",
@@ -177,7 +228,10 @@
     "ru": "Полагаться на других ненадёжно; в конечном счёте опора на самого себя.",
     "tr": "Başkasına dayanmak güvenilir değildir; sonunda kendine güvenmelisin.",
     "fa": "اتکا به دیگران پایدار نیست؛ در نهایت باید بر خودت تکیه کنی.",
-    "ar": "الاعتماد على الناس غير موثوق؛ في النهاية تعتمد على نفسك."
+    "ar": "الاعتماد على الناس غير موثوق؛ في النهاية تعتمد على نفسك.",
+    "id": "Bergantung pada orang lain tidak dapat diandalkan, pada akhirnya harus mengandalkan diri sendiri.",
+    "vi": "Dựa vào người khác thì không đáng tin, cuối cùng vẫn phải tự dựa vào mình.",
+    "km": "ការ ពឹង ផ្អែក លើ អ្នក ដទៃ គឺ មិន អាច ទុក ចិត្ត បាន ទេ នៅ ទី បំផុត អ្នក ត្រូវ ពឹង ផ្អែក លើ ខ្លួន ឯង ។"
   },
   {
     "sentence": "一不做，二不休",
@@ -187,7 +241,10 @@
     "ru": "Уж начал — доводи до конца; не бросай на полпути.",
     "tr": "Başladıysan sonuna kadar git; yarım bırakma.",
     "fa": "اگر شروع کردی تا آخر برو؛ نیمه‌کاره رها نکن.",
-    "ar": "إذا بدأت فأتمّ؛ لا تترك العمل نصفًا."
+    "ar": "إذا بدأت فأتمّ؛ لا تترك العمل نصفًا.",
+    "id": "Karena sudah dimulai, sebaiknya diselesaikan sampai tuntas dan tidak berhenti di tengah jalan.",
+    "vi": "Việc đã bắt đầu thì cứ làm đến cùng, không bỏ dở giữa chừng.",
+    "km": "នៅពេលចាប់ផ្តើម សូមបន្តទៅដល់ទីបញ្ចប់ កុំបោះបង់ចោលពាក់កណ្តាលផ្លូវ ។"
   },
   {
     "sentence": "冰糖煮黄连——同甘共苦",
@@ -197,7 +254,10 @@
     "ru": "Разделывают и радость, и горе.",
     "tr": "Acıyı tatlıyı birlikte paylaşır.",
     "fa": "شادی و سختی با هم.",
-    "ar": "يشاركان الفرح والشقاء."
+    "ar": "يشاركان الفرح والشقاء.",
+    "id": "Berbagi suka dan duka bersama.",
+    "vi": "Chia sẻ niềm vui và nỗi gian khổ cùng nhau.",
+    "km": "ចែករំលែកភាពសប្បាយរីករាយ និងទុក្ខលំបាកជាមួយគ្នា ។"
   },
   {
     "sentence": "听其言，观其行",
@@ -207,7 +267,10 @@
     "ru": "Суди о человеке не только по словам, но и по поступкам.",
     "tr": "İnsanı yalnız sözleriyle değil, yaptıklarıyla da değerlendir.",
     "fa": "انسان را نه فقط از گفتار که از کردارش بسنج.",
-    "ar": "لا تحكم على الإنسان بالقول وحده بل بالفعل أيضًا."
+    "ar": "لا تحكم على الإنسان بالقول وحده بل بالفعل أيضًا.",
+    "id": "Menilai seseorang tidak hanya dari perkataannya, tetapi juga dari perbuatannya.",
+    "vi": "Phán đoán một người không chỉ nghe lời nói mà còn phải xem hành động.",
+    "km": "កុំ ឲ្យ មាន ការ កាត់ ទោស យ៉ាង ខ្លាំង នោះ ទេ បើ មិន ដូច្នេះ ទេ អ្នក នឹង ប្រព្រឹត្ត អំពើ បាប ។"
   },
   {
     "sentence": "晴天打伞——多此一举",
@@ -217,7 +280,10 @@
     "ru": "Совершенно лишнее.",
     "tr": "Tamamen gereksiz.",
     "fa": "کاملاً بی‌مورد.",
-    "ar": "غير لازمٍ البتّة."
+    "ar": "غير لازمٍ البتّة.",
+    "id": "Berlebihan, tidak perlu.",
+    "vi": "Làm việc thừa, không cần thiết.",
+    "km": "វា ជា រឿង ឥតប្រយោជន៍ ។"
   },
   {
     "sentence": "外甥打灯笼——照旧（舅）",
@@ -227,7 +293,10 @@
     "ru": "Как раньше; без изменений (каламбур).",
     "tr": "Eski tas eski hamam (kelime oyunu).",
     "fa": "مثل قبل؛ بدون تغییر (بازی با «舅»).",
-    "ar": "كالسابقٍ بلا تغييرٍ (توريةٌ)."
+    "ar": "كالسابقٍ بلا تغييرٍ (توريةٌ).",
+    "id": "Sama seperti sebelumnya.",
+    "vi": "Giống như trước, không có gì thay đổi.",
+    "km": "ក្មួយប្រុសកាន់ភ្លើងស្លុយឱ្យមីង — ដូចដើម (លេងពាក្យនឹងពាក្យថា \"មីង\")"
   },
   {
     "sentence": "人挪活，树挪死",
@@ -237,7 +306,10 @@
     "ru": "Человек в новой среде может расцвести, а пересаженное дерево нередко вянет.",
     "tr": "İnsan ortam değiştirince gelişebilir; ağaç ise taşınınca çoğu kez kurur.",
     "fa": "انسان با تغییر محیط شاید بهتر رشد کند، اما درخت پس از جابه‌جایی آسان خشک می‌شود.",
-    "ar": "الإنسان قد يزدهر بتغيير البيئة، أما الشجرة المنقولة فتذبل غالبًا."
+    "ar": "الإنسان قد يزدهر بتغيير البيئة، أما الشجرة المنقولة فتذبل غالبًا.",
+    "id": "Orang yang pindah ke lingkungan baru mungkin memiliki perkembangan yang lebih baik, tetapi pohon yang dipindah akan mudah layu dan mati.",
+    "vi": "Người đổi môi trường có thể phát triển tốt hơn; cây bị di chuyển dễ héo chết.",
+    "km": "មនុស្ស ម្នាក់ អាច រីកចម្រើន នៅ ក្នុង បរិយាកាស ថ្មី មួយ ខណៈ ដែល ដើម ឈើ ដែល គេ ដាំ ឡើង វិញ តែង តែ ស្ងួត ។"
   },
   {
     "sentence": "冰冻三尺，非一日之寒",
@@ -247,7 +319,10 @@
     "ru": "Серьёзные явления складываются долго, а не за один день.",
     "tr": "Kök sorunlar bir gecede değil, uzun sürede oluşur.",
     "fa": "پدیده‌های عمیق در طول زمان شکل می‌گیرند، نه یک‌شبه.",
-    "ar": "الأمور الجذرية تتكوّن بمرور الوقت لا دفعة واحدة."
+    "ar": "الأمور الجذرية تتكوّن بمرور الوقت لا دفعة واحدة.",
+    "id": "Terbentuknya suatu situasi atau konsekuensi merupakan hasil dari akumulasi dan perkembangan dalam waktu yang lama, bukan terjadi dalam semalam.",
+    "vi": "Ba thước băng không phải thành trong một ngày lạnh; ý nói tình huống là kết quả tích tụ lâu dài.",
+    "km": "បញ្ហា ធ្ងន់ធ្ងរ កើត ឡើង តាម រយៈ ពេល វេលា មិន មែន តាម រយៈ ពេល យប់ នោះ ទេ ។"
   },
   {
     "sentence": "麻雀虽小——五脏俱全",
@@ -257,7 +332,10 @@
     "ru": "Маленький, но со всем необходимым.",
     "tr": "Küçük ama gereken her şey var.",
     "fa": "جثه کوچک اما همهٔ لازم را دارد.",
-    "ar": "صغير الحجم لكنّه كامل العناصر المهمّة."
+    "ar": "صغير الحجم لكنّه كامل العناصر المهمّة.",
+    "id": "Berukuran kecil, tetapi tidak kekurangan apa pun.",
+    "vi": "Nhỏ bé nhưng đầy đủ mọi thứ cần thiết.",
+    "km": "វា មាន ទំហំ តូច ប៉ុន្តែ វា មាន គ្រប់ យ៉ាង ដែល ចាំបាច់ ។"
   },
   {
     "sentence": "善有善报，恶有恶报",
@@ -267,7 +345,10 @@
     "ru": "За добро приходит добро, за зло — зло.",
     "tr": "İyilik iyilikle, kötülük kötülükle karşılanır.",
     "fa": "کار نیک پاداش نیک دارد، کار بد عاقبت بد.",
-    "ar": "الخير يعود بالخير والشر يعود بالشر."
+    "ar": "الخير يعود بالخير والشر يعود بالشر.",
+    "id": "Melakukan kebaikan akan mendapat imbalan baik, melakukan keburukan akan mendapat ganjaran buruk.",
+    "vi": "Làm việc thiện sẽ nhận được quả báo tốt, làm việc ác sẽ nhận quả báo xấu.",
+    "km": "អ្នក ដែល ប្រព្រឹត្ត អំពើ ល្អ នឹង ទទួល ផល ល្អ ហើយ អ្នក ដែល ប្រព្រឹត្ត អំពើ អាក្រក់ នឹង ទទួល ផល អាក្រក់ ។"
   },
   {
     "sentence": "孙悟空听见金箍咒——头疼",
@@ -277,7 +358,10 @@
     "ru": "Головная боль; случилось самое нежеланное.",
     "tr": "Baş ağrıtır; en korkulan geldi.",
     "fa": "سردرد می‌آورد؛ بدترین چیز آمده.",
-    "ar": "يصدّع الرأس؛ جاء أسوأ ما تخاف."
+    "ar": "يصدّع الرأس؛ جاء أسوأ ما تخاف.",
+    "id": "Mendengarnya saja sudah pusing, hal yang paling ditakuti akhirnya tiba.",
+    "vi": "Nghe là thấy đau đầu, điều sợ nhất đã đến.",
+    "km": "វា ធ្វើ ឲ្យ អ្នក ឈឺក្បាល - អ្វី ដែល អ្នក ខ្លាច បំផុត បាន មក ដល់ ។"
   },
   {
     "sentence": "良药苦口利于病，忠言逆耳利于行",
@@ -287,7 +371,10 @@
     "ru": "Искренний совет резок, но помогает исправить ошибки; хорошее лекарство горькое, но лечит.",
     "tr": "Samimi öğüt sert gelebilir ama hatayı düzeltir; etkili ilaç acı olsa da tedavi eder.",
     "fa": "نصیحت صادقانه هرچند ناخوشایند است اما به اصلاح خطا کمک می‌کند؛ داروی مؤثر هرچند تلخ است اما بیماری را درمان می‌کند.",
-    "ar": "النصيحة الصادقة قد تكون لاذعة لكنها تصحح الأخطاء؛ والدواء الفعال قد يكون مرًا لكنه يشفي المرض."
+    "ar": "النصيحة الصادقة قد تكون لاذعة لكنها تصحح الأخطاء؛ والدواء الفعال قد يكون مرًا لكنه يشفي المرض.",
+    "id": "Nasihat yang tulus meskipun menyakitkan dapat membantu seseorang memperbaiki kesalahannya, dan obat yang efektif meskipun pahit dapat menyembuhkan penyakit.",
+    "vi": "Lời khuyên chân thành tuy khó nghe nhưng giúp sửa lỗi; thuốc tốt tuy đắng nhưng chữa được bệnh.",
+    "km": "ដំបូន្មានដ៏ស្មោះត្រង់អាចពិបាកប៉ុន្តែជួយកែតម្រូវកំហុស ។ ថ្នាំដែលមានប្រសិទ្ធភាពអាចមានរសជាតិជូរចត់ប៉ុន្តែព្យាបាលជំងឺ ។"
   },
   {
     "sentence": "打破砂锅——问到底",
@@ -297,7 +384,10 @@
     "ru": "Допрашивает до конца; не отстанет.",
     "tr": "Sonuna kadar sorar; peşini bırakmaz.",
     "fa": "تا تهِ موضوع می‌پرسد؛ ول نمی‌کند.",
-    "ar": "يسأل حتى النهاية ولا يترك الأمر."
+    "ar": "يسأل حتى النهاية ولا يترك الأمر.",
+    "id": "Menginterogasi sampai tuntas, tidak berhenti bertanya.",
+    "vi": "Hỏi đến cùng, không bỏ qua.",
+    "km": "សូម សួរ រហូត ដល់ ការ ពិត ច្បាស់ លាស់; មិន ឲ្យ វា ធ្លាក់ ចុះ."
   },
   {
     "sentence": "三十晚上盼月亮——没指望",
@@ -307,7 +397,10 @@
     "ru": "Нет надежды; ждать бесполезно.",
     "tr": "Umut yok; beklemek boşa.",
     "fa": "امیدی نیست؛ انتظار بی‌فایده است.",
-    "ar": "بلا أمل؛ العبث بالانتظار."
+    "ar": "بلا أمل؛ العبث بالانتظار.",
+    "id": "Tidak ada harapan, menunggu hanya sia-sia.",
+    "vi": "Không có hy vọng, đợi cũng vô ích.",
+    "km": "គ្មាន សង្ឃឹម; ការរង់ចាំគឺគ្មានន័យ."
   },
   {
     "sentence": "单丝不成线，独木不成林",
@@ -317,7 +410,10 @@
     "ru": "Силы одного человека малы; дело ладится лишь при совместных усилиях.",
     "tr": "Tek kişinin gücü sınırlıdır; iş ancak birlikte çalışınca iyi yürür.",
     "fa": "نیروی فرد محدود است؛ تنها با همکاری و اتحاد می‌توان کار را درست پیش برد.",
-    "ar": "قوة الفرد محدودة؛ لا يُنجَز العمل إلا بالتعاون والتكاتف."
+    "ar": "قوة الفرد محدودة؛ لا يُنجَز العمل إلا بالتعاون والتكاتف.",
+    "id": "Kekuatan individu terbatas, hanya dengan kerja sama dapat menyelesaikan pekerjaan dengan baik.",
+    "vi": "Sức mạnh cá nhân có hạn, chỉ có đoàn kết mới làm được việc tốt.",
+    "km": "កម្លាំង របស់ មនុស្ស ម្នាក់ គឺ មាន កម្រិត តិចតួច ណាស់ ហើយ ការ ធ្វើ ការ ជាមួយ គ្នា អាច ធ្វើ ឲ្យ មាន ការ ល្អ បាន តែ ប៉ុណ្ណោះ ។"
   },
   {
     "sentence": "强扭的瓜不甜",
@@ -327,7 +423,10 @@
     "ru": "Навязанные силой вещи обычно плохо заканчиваются, особенно в сфере отношений.",
     "tr": "Zorla oldurulan işler genelde iyi sonuç vermez, özellikle duygusal ilişkilerde.",
     "fa": "کارهایی که با زور پیش می‌روند معمولا نتیجه خوبی ندارند، به‌ویژه در رابطه عاطفی.",
-    "ar": "الأمور التي تُفرض بالقوة غالبًا لا تكون عاقبتها طيبة، خصوصًا في العلاقات."
+    "ar": "الأمور التي تُفرض بالقوة غالبًا لا تكون عاقبتها طيبة، خصوصًا في العلاقات.",
+    "id": "Sesuatu yang dipaksakan biasanya tidak akan menghasilkan hasil yang baik, terutama dalam hal perasaan.",
+    "vi": "Việc ép buộc thường không có kết quả tốt, đặc biệt trong tình cảm.",
+    "km": "រឿង ដែល ត្រូវ បង្ខំ ប្រឆាំង នឹង ឆន្ទៈ របស់ ពួកគេ ជាទូទៅ មិន បាន បញ្ចប់ បាន ល្អ ទេ ជាពិសេស នៅ ក្នុង ទំនាក់ទំនង ។"
   },
   {
     "sentence": "亡羊补牢，犹未为晚",
@@ -337,7 +436,10 @@
     "ru": "После ошибки своевременные меры ещё помогают и уменьшают ущерб.",
     "tr": "Hata sonrası zamanında önlem almak hâlâ işe yarar, daha büyük zararı önler.",
     "fa": "پس از خطا، اقدام به‌موقع هنوز مفید است و زیان بزرگ‌تر را کم می‌کند.",
-    "ar": "بعد الزلل، الإصلاح السريع مفيد ويحد من الخسارة."
+    "ar": "بعد الزلل، الإصلاح السريع مفيد ويحد من الخسارة.",
+    "id": "Setelah masalah muncul, segera mengambil tindakan perbaikan masih tidak terlambat untuk menghindari kerugian yang lebih besar.",
+    "vi": "Mất chiên rồi mới sửa chuồng, vẫn chưa muộn; ý nói kịp thời sửa sai còn kịp.",
+    "km": "ក្រោយ ពី មាន ការ ខុស ត្រូវ ការ ដោះស្រាយ តាម ពេលវេលា នៅ តែ ជួយ និង អាច ទប់ស្កាត់ ការ បាត់បង់ អាក្រក់ ជាង មុន ។"
   },
   {
     "sentence": "莫等闲，白了少年头，空悲切",
@@ -347,7 +449,10 @@
     "ru": "Не растрачивай молодость впустую, иначе в старости останутся лишь сожаление и печаль.",
     "tr": "Gençliğini boşa harcama; yoksa yaşlanınca boşuna pişmanlık duyarsın.",
     "fa": "جوانی را هدر نده، وگرنه در پیری فقط بیهوده پشیمان و اندوهگین می‌شوی.",
-    "ar": "لا تُضع وقت الشباب، وإلا فلن يبقى عند الكِبر إلا الندم والحسرة."
+    "ar": "لا تُضع وقت الشباب، وإلا فلن يبقى عند الكِبر إلا الندم والحسرة.",
+    "id": "Jangan menyia-nyiakan waktu, jika tidak saat tua hanya akan menyesal dan bersedih.",
+    "vi": "Đừng phung phí thời gian, nếu không lúc về già chỉ còn hối tiếc vô ích.",
+    "km": "កុំខ្ជះខ្ជាយពេលនៅក្មេង បើមិនដូច្នោះទេ អ្នកនឹងសោកស្តាយ និងសោកស្តាយជាពុំខាន នៅពេលដែលចាស់ទៅ ។"
   },
   {
     "sentence": "高射炮打蚊子——大材小用",
@@ -357,7 +462,10 @@
     "ru": "Большой талант на пустяки.",
     "tr": "Büyük yetenek küçük işe harcanıyor.",
     "fa": "استعداد بزرگ برای کار کوچک هدر می‌رود.",
-    "ar": "هدرٌ لموهبةٍ عظيمةٍ في أمرٍ تافهٍ."
+    "ar": "هدرٌ لموهبةٍ عظيمةٍ في أمرٍ تافهٍ.",
+    "id": "Bakat besar digunakan untuk pekerjaan kecil, pemborosan talenta.",
+    "vi": "Tài năng lớn bị dùng cho việc nhỏ, lãng phí nhân tài.",
+    "km": "អ្នក ដែល មាន ទេពកោសល្យ ច្រើន ត្រូវ បាន គេ បោះបង់ចោល ក្នុង ការ ធ្វើ ការងារ ដ៏ អស្ចារ្យ មួយ ។"
   },
   {
     "sentence": "泰山顶上观日出——高瞻远瞩",
@@ -367,7 +475,10 @@
     "ru": "Дальновиден; видит перспективу.",
     "tr": "Uzak görüşlü; büyük resmi görür.",
     "fa": "دوراندیش؛ از بالا کل را می‌بیند.",
-    "ar": "بعيد النظرٍ؛ يرى الصورة الكبرى."
+    "ar": "بعيد النظرٍ؛ يرى الصورة الكبرى.",
+    "id": "Pandangan jauh ke depan, visi tinggi.",
+    "vi": "Nhìn xa trông rộng, tầm nhìn cao.",
+    "km": "មើលពីឆ្ងាយ; មើលរូបភាពធំពីលើ ។"
   },
   {
     "sentence": "自食其果",
@@ -377,7 +488,10 @@
     "ru": "За плохие поступки расплачиваешься сам.",
     "tr": "Kötülüğün sonucunu kendin çekersin.",
     "fa": "کار بد عاقبتش را خودت می‌خوری.",
-    "ar": "تأكل ثمرة فعلك السيئ بنفسك."
+    "ar": "تأكل ثمرة فعلك السيئ بنفسك.",
+    "id": "Perbuatan buruk atau kesalahan yang dilakukan sendiri pada akhirnya harus ditanggung sendiri.",
+    "vi": "Tự gặt quả do mình gieo; tự chịu hậu quả từ việc mình làm.",
+    "km": "អ្នកទទួលផលពីអ្វីដែលអ្នកសាបព្រោះ អំពើអាក្រក់នាំមកនូវផលវិបាកដល់ខ្លួនអ្នក ។"
   },
   {
     "sentence": "言而有信",
@@ -387,7 +501,10 @@
     "ru": "Слово должно быть законом: не обещай легкомысленно и сдерживай обещанное.",
     "tr": "Sözünün eri ol; kolayca söz verme, verdiysen yerine getir.",
     "fa": "به قولت عمل کن؛ عهد سبک مده و اگر دادی وفا کن.",
-    "ar": "كن صادقًا في كلامك؛ لا تعِد بسهولة وأوفِ إذا وعدت."
+    "ar": "كن صادقًا في كلامك؛ لا تعِد بسهولة وأوفِ إذا وعدت.",
+    "id": "Ucapan dapat dipercaya, menepati janji, tidak sembarangan berjanji, dan jika berjanji pasti dilakukan.",
+    "vi": "Nói có sách mách có chứng, giữ lời hứa, không轻易 hứa hẹn, hứa thì phải làm.",
+    "km": "ចូរ ធ្វើ តាម ពាក្យ សន្យា របស់ អ្នក កុំ ធ្វើ តាម ពាក្យ សន្យា របស់ អ្នក ឡើយ ចូរ ធ្វើ តាម ពាក្យ សន្យា របស់ អ្នក"
   },
   {
     "sentence": "木秀于林，风必摧之",
@@ -397,7 +514,10 @@
     "ru": "Люди, слишком выделяющиеся талантом или успехом, чаще становятся объектом зависти и отторжения.",
     "tr": "Yetenek ya da başarıda fazla öne çıkanlar kıskançlık ve dışlanmayla daha çok karşılaşır.",
     "fa": "کسی که بیش از حد برجسته باشد، بیشتر در معرض حسادت و کنار زدن دیگران قرار می‌گیرد.",
-    "ar": "من يبرز كثيرًا في الموهبة أو الإنجاز يكون أكثر عرضة للحسد والإقصاء."
+    "ar": "من يبرز كثيرًا في الموهبة أو الإنجاز يكون أكثر عرضة للحسد والإقصاء.",
+    "id": "Orang yang kemampuan atau pencapaiannya terlalu menonjol mudah menjadi iri dan ditolak oleh orang lain.",
+    "vi": "Người tài năng nổi bật quá dễ bị đố kỵ và bài xích.",
+    "km": "អ្នក ដែល មាន ទេពកោសល្យ ឬ សមត្ថភាព ច្រើន ពេក តែង តែ មាន ការ ច្រណែន និង ត្រូវ បាន គេ ដក ចេញ ។"
   },
   {
     "sentence": "礼多人不怪",
@@ -407,7 +527,10 @@
     "ru": "Вежливость и уважение в общении обычно не вызывают у людей неприязни.",
     "tr": "İnsanlarla ilişkide nazik ve saygılı olmak genelde kimseyi rahatsız etmez.",
     "fa": "یعنی در معاشرت با دیگران اگر مؤدب و محترمانه باشی، کسی دلخور نمی‌شود.",
-    "ar": "يعني أن كثرة الأدب وإظهار الاحترام في التعامل مع الناس لا تجعلهم ينفرون منك."
+    "ar": "يعني أن كثرة الأدب وإظهار الاحترام في التعامل مع الناس لا تجعلهم ينفرون منك.",
+    "id": "Dalam bergaul, bersikap sopan dan menghargai orang lain tidak akan menimbulkan ketidaksukaan.",
+    "vi": "Lịch sự và tôn trọng người khác thì không ai ghét.",
+    "km": "ជាធម្មតាការគួរសមនិងការគោរពក្នុងការប្រព្រឹត្តជាមួយអ្នកដទៃមិនធ្វើឱ្យអ្នកដទៃអាក់អន់ចិត្តទេ ។"
   },
   {
     "sentence": "人怕出名猪怕壮",
@@ -417,7 +540,10 @@
     "ru": "Как только человек прославляется, он попадает под внимание и пересуды, как откормленная свинья — под нож.",
     "tr": "İnsan ünlenince göz önüne çıkıp eleştiri çeker; şişman domuz da kesilir.",
     "fa": "آدم وقتی مشهور می‌شود زیر نگاه و حرف مردم می‌رود؛ همان‌طور که خوک خیلی چاق را می‌کشند.",
-    "ar": "إذا اشتهر المرء صار عرضة للأنظار والانتقاد، كما يُذبح الخنزير إذا سَمِن كثيرًا."
+    "ar": "إذا اشتهر المرء صار عرضة للأنظار والانتقاد، كما يُذبح الخنزير إذا سَمِن كثيرًا.",
+    "id": "Orang yang terkenal mudah mendapat perhatian dan kritik; babi yang terlalu gemuk akan disembelih.",
+    "vi": "Người nổi tiếng dễ bị chú ý và chỉ trích; heo béo sẽ bị giết thịt.",
+    "km": "ពេល ដែល មនុស្ស ម្នាក់ បាន ក្លាយ ជា មនុស្ស ល្បី គេ នឹង ចាប់ អារម្មណ៍ នឹង ការ សិក្សា និង ការ រិះគន់ ដូច ជា ជ្រូក ដែល មាន ជាតិ សរសៃ អាច នឹង ត្រូវ បាន គេ សម្លាប់ ។"
   },
   {
     "sentence": "二一添作五——平分秋色",
@@ -427,7 +553,10 @@
     "ru": "Делят поровну; по половине.",
     "tr": "Eşit bölünür; yarı yarıya.",
     "fa": "مساوی تقسیم می‌شود؛ هر کس نصف.",
-    "ar": "يُقسَم بالتساوي؛ النصف لكلٍّ."
+    "ar": "يُقسَم بالتساوي؛ النصف لكلٍّ.",
+    "id": "Dibagikan secara merata, masing-masing setengah.",
+    "vi": "Chia đều, mỗi bên một nửa.",
+    "km": "បំបែកឲ្យស្មើគ្នា; ម្នាក់ៗទទួលបានពាក់កណ្តាល ។"
   },
   {
     "sentence": "三天卖两条黄瓜——不慌不忙",
@@ -437,7 +566,10 @@
     "ru": "Не спешит; неторопливо.",
     "tr": "Acele etmez; yavaş yavaş.",
     "fa": "عجله ندارد؛ آرام پیش می‌رود.",
-    "ar": "بلا عجلةٍ؛ يتقدّم بهدوءٍ."
+    "ar": "بلا عجلةٍ؛ يتقدّم بهدوءٍ.",
+    "id": "Tenang dan tidak terburu-buru, pelan-pelan.",
+    "vi": "Không vội vàng, từ từ thôi.",
+    "km": "សូមជម្រាបថា សូមជម្រាបជូនបន្តិចបន្តួច"
   },
   {
     "sentence": "芝麻开花——节节高",
@@ -447,7 +579,10 @@
     "ru": "Жизнь или успехи с каждым днём всё лучше.",
     "tr": "Hayat veya sonuç günden güne iyileşir.",
     "fa": "زندگی یا نتیجه روزبه‌روز بهتر می‌شود.",
-    "ar": "الحياة أو النتائج تتحسّن يومًا بعد يوم."
+    "ar": "الحياة أو النتائج تتحسّن يومًا بعد يوم.",
+    "id": "Hari atau prestasi semakin baik dari hari ke hari.",
+    "vi": "Cuộc sống hoặc kết quả ngày càng tốt hơn.",
+    "km": "ជីវិត ឬ លទ្ធផល នៅ តែ មាន ភាព ល្អ ប្រសើរ ឡើង ពី ថ្ងៃ ទៅ ថ្ងៃ ។"
   },
   {
     "sentence": "周幽王点烽火台——千金难买一笑",
@@ -457,7 +592,10 @@
     "ru": "Огромная цена ради одной улыбки.",
     "tr": "Tek bir gülüşe çok büyük bedel ödenir.",
     "fa": "برای یک خنده هزینهٔ بسیار سنگین می‌دهد.",
-    "ar": "ثمنٌ باهظٌ لمجرد ابتسامة واحدة."
+    "ar": "ثمنٌ باهظٌ لمجرد ابتسامة واحدة.",
+    "id": "Harganya sangat mahal hanya untuk mendapatkan satu senyum.",
+    "vi": "Trả giá rất đắt chỉ để có được một nụ cười.",
+    "km": "វា មាន តម្លៃ ច្រើន ណាស់ ដើម្បី ឈ្នះ ការ សើច តែ មួយ ប៉ុណ្ណោះ ។"
   },
   {
     "sentence": "唱戏的腿抽筋——下不来台",
@@ -467,7 +605,10 @@
     "ru": "Не сойти со сцены; неловкое положение.",
     "tr": "Sahneden inemez; mahcup kalır.",
     "fa": "از صحنه پایین نمی‌آید؛ شرمنده مانده.",
-    "ar": "عاجزٌ عن النزول؛ في حرجٍ."
+    "ar": "عاجزٌ عن النزول؛ في حرجٍ.",
+    "id": "Tidak bisa turun panggung, tidak bisa mengundurkan diri.",
+    "vi": "Không thể xuống sân khấu, không thể rút lui.",
+    "km": "ខ្ញុំ មិន អាច ចុះ ពី លើ ឆាក បាន ទេ ខ្ញុំ ជាប់ ក្នុង ការ ខ្មាសអៀន"
   },
   {
     "sentence": "患难见真情",
@@ -477,7 +618,10 @@
     "ru": "В беде видны настоящие друзья и проявляется искренняя привязанность.",
     "tr": "Sıkıntı gerçek dostları ve samimi duyguları ortaya çıkarır.",
     "fa": "در سختی و بلا دوستان راستین آشکار می‌شوند و احساس واقعی نمایان می‌گردد.",
-    "ar": "الشدائد تكشف الأصدقاء الحقيقيين وتبرز المشاعر الصادقة."
+    "ar": "الشدائد تكشف الأصدقاء الحقيقيين وتبرز المشاعر الصادقة.",
+    "id": "Saat menghadapi kesulitan dan bencana baru terlihat siapa teman sejati dan terlihat ketulusan perasaan.",
+    "vi": "Trong gian khó mới thấy tình bạn thật sự.",
+    "km": "ការលំបាកបង្ហាញថានរណាជាមិត្តពិតប្រាកដ និងបង្ហាញពីអារម្មណ៍ពិតប្រាកដ ។"
   },
   {
     "sentence": "好记性不如烂笔头",
@@ -487,7 +631,10 @@
     "ru": "Даже хорошая память уступает записям; подчёркивается важность фиксации на бумаге.",
     "tr": "En iyi hafıza bile yazıya dökmek kadar güvenilir değildir; kayıt tutmanın önemini vurgular.",
     "fa": "حتی حافظه قوی هم به پای یادداشت‌برداری نمی‌رسد؛ بر اهمیت ثبت تأکید دارد.",
-    "ar": "حتى الحفظ الجيد لا يضاهي التدوين؛ يؤكد أهمية تسجيل الملاحظات."
+    "ar": "حتى الحفظ الجيد لا يضاهي التدوين؛ يؤكد أهمية تسجيل الملاحظات.",
+    "id": "Daya ingat sebaik apa pun tidak seandal menulis catatan, menekankan pentingnya mencatat.",
+    "vi": "Trí nhớ tốt không bằng viết ra giấy; nhấn mạnh tầm quan trọng của việc ghi chép.",
+    "km": "សូម្បី តែ ការ ចងចាំ ល្អ ក៏ មិន អាច ទុក ចិត្ត បាន ច្រើន ជាង ការ សរសេរ រឿង ចុះ នោះ ទេ វា បញ្ជាក់ ពី តម្លៃ នៃ ការ សរសេរ ។"
   },
   {
     "sentence": "芭蕉插在古树上——粗枝大叶",
@@ -497,7 +644,10 @@
     "ru": "Небрежен; к мелочам не прислушивается.",
     "tr": "Dikkatsiz ve özensiz; ayrıntıya aldırmaz.",
     "fa": "سهل‌انگار و بی‌دقت؛ جزئیات را رعایت نمی‌کند.",
-    "ar": "مهملٌ غير دقيق؛ لا يبالي بالتفاصيل."
+    "ar": "مهملٌ غير دقيق؛ لا يبالي بالتفاصيل.",
+    "id": "Bekerja ceroboh, tidak teliti.",
+    "vi": "Làm việc cẩu thả, không tỉ mỉ.",
+    "km": "ដោយ មិន យក ចិត្ត ទុក ដាក់ និង មិន យក ចិត្ត ទុក ដាក់; មិន យក ចិត្ត ទុក ដាក់ ចំពោះ ការ ពន្យល់ ។"
   },
   {
     "sentence": "秀才遇到兵——有理说不清",
@@ -507,7 +657,10 @@
     "ru": "С тем, кто не слушает разум, не объяснишься.",
     "tr": "Anlamazla akıl yürütülemez.",
     "fa": "با آدم لجباز منطق نمی‌فهمد.",
-    "ar": "لا منطق مع من لا يسمع."
+    "ar": "لا منطق مع من لا يسمع.",
+    "id": "Tidak bisa berbicara masuk akal dengan orang yang tidak bernalar.",
+    "vi": "Không thể nói lý với người không chịu nghe.",
+    "km": "វា គួរ ឲ្យ ភ័យ ខ្លាច ណាស់ ដែល គ្មាន នរណា ម្នាក់ ស្តាប់ ។"
   },
   {
     "sentence": "铁匠铺的料——挨打的货",
@@ -517,7 +670,10 @@
     "ru": "Вечно получает нагоняи или побои.",
     "tr": "Sürekli dayak yiyen veya azar işiten tip.",
     "fa": "همیشه کسی است که می‌خورد یا سرزنش می‌شود.",
-    "ar": "دائمًا من يُضرَب أو يُوبَّخ."
+    "ar": "دائمًا من يُضرَب أو يُوبَّخ.",
+    "id": "Peran yang sering dipukul dan dimarahi.",
+    "vi": "Luôn là người bị đánh hoặc bị mắng.",
+    "km": "អ្នក ដែល ត្រូវ បាន គេ វាយ ឬ ត្រូវ បាន គេ វាយ ។"
   },
   {
     "sentence": "打灯笼搬石头——照办（搬）",
@@ -527,7 +683,10 @@
     "ru": "Делает как сказали (каламбур).",
     "tr": "Söyleneni yapar (kelime oyunu).",
     "fa": "طبق گفته عمل می‌کند (دو معنی).",
-    "ar": "ينفّذ كما قيل (توريةٌ)."
+    "ar": "ينفّذ كما قيل (توريةٌ).",
+    "id": "Dilaksanakan sesuai perintah.",
+    "vi": "Thực hiện theo chỉ thị, làm đúng như được yêu cầu.",
+    "km": "ធ្វើដូចដែលបានប្រាប់ (សរសេរនៅលើការដឹកជញ្ជូន/ផ្លាស់ទី) ។"
   },
   {
     "sentence": "勤能补拙",
@@ -537,7 +696,10 @@
     "ru": "Усердие может компенсировать недостатки и нехватку природных способностей.",
     "tr": "Çalışkanlık, eksik yetenek ve kusurları telafi edebilir.",
     "fa": "کوشش و پشتکار می‌تواند کمبود استعداد یا ضعف‌ها را جبران کند.",
-    "ar": "الاجتهاد يستطيع تعويض النقص والضعف في القدرات."
+    "ar": "الاجتهاد يستطيع تعويض النقص والضعف في القدرات.",
+    "id": "Melalui kerja keras, bisa mengompensasi kekurangan dan kebodohan diri sendiri.",
+    "vi": "Chăm chỉ có thể bù đắp cho sự thiếu sót và vụng về.",
+    "km": "ការ យក ចិត្ត ទុក ដាក់ អាច ធ្វើ ឲ្យ អ្នក មាន ភាព ខ្វះខាត និង ខ្វះ ទេពកោសល្យ ។"
   },
   {
     "sentence": "世上无难事，只怕有心人",
@@ -547,7 +709,10 @@
     "ru": "При решимости и упорстве нет непосильных дел.",
     "tr": "Azim ve sebatla zor diye bir şey yoktur.",
     "fa": "با اراده و پشتکار هیچ کاری غیرممکن نیست.",
-    "ar": "لا شيء مستحيل مع العزيمة والمثابرة."
+    "ar": "لا شيء مستحيل مع العزيمة والمثابرة.",
+    "id": "Selama ada tekad dan kemauan keras, hal yang paling sulit pun dapat dilakukan dengan baik.",
+    "vi": "Chỉ cần có quyết tâm và kiên trì, việc gì khó cũng làm được.",
+    "km": "គ្មាន អ្វី ដែល ពិបាក ពេក ទេ ប្រសិន បើ អ្នក មាន ចិត្ត ស្មោះ ត្រង់ និង មាន ចិត្ត ស្មោះ ត្រង់ ។"
   },
   {
     "sentence": "打蛇打七寸",
@@ -557,7 +722,10 @@
     "ru": "Чтобы решить проблему до конца, нужно бить в самое уязвимое место.",
     "tr": "Sorunu kökünden çözmek için kritik noktayı vurmalısın.",
     "fa": "برای حل ریشه‌ای مسئله باید نقطه کلیدی را نشانه رفت.",
-    "ar": "اضرب في الموضع الحاسم لحل المشكلة جذريًا."
+    "ar": "اضرب في الموضع الحاسم لحل المشكلة جذريًا.",
+    "id": "Dalam mengerjakan sesuatu harus memegang kunci dan mengenai sasaran agar masalah dapat diselesaikan secara tuntas.",
+    "vi": "Đánh vào điểm trọng yếu để giải quyết vấn đề triệt để.",
+    "km": "វាយចំណុចសំខាន់ដើម្បីដោះស្រាយបញ្ហាឱ្យបានហ្មត់ចត់ ។"
   },
   {
     "sentence": "黄鼠狼给鸡拜年——没安好心",
@@ -567,7 +735,10 @@
     "ru": "С виду дружелюбный, а втайне замышляет плохое.",
     "tr": "Dışarıdan sıcak görünür, içeride kötü niyet besler.",
     "fa": "ظاهراً مهربان، باطناً نقشهٔ بد دارد.",
-    "ar": "ودود في الظاهر ويخطط للشرّ في السر."
+    "ar": "ودود في الظاهر ويخطط للشرّ في السر.",
+    "id": "Di luar tampak akrab, tetapi di dalam hati ada niat buruk.",
+    "vi": "Bề ngoài thân thiện nhưng trong lòng có ý đồ xấu.",
+    "km": "ក្ដៅនៅខាងក្រៅ ប៉ុន្តែរៀបចំផែនការអ្វីមួយមិនល្អដោយសម្ងាត់ ។"
   },
   {
     "sentence": "沙滩上走路——一步一个脚印",
@@ -577,7 +748,10 @@
     "ru": "Твёрдо, шаг за шагом.",
     "tr": "Sağlam, adım adım ilerler.",
     "fa": "محکم و قدم‌به‌قدم پیش می‌رود.",
-    "ar": "ثابتٌ خطوةً فخطوة."
+    "ar": "ثابتٌ خطوةً فخطوة.",
+    "id": "Tekun dan mantap, langkah demi langkah.",
+    "vi": "Vững vàng, từng bước một.",
+    "km": "កម្រិតតូចថ្មីមួយ ក្នុងពេល ។"
   },
   {
     "sentence": "人心齐，泰山移",
@@ -587,7 +761,10 @@
     "ru": "Когда люди сплочены, можно сдвинуть и такую тяжесть, как гора; подчёркивается сила единства.",
     "tr": "İnsanlar birleşince Taş Dağı bile oynatılır; dayanışmanın gücünü vurgular.",
     "fa": "وقتی همه یک‌دل شوند، حتی چیز سنگینی مثل کوه تای هم جابه‌جا می‌شود؛ بر قدرت اتحاد تأکید دارد.",
-    "ar": "إذا اتحد الناس، يمكن حتى تحريك ما يثقل كالجبل؛ يؤكد قوة التكاتف."
+    "ar": "إذا اتحد الناس، يمكن حتى تحريك ما يثقل كالجبل؛ يؤكد قوة التكاتف.",
+    "id": "Jika semua orang bergotong royong, beban seberat Gunung Tai pun dapat dipindahkan, menekankan kekuatan persatuan.",
+    "vi": "Mọi người đoàn kết thì núi Thái Sơn cũng dời được; nhấn mạnh sức mạnh đoàn kết.",
+    "km": "ពេល ដែល មនុស្ស រួម គ្នា សូម្បី តែ អ្វី ដែល ធ្ងន់ធ្ងរ ដូច ភ្នំ តៃ ក៏ អាច ចល័ត បាន ដែរ វា បញ្ជាក់ ពី អំណាច នៃ ការ ឯកភាព ។"
   },
   {
     "sentence": "君子爱财，取之有道",
@@ -597,7 +774,10 @@
     "ru": "Порядочный человек тоже ценит богатство, но добывает его честно и законно.",
     "tr": "Erdemli insan da para sever ama yasal ve meşru yoldan kazanır.",
     "fa": "آدم درست هم ثروت می‌خواهد، اما مشروع و قانونی به دست می‌آورد.",
-    "ar": "الإنسان النبيل قد يحب المال لكن يأخذه بالحلال والشرع."
+    "ar": "الإنسان النبيل قد يحب المال لكن يأخذه بالحلال والشرع.",
+    "id": "Orang baik juga menyukai kekayaan, tetapi memperolehnya melalui cara yang benar dan sah.",
+    "vi": "Người quân tử cũng thích tiền bạc nhưng chỉ lấy bằng cách chính đáng, hợp pháp.",
+    "km": "មនុស្ស ល្អ អាច ស្វែង រក ទ្រព្យ សម្បត្តិ បាន តែ តាម រយៈ មធ្យោបាយ ត្រឹមត្រូវ និង ស្រប ច្បាប់ ប៉ុណ្ណោះ ។"
   },
   {
     "sentence": "麻布袋做龙袍——不是这块料",
@@ -607,7 +787,10 @@
     "ru": "Не тот материал для большого дела.",
     "tr": "Büyük işe uygun malzeme değil.",
     "fa": "جنسش به کار بزرگ نمی‌خورد.",
-    "ar": "ليس أهلاً للعمل الكبير."
+    "ar": "ليس أهلاً للعمل الكبير.",
+    "id": "Bukan bahan untuk mengerjakan hal besar.",
+    "vi": "Không phải là vật liệu để làm việc lớn.",
+    "km": "មិន មែន ជា វត្ថុ ដែល ល្អ សម្រាប់ ការ ធ្វើ ការ ធំ នោះ ទេ ។"
   },
   {
     "sentence": "临渊羡鱼，不如退而结网",
@@ -617,7 +800,10 @@
     "ru": "Лучше сплести сеть, чем завидовать рыбе с берега — действуй и готовься.",
     "tr": "Kıyıda balığa özenmektense geri dönüp ağ ör; hazırlan ve yap.",
     "fa": "به جای حسرت از کنار چاه، برگرد و تور بباف؛ عمل و آماده‌سازی کن.",
-    "ar": "أفضل من حسد السمك أن تعود وتنسج الشبكة؛ اعمل وأعدّ."
+    "ar": "أفضل من حسد السمك أن تعود وتنسج الشبكة؛ اعمل وأعدّ.",
+    "id": "Hanya memiliki keinginan tanpa tindakan lebih baik mempersiapkan diri dan berusaha dengan sungguh-sungguh.",
+    "vi": "Thà quay lại đan lưới còn hơn đứng bên bờ ao ao ước cá; ý nói nên hành động thay vì chỉ mơ ước.",
+    "km": "វាជាការល្អប្រសើរជាងការត្បាញសំណាញ់មួយជាជាងច្រណែនត្រីពីសកម្មភាពធនាគារនិងរៀបចំ ។"
   },
   {
     "sentence": "穿钉鞋挂拐棍——步步扎实",
@@ -627,7 +813,10 @@
     "ru": "Делает дело крепко и надёжно.",
     "tr": "İşi sağlam ve güvenilir yapar.",
     "fa": "کار را محکم و مطمئن انجام می‌دهد.",
-    "ar": "يعمل بثباتٍ وموثوقيّة."
+    "ar": "يعمل بثباتٍ وموثوقيّة.",
+    "id": "Bekerja kokoh dan dapat diandalkan.",
+    "vi": "Làm việc vững chắc, đáng tin cậy.",
+    "km": "ធ្វើ អ្វី ដែល មាន ភាព រឹងមាំ និង អាច ទុក ចិត្ត បាន ។"
   },
   {
     "sentence": "机不可失，时不再来",
@@ -637,7 +826,10 @@
     "ru": "Возможности редки; упустив, можно их уже не дождаться — воспользуйся вовремя.",
     "tr": "Fırsatlar enderdir; kaçırırsan bir daha gelmeyebilir — zamanında yakala.",
     "fa": "فرصت کم‌یاب است؛ از دست رفت دیگر برنمی‌گردد؛ به‌موقع آن را بگیر.",
-    "ar": "الفرص نادرة؛ إن فوتها قد لا تعود—بادِر بالاغتنام."
+    "ar": "الفرص نادرة؛ إن فوتها قد لا تعود—بادِر بالاغتنام.",
+    "id": "Kesempatan langka, jika terlewat tidak akan datang lagi, harus segera dipergunakan.",
+    "vi": "Cơ hội hiếm có, lỡ rồi sẽ không còn nữa, phải nắm bắt kịp thời.",
+    "km": "ឱកាសគឺកម្រណាស់ ។ ពួកគេខកខាន ហើយពួកគេប្រហែលជាមិនអាចត្រឡប់មកវិញបានទាន់ពេលវេលា ។"
   },
   {
     "sentence": "万事开头难",
@@ -647,7 +839,10 @@
     "ru": "В начале всего трудно; если держаться, дальше идёт легче.",
     "tr": "Her işin başı zordur; devam edince yol açılır.",
     "fa": "آغاز هر کاری سخت است؛ ادامه بدهی روان‌تر می‌شود.",
-    "ar": "البدايات صعبة؛ مع الإصرار يصير الأمر أسهل."
+    "ar": "البدايات صعبة؛ مع الإصرار يصير الأمر أسهل.",
+    "id": "Awalnya pasti akan menghadapi kesulitan, tetapi jika bertahan, semuanya akan menjadi semakin lancar.",
+    "vi": "Mọi việc lúc bắt đầu đều khó, chỉ cần kiên trì thì sẽ ngày càng thuận lợi.",
+    "km": "វា ជា រឿង ដ៏ លំបាក មួយ នៅ ពេល ដំបូង; បន្ត ទៅ មុខ ហើយ វា នឹង ក្លាយ ជា រឿង ងាយ ស្រួល ។"
   },
   {
     "sentence": "百年的歪脖子树——一定型了",
@@ -657,7 +852,10 @@
     "ru": "Упрямо держится своего; не переубедить.",
     "tr": "İnatçı ve değişmez.",
     "fa": "عقیده‌اش سفت است؛ عوض نمی‌شود.",
-    "ar": "عنيدٌ راسخٌ؛ لا يتغيّر."
+    "ar": "عنيدٌ راسخٌ؛ لا يتغيّر.",
+    "id": "Pemikiran keras kepala, tidak bisa diubah.",
+    "vi": "Tư tưởng cứng đầu, không thể thay đổi.",
+    "km": "វា ស្ថិត ក្នុង របៀប របស់ មនុស្ស ម្នាក់; វា មិន អាច ផ្លាស់ ប្តូរ គំនិត របស់ ពួកគេ បាន ទេ ។"
   },
   {
     "sentence": "裁缝的尺子——量人不量己",
@@ -667,7 +865,10 @@
     "ru": "Придирается к другим, а себя не критикует.",
     "tr": "Başkasının kusurunu bulur; kendine bakmaz.",
     "fa": "فقط عیب دیگران را می‌گیرد؛ خودش را نمی‌بیند.",
-    "ar": "يعيب غيره ولا يراجع نفسه."
+    "ar": "يعيب غيره ولا يراجع نفسه.",
+    "id": "Hanya suka mengecam orang lain, tidak mau introspeksi diri.",
+    "vi": "Chỉ biết chỉ trích người khác mà không tự kiểm điểm mình.",
+    "km": "អ្នក វិនិច្ឆ័យ អ្នក ដទៃ យ៉ាង ខ្លាំង ប៉ុន្តែ មិន ដែល គិត អំពី ខ្លួន ឯង ទេ ។"
   },
   {
     "sentence": "肉包子打狗——有去无回",
@@ -677,7 +878,10 @@
     "ru": "Отданное не вернётся (деньги, одолжение).",
     "tr": "Verdiğiniz geri gelmez (para veya iyilik).",
     "fa": "چیزی که بدهید برنمی‌گردد (پول یا لطف).",
-    "ar": "ما تقدّمه لا يعود (مالًا أو معروفًا)."
+    "ar": "ما تقدّمه لا يعود (مالًا أو معروفًا).",
+    "id": "Barang yang sudah diberikan tidak bisa diminta kembali.",
+    "vi": "Đồ cho đi thì không lấy lại được.",
+    "km": "អ្វី ដែល អ្នក ផ្តល់ នឹង មិន ត្រឡប់ មក វិញ ទេ (ដូច ជា ប្រាក់ ឬ អត្ថប្រយោជន៍) ។"
   },
   {
     "sentence": "春天的竹笋——节节向上",
@@ -687,7 +891,10 @@
     "ru": "Постоянно растёт и движется вверх.",
     "tr": "Sürekli gelişiyor ve yükseliyor.",
     "fa": "مدام پیشرفت می‌کند و بالا می‌رود.",
-    "ar": "يتقدّم باستمرار ويرتقي."
+    "ar": "يتقدّم باستمرار ويرتقي.",
+    "id": "Terus maju dan berkembang.",
+    "vi": "Không ngừng tiến bộ, vươn lên.",
+    "km": "គាត់ ឡើង ទៅ លើ វិញ ហើយ គាត់ ឡើង ទៅ លើ វិញ ។"
   },
   {
     "sentence": "玉不琢，不成器",
@@ -697,7 +904,10 @@
     "ru": "Без воспитания и закалки человек не станет по-настоящему полезной личностью.",
     "tr": "Eğitim ve terbiye olmadan insan gerçek anlamda yetkin olamaz.",
     "fa": "بدون آموزش و پالایش، انسان به فرد مفید تبدیل نمی‌شود.",
-    "ar": "من دون تربية وتمرين لا يصبح الإنسان ذا فائدة حقيقية."
+    "ar": "من دون تربية وتمرين لا يصبح الإنسان ذا فائدة حقيقية.",
+    "id": "Manusia tanpa pendidikan dan latihan tidak dapat menjadi orang yang berguna.",
+    "vi": "Người không qua giáo dục và rèn luyện thì không thể trở thành người tài.",
+    "km": "ដោយ គ្មាន ការ អប់រំ និង ការ អប់រំ មនុស្ស មិន អាច ក្លាយ ជា មនុស្ស មាន ប្រយោជន៍ ពិត ប្រាកដ បាន ទេ ។"
   },
   {
     "sentence": "安禄山起兵——反了",
@@ -707,7 +917,10 @@
     "ru": "Бунт или срыв; скандал разрастается.",
     "tr": "İsyan veya ters düşme; olay büyür.",
     "fa": "شورش می‌کند یا برمی‌گردد؛ دعوا بزرگ می‌شود.",
-    "ar": "ينقلب أو يتمرد؛ يشتدّ الخلاف."
+    "ar": "ينقلب أو يتمرد؛ يشتدّ الخلاف.",
+    "id": "Membangkang dan berbalik memusuhi, urusan membesar.",
+    "vi": "Nổi loạn, trở mặt, làm lớn chuyện.",
+    "km": "បះបោរ ឬងាកទៅរកនរណាម្នាក់ ។ ជួរដេកបោកបក់ ។"
   },
   {
     "sentence": "张飞穿针——大眼瞪小眼",
@@ -717,7 +930,10 @@
     "ru": "Таращится в тревоге; никак не сходится.",
     "tr": "Telaşla bakıyor; uyuşmuyor.",
     "fa": "نگران خیره؛ جور نمی‌شود.",
-    "ar": "قلقٌ وحدّقٌ ولا ينطبق الأمر."
+    "ar": "قلقٌ وحدّقٌ ولا ينطبق الأمر.",
+    "id": "Cemas tapi tidak bisa berbuat apa-apa.",
+    "vi": "Lo lắng nhưng không thể làm gì được.",
+    "km": "ការមើលងាយ; មិនអាចធ្វើអ្វីបានតាមការកំណត់ ។"
   },
   {
     "sentence": "三人行，必有我师焉",
@@ -727,7 +943,10 @@
     "ru": "Среди попутчиков всегда найдётся, у кого поучиться; призыв смиренно учиться у других.",
     "tr": "Birlikte yürüdüğün insanlardan mutlaka öğreneceğin biri vardır; alçakgönüllülükle öğrenmeyi vurgular.",
     "fa": "در همراهی با دیگران همیشه کسی هست که بتوان از او آموخت؛ بر فروتنی در یادگیری تأکید دارد.",
-    "ar": "مع الآخرين تجد من تتعلم منه؛ يحث على التواضع في التعلم من الغير."
+    "ar": "مع الآخرين تجد من تتعلم منه؛ يحث على التواضع في التعلم من الغير.",
+    "id": "Di antara beberapa orang yang berjalan bersama, pasti ada yang bisa menjadi guru, menekankan pentingnya rendah hati belajar dari orang lain.",
+    "vi": "Trong số những người đi cùng, chắc chắn có người đáng để học hỏi; nhấn mạnh sự khiêm tốn.",
+    "km": "ការ ដើរ ជាមួយ អ្នក ដទៃ តែង តែ មាន អ្នក ណា ម្នាក់ ដែល អាច រៀន ពី គេ ។ វា ជំរុញ ឲ្យ មាន ការ តាន តឹង ក្នុង ការ រៀន ពី អ្នក ដទៃ ។"
   },
   {
     "sentence": "捋着胡子过河——谦虚过度",
@@ -737,7 +956,10 @@
     "ru": "Чрезмерная скромность.",
     "tr": "Aşırı tevazu.",
     "fa": "تعظیم بیش از حد.",
-    "ar": "مبالغٌ في التواضع."
+    "ar": "مبالغٌ في التواضع.",
+    "id": "Terlalu rendah hati.",
+    "vi": "Khiêm tốn quá mức.",
+    "km": "មាន ភាព ទន់ភ្លន់ ខ្លាំង ណាស់; មាន ភាព ទន់ភ្លន់ ខ្លាំង ណាស់ ។"
   },
   {
     "sentence": "山高皇帝远",
@@ -747,7 +969,10 @@
     "ru": "В отдалённых местах власть центра слаба: указы доходят плохо или надзор слабый.",
     "tr": "Uzak yerler merkeze uzaktır; buyruklar zor ulaşır veya üst denetim zayıftır.",
     "fa": "جاهای دور از مرکز کمتر تحت فرمان مرکزی‌اند یا نظارت بالادستی ضعیف است.",
-    "ar": "الأماكن النائية بعيدة عن المركز فلا تصل الأوامر بسهولة أو يضعف الرقابة."
+    "ar": "الأماكن النائية بعيدة عن المركز فلا تصل الأوامر بسهولة أو يضعف الرقابة.",
+    "id": "Tempat yang terpencil, perintah pusat sulit mencapai, atau tidak terkendali oleh atasan.",
+    "vi": "Nơi xa xôi, lệnh trung ương khó đến, hoặc không bị quản lý bởi cấp trên.",
+    "km": "កន្លែងពីចម្ងាយគឺនៅឆ្ងាយពីមជ្ឈមណ្ឌលដូច្នេះការបញ្ជាទិញស្ទើរតែមិនអាចទៅដល់ឬការគ្រប់គ្រងក្នុងតំបន់គឺខ្សោយ ។"
   },
   {
     "sentence": "九曲桥上散步——尽走些弯路",
@@ -757,7 +982,10 @@
     "ru": "Ходит кругами; только окольные пути.",
     "tr": "Sürekli dolambaçlı yol tutar.",
     "fa": "همیشه راه دور و پیچ‌درپیچ می‌رود.",
-    "ar": "يسلك طريقًا ملتويًا طويلًا."
+    "ar": "يسلك طريقًا ملتويًا طويلًا.",
+    "id": "Hanya menempuh jalan memutar.",
+    "vi": "Chỉ đi những đường vòng.",
+    "km": "សូមចុចលើផ្លូវនេះ ដើម្បីចុចលើផ្លូវនេះ"
   },
   {
     "sentence": "知己知彼，方能百战百胜",
@@ -767,7 +995,10 @@
     "ru": "Побеждаешь в каждом столкновении лишь зная и себя, и другую сторону.",
     "tr": "Her iki tarafı da tanırsan her mücadeleyi kazanırsın.",
     "fa": "تنها با شناخت خود و طرف مقابل است که در هر رویارویی پیروز می‌شوی.",
-    "ar": "لا غلبة إلا بمعرفة الطرفين ذاتهما."
+    "ar": "لا غلبة إلا بمعرفة الطرفين ذاتهما.",
+    "id": "Hanya dengan memahami diri sendiri dan lawan dapat memenangkan setiap pertandingan.",
+    "vi": "Chỉ khi hiểu rõ mình và đối phương mới có thể chiến thắng mọi trận đấu.",
+    "km": "គ្រាន់ តែ ដឹង ពី ភាគី ទាំង ពីរ អ្នក អាច ឈ្នះ ការ ប្រកួត នីមួយៗ"
   },
   {
     "sentence": "众人拾柴火焰高",
@@ -777,7 +1008,10 @@
     "ru": "Объединив усилия, люди справляются с делом лучше — много рук облегчают труд.",
     "tr": "Çok el hafif iş; birlikte hareket edilince işler daha iyi görülür.",
     "fa": "با اتحاد و همکاری، نیروی بیشتری پدید می‌آید و کارها بهتر پیش می‌رود.",
-    "ar": "كثرة العاملين تزيد القوة؛ بالتعاون يُنجَز العمل على الوجه الأحسن."
+    "ar": "كثرة العاملين تزيد القوة؛ بالتعاون يُنجَز العمل على الوجه الأحسن.",
+    "id": "Banyak orang berarti kekuatan besar, jika semuanya bergotong royong pekerjaan akan selesai.",
+    "vi": "Nhiều người gánh củi thì lửa cháy cao; ý nói nhiều người đoàn kết thì sức mạnh lớn.",
+    "km": "ដៃ ជាច្រើន ធ្វើ ការងារ ស្រាល; ពេល មនុស្ស ចូលរួម គ្នា, រឿង ធ្វើ បាន ល្អ."
   },
   {
     "sentence": "担着胡子过河——谦虚过度",
@@ -787,7 +1021,10 @@
     "ru": "Чрезмерная скромность; фальшивая вежливость.",
     "tr": "Aşırı tevazu; sahte nezaket.",
     "fa": "تعظیم بیش از حد؛ مودبانگی زورکی.",
-    "ar": "مبالغٌ في التواضع؛ مجاملةٌ زائفة."
+    "ar": "مبالغٌ في التواضع؛ مجاملةٌ زائفة.",
+    "id": "Terlalu rendah hati, pura-pura sopan.",
+    "vi": "Khiêm tốn quá mức, lịch sự giả tạo.",
+    "km": "(FIGURATIVE) ដែលមិនស្មោះត្រង់, ដែលមិនស្មោះត្រង់"
   },
   {
     "sentence": "知足常乐",
@@ -797,7 +1034,10 @@
     "ru": "Умение быть довольным даёт постоянную радость и избавляет от безграничных желаний.",
     "tr": "Kanaat etmek sürekli mutluluk verir, sonsuz arzudan kurtarır.",
     "fa": "قناعت شادی پایدار می‌آورد و از هوس بی‌پایان رهایت می‌دهد.",
-    "ar": "القناعة تمنح سرورًا دائمًا وتبعدك عن جشع لا ينتهي."
+    "ar": "القناعة تمنح سرورًا دائمًا وتبعدك عن جشع لا ينتهي.",
+    "id": "Orang yang tahu bersyukur akan sering merasa bahagia dan tidak terganggu oleh keinginan berlebihan.",
+    "vi": "Biết đủ thì luôn vui vẻ, không bị b困扰 bởi dục vọng.",
+    "km": "ការពេញចិត្តនាំមកនូវសេចក្តីអំណរដ៏យូរអង្វែង និងរំដោះអ្នកពីចំណង់ចំណូលចិត្តដែលគ្មានទីបញ្ចប់ ។"
   },
   {
     "sentence": "蛇吞大象——好大的胃口",
@@ -807,7 +1047,10 @@
     "ru": "Жадный; жаждет невозможного.",
     "tr": "Açgözlü; mantığın üstünde istiyor.",
     "fa": "حریص؛ بیش از حد معقول می‌خواهد.",
-    "ar": "جشع؛ يطلب أكثر مما يعقل."
+    "ar": "جشع؛ يطلب أكثر مما يعقل.",
+    "id": "Terlalu serakah, nafsu makan besar.",
+    "vi": "Quá tham lam, tham muốn rất lớn.",
+    "km": "លោភលន់; ចង់បានច្រើនជាងសមហេតុផល ។"
   },
   {
     "sentence": "门缝里看人——把人看扁了",
@@ -817,7 +1060,10 @@
     "ru": "Преуменьшает людей; смотрит свысока.",
     "tr": "İnsanları küçümser.",
     "fa": "آدم‌ها را کوچک می‌بیند.",
-    "ar": "يحقر الناس ويقلّل منهم."
+    "ar": "يحقر الناس ويقلّل منهم.",
+    "id": "Meremehkan orang lain.",
+    "vi": "Coi thường người khác, đánh giá thấp người khác.",
+    "km": "មើលងាយអ្នកដទៃ; មើលងាយពួកគេ ។"
   },
   {
     "sentence": "出土的甘蔗——节节甜",
@@ -827,7 +1073,10 @@
     "ru": "Становится всё слаще и лучше.",
     "tr": "Gittikçe daha tatlı ve daha iyi oluyor.",
     "fa": "همیشه شیرین‌تر و بهتر می‌شود.",
-    "ar": "يزداد حلاوةً وجودًا مع الوقت."
+    "ar": "يزداد حلاوةً وجودًا مع الوقت.",
+    "id": "Semakin manis, semakin baik.",
+    "vi": "Ngày càng ngọt ngào, ngày càng tốt hơn.",
+    "km": "វា មាន ភាព ស្រស់ ស្អាត និង ល្អ ប្រសើរ ជាង មុន ។"
   },
   {
     "sentence": "坐吃山空",
@@ -837,7 +1086,10 @@
     "ru": "Только тратить, не создавая, — и любое богатство растает.",
     "tr": "Üretmeden tüketmek dağ gibi serveti de eritir.",
     "fa": "مصرف بی‌تولید حتی کوه ثروت را خالی می‌کند.",
-    "ar": "الإنفاق بلا إنتاج يفرغ حتى جبل المال."
+    "ar": "الإنفاق بلا إنتاج يفرغ حتى جبل المال.",
+    "id": "Hanya mengkonsumsi tanpa memproduksi, sekalipun kekayaan banyak akan habis sedikit demi sedikit.",
+    "vi": "Chỉ tiêu dùng không sản xuất thì dù tài sản nhiều cũng sẽ dần cạn kiệt.",
+    "km": "ការចំណាយដោយមិនរកប្រាក់ចំណេញទទេសូម្បីតែភ្នំនៃទ្រព្យសម្បត្ដិ ។"
   },
   {
     "sentence": "白娘娘喝雄黄酒——现了原形",
@@ -847,7 +1099,10 @@
     "ru": "Правда вылезла наружу; не скрыть.",
     "tr": "Gerçek ortaya çıkar; saklanamaz.",
     "fa": "حقیقت بیرون می‌آید؛ دیگر پنهان نمی‌ماند.",
-    "ar": "انكشف الحقّ؛ لا يمكن إخفاؤه."
+    "ar": "انكشف الحقّ؛ لا يمكن إخفاؤه.",
+    "id": "Kebenaran terungkap, tidak bisa disembunyikan.",
+    "vi": "Sự thật bị lộ, không giấu được.",
+    "km": "ការពិត បាន ចេញ មក ហើយ មិន អាច លាក់ ខ្លួន បាន ទៀត ទេ ។"
   },
   {
     "sentence": "盲人买喇叭——瞎吹",
@@ -857,7 +1112,10 @@
     "ru": "Хвастается вслепую; не на чем держаться.",
     "tr": "Temelsiz böbürlenir.",
     "fa": "بی‌پایه لاف می‌زند.",
-    "ar": "يتباهى بلا أساس."
+    "ar": "يتباهى بلا أساس.",
+    "id": "Membual tanpa dasar.",
+    "vi": "Nói khoác không có căn cứ.",
+    "km": "(បច្ចេកទេស) គ្មានហេតុផល, គ្មានហេតុផល"
   },
   {
     "sentence": "冰库里点蜡——洞（冻）房花烛",
@@ -867,7 +1125,10 @@
     "ru": "Игра слов: брачная ночь и морозная комната.",
     "tr": "Düğün gecesi ile soğuk ortam kelime oyunu.",
     "fa": "بازی با «شب زفاف» و اتاق یخ‌زده.",
-    "ar": "توريةٌ بين ليلة الدخلة والبرد القارس."
+    "ar": "توريةٌ بين ليلة الدخلة والبرد القارس.",
+    "id": "Kamar pengantin yang dingin, juga berarti lingkungan yang dingin.",
+    "vi": "Nói giảm nói tránh, môi trường lạnh lẽo.",
+    "km": "ផ្ទះល្វែងសម្រាប់លក់ នៅបុរីពិភពថ្មី ចំការដូង"
   },
   {
     "sentence": "山重水复疑无路，柳暗花明又一村",
@@ -877,7 +1138,10 @@
     "ru": "В тупике внезапно появляется поворот и надежда.",
     "tr": "Çıkmazda aniden umut ve yeni bir çıkış belirir.",
     "fa": "در بن‌بست ناگهان راهی باز می‌شود و امید پدید می‌آید.",
-    "ar": "في الضيق قد يفاجئك انفراج يبعث الأمل."
+    "ar": "في الضيق قد يفاجئك انفراج يبعث الأمل.",
+    "id": "Dalam kesulitan tiba-tiba muncul titik balik dan harapan.",
+    "vi": "Trong gian khó đột nhiên xuất hiện cơ hội, thấy được hy vọng.",
+    "km": "នៅចុងបញ្ចប់ស្លាប់មួយរំពេចនាំមកនូវក្តីសង្ឃឹមនិងផ្លូវឆ្ពោះទៅមុខ ។"
   },
   {
     "sentence": "近朱者赤，近墨者黑",
@@ -887,7 +1151,10 @@
     "ru": "Общение с хорошими людьми благо, с плохими — вред; подчёркивается влияние среды на человека.",
     "tr": "İyi çevre sana iyi, kötü çevre kötü etki eder; ortamın insanı şekillendirdiğini vurgular.",
     "fa": "نزدیکی به نیکان تأثیر نیک می‌گذارد، به بدان بد؛ بر اثر محیط بر انسان تأکید دارد.",
-    "ar": "صحبة الأخيار تصلحك وصحبة الأشرار تضرّك؛ يؤكد تأثير البيئة على الإنسان."
+    "ar": "صحبة الأخيار تصلحك وصحبة الأشرار تضرّك؛ يؤكد تأثير البيئة على الإنسان.",
+    "id": "Dekat dengan orang baik akan mendapat pengaruh baik, dekat dengan orang buruk akan mendapat pengaruh buruk, menekankan pengaruh lingkungan terhadap manusia.",
+    "vi": "Gần người tốt thì bị ảnh hưởng tốt, gần người xấu thì bị ảnh hưởng xấu; nhấn mạnh tác động của môi trường.",
+    "km": "ក្រុមហ៊ុនល្អធ្វើឱ្យអ្នកប្រសើរឡើងក្រុមហ៊ុនមិនល្អធ្វើឱ្យអ្នកខូចខាត ។ វាសង្កត់ធ្ងន់លើរបៀបដែលបរិស្ថានបង្កើតមនុស្ស ។"
   },
   {
     "sentence": "猫儿抓老鼠——祖传手艺",
@@ -897,7 +1164,10 @@
     "ru": "Старый промысел; делает давно.",
     "tr": "Eski meslek; yıllardır yapıyor.",
     "fa": "کار قدیمی و دست‌رفته؛ سال‌هاست انجام می‌دهد.",
-    "ar": "مهنة قديمة؛ متمرّس فيها منذ زمن."
+    "ar": "مهنة قديمة؛ متمرّس فيها منذ زمن.",
+    "id": "Pekerjaan lama yang sudah biasa dilakukan.",
+    "vi": "Nghề truyền thống, đã quen thuộc.",
+    "km": "វា ជា រឿង ចាស់ ហើយ វា បាន កើត ឡើង តាំង ពី យូរ មក ហើយ ។"
   },
   {
     "sentence": "人勤地不懒",
@@ -907,7 +1177,10 @@
     "ru": "Если человек трудолюбив, земля отблагодарит его — труд не пропадёт зря.",
     "tr": "İnsan çalışkan olursa toprak karşılığını verir; emek boşa gitmez.",
     "fa": "اگر انسان سخت‌کوش باشد، زمین هم پاداش می‌دهد و زحمتش هدر نمی‌رود.",
-    "ar": "إذا اجتهد الإنسان، أعطته الأرض ثمرة عمله ولن يضيع تعبه."
+    "ar": "إذا اجتهد الإنسان، أعطته الأرض ثمرة عمله ولن يضيع تعبه.",
+    "id": "Selama manusia rajin bekerja, tanah akan memberikan imbalan dan tidak membuat orang berusaha sia-sia.",
+    "vi": "Chỉ cần chăm chỉ, đất đai sẽ cho thu hoạch, không uổng công sức.",
+    "km": "បើ មនុស្ស ធ្វើ ការ ដោយ ស្ម័គ្រ ចិត្ត នោះ ផែនដី នឹង ប្រទាន ពរ ដល់ ពួក គេ ហើយ ការ ខិតខំ របស់ ពួក គេ នឹង មិន ក្លាយ ជា ឥត ប្រយោជន៍ ទេ ។"
   },
   {
     "sentence": "狗头上长角——装羊",
@@ -917,7 +1190,10 @@
     "ru": "Притворяется овечкой; наивный вид (каламбур).",
     "tr": "Masum koyun numarası (kelime oyunu).",
     "fa": "خود را گوسفند جا می‌زند؛ بی‌گناه نمایان (بازی واژه).",
-    "ar": "يتظاهر بالبراءةٍ (توريةٌ)."
+    "ar": "يتظاهر بالبراءةٍ (توريةٌ).",
+    "id": "Pura-pura baik dan jujur.",
+    "vi": "Giả vờ ngoan, giả vờ hiền lành.",
+    "km": "ធ្វើខ្លួនជាចៀមដែលគ្មានទោស (ពុន) ។"
   },
   {
     "sentence": "白藕绿叶荷花——原来是一家",
@@ -927,7 +1203,10 @@
     "ru": "Изначально одна семья или одна команда.",
     "tr": "Aslında aynı aileden veya aynı taraftan.",
     "fa": "اصلًا یک خانواده یا یک دست بوده‌اند.",
-    "ar": "كانوا أصلًا عائلة واحدة أو في جهة واحدة."
+    "ar": "كانوا أصلًا عائلة واحدة أو في جهة واحدة.",
+    "id": "Sebenarnya satu keluarga atau golongan yang sama.",
+    "vi": "Vốn dĩ là một gia đình hoặc cùng phe.",
+    "km": "ពួក គេ តែង តែ មាន គ្រួសារ តែ មួយ ឬ នៅ ភាគ ខាង តែ មួយ ។"
   },
   {
     "sentence": "万丈高楼平地起",
@@ -937,7 +1216,10 @@
     "ru": "Любой великий успех начинается с основы и накапливается шаг за шагом.",
     "tr": "Büyük başarılar zeminden başlar, adım adım birikir.",
     "fa": "هر موفقیت بزرگی از پایه و قدم‌به‌قدم ساخته می‌شود.",
-    "ar": "كل إنجاز عظيم يبدأ من الأساس ويُبنى خطوة بخطوة."
+    "ar": "كل إنجاز عظيم يبدأ من الأساس ويُبنى خطوة بخطوة.",
+    "id": "Pencapaian besar apa pun dimulai dari hal dasar dan dikumpulkan langkah demi langkah.",
+    "vi": "Bất kỳ thành tựu vĩ đại nào cũng bắt đầu từ nền tảng, tích lũy từng bước.",
+    "km": "ការ សម្រេច បាន ដ៏ ធំធេង ចាប់ផ្តើម ពី ដី ឡើង ទៅ ហើយ ត្រូវ បាន គេ សាងសង់ ជា ជំហាន មួយ ជំហាន ពី មូលដ្ឋាន ដ៏ រឹងមាំ ។"
   },
   {
     "sentence": "不经历风雨，怎么见彩虹",
@@ -947,7 +1229,10 @@
     "ru": "Без трудностей и поражений не бывает подлинного успеха и роста.",
     "tr": "Zorluk ve başarısızlık olmadan gerçek başarı ve gelişim olmaz.",
     "fa": "بدون سختی و شکست، موفقیت و رشد واقعی حاصل نمی‌شود.",
-    "ar": "لا نجاح ولا نمو حقيقي بلا صعوبات وانتكاسات."
+    "ar": "لا نجاح ولا نمو حقيقي بلا صعوبات وانتكاسات.",
+    "id": "Tanpa mengalami kesulitan dan rintangan tidak akan mendapatkan kesuksesan dan pertumbuhan.",
+    "vi": "Không trải qua giông bão thì sao thấy cầu vồng; ý nói không trải qua khó khăn thì không thể thành công.",
+    "km": "បើ គ្មាន ការ សាកល្បង និង ការ រារាំង ទេ គ្មាន ជោគជ័យ ឬ ការ រីក ចម្រើន ពិត ប្រាកដ ទេ ។"
   },
   {
     "sentence": "日月经天，江河行地",
@@ -957,7 +1242,10 @@
     "ru": "Развитие подчинено объективным законам и устойчивому порядку.",
     "tr": "Olaylar nesnel yasalara göre yürür; kalıcı bir düzen vardır.",
     "fa": "پدیده‌ها بر اساس قوانین عینی پیش می‌روند و الگویی پایدار دارند.",
-    "ar": "تسير الأمور وفق قوانين موضوعية وبنمط دائم."
+    "ar": "تسير الأمور وفق قوانين موضوعية وبنمط دائم.",
+    "id": "Perkembangan sesuatu memiliki hukum objektifnya sendiri yang tidak berubah.",
+    "vi": "Sự phát triển của vạn vật có quy luật khách quan, vĩnh hằng bất biến.",
+    "km": "រឿងរ៉ាវ ធ្វើ តាម ច្បាប់ ដែល មាន គោលដៅ ហើយ ដើរ តាម គំរូ ដែល មិន អាច ផ្លាស់ប្តូរ បាន ។"
   },
   {
     "sentence": "五朵梅花开一朵——四肢（枝）无力",
@@ -967,7 +1255,10 @@
     "ru": "Совсем без сил.",
     "tr": "Tamamen güçsüz; takat kalmadı.",
     "fa": "کاملاً بی‌حال؛ نیرویی نیست.",
-    "ar": "ضعفٌ تامٌّ بلا قوّةٍ."
+    "ar": "ضعفٌ تامٌّ بلا قوّةٍ.",
+    "id": "Seluruh tubuh lemas dan tidak memiliki tenaga.",
+    "vi": "Toàn thân không có sức lực, vô lực.",
+    "km": "ខ្សោយខ្លាំងណាស់ គ្មានកម្លាំងនៅសល់ទេ ។"
   },
   {
     "sentence": "看三国掉泪——替古人担忧",
@@ -977,7 +1268,10 @@
     "ru": "Зря переживает за давно ушедших.",
     "tr": "Geçmiştekiler için boşa dert edinir.",
     "fa": "بی‌جهت برای کهن‌الگوان نگران است.",
-    "ar": "يهتمّ بلا فائدةٍ بأشخاصٍ من الماضي."
+    "ar": "يهتمّ بلا فائدةٍ بأشخاصٍ من الماضي.",
+    "id": "Khawatir tentang urusan orang dahulu secara sia-sia.",
+    "vi": "Lo lắng thay cho người xưa, phí công quan tâm.",
+    "km": "ការព្រួយបារម្ភ អំពី មនុស្ស ដែល បាន ចាកចេញ ជា យូរ មក ហើយ ។"
   },
   {
     "sentence": "留得青山在，不怕没柴烧",
@@ -987,7 +1281,10 @@
     "ru": "Если сохранить основу и пространство для манёвра, в будущем всегда найдутся возможности для развития.",
     "tr": "Temelini koruyup kendine pay bırakırsan, gelecekte gelişme fırsatı yine bulunur.",
     "fa": "تا وقتی اصل کار و پشتوانه حفظ شود و راهی باز بماند، بعدا فرصت پیشرفت هست.",
-    "ar": "ما دام الأصل محفوظًا وهناك مجال للمناورة، فلا خوف من غياب فرص التطور مستقبلًا."
+    "ar": "ما دام الأصل محفوظًا وهناك مجال للمناورة، فلا خوف من غياب فرص التطور مستقبلًا.",
+    "id": "Selama akar dan cadangan masih tersimpan, tidak perlu khawatir tidak ada kesempatan berkembang di masa depan.",
+    "vi": "Chỉ cần giữ được gốc rễ, giữ đường lui thì không sợ sau này không có cơ hội phát triển.",
+    "km": "លុះត្រាតែ អ្នក រក្សា មូលដ្ឋាន និង ចាកចេញ ពី បន្ទប់ អ្នក នឹង មាន ឱកាស អភិវឌ្ឍន៍ នៅ ពេល ក្រោយ ។"
   },
   {
     "sentence": "庙里失火——慌了神",
@@ -997,7 +1294,10 @@
     "ru": "Паникует; теряет голову.",
     "tr": "Panikleyip ne yapacağını şaşırır.",
     "fa": "وحشت می‌کند؛ از دست می‌دهد.",
-    "ar": "فزعٌ وفقدان التروّي."
+    "ar": "فزعٌ وفقدان التروّي.",
+    "id": "Panik dan bingung, tidak tahu harus berbuat apa.",
+    "vi": "Hốt hoảng, không biết phải làm sao.",
+    "km": "ការភ័យខ្លាច និង ការបាត់បង់ ក្បាល ។"
   },
   {
     "sentence": "热锅上的青豆——蹦得欢",
@@ -1007,7 +1307,10 @@
     "ru": "Прыгает от радости; очень оживлённо.",
     "tr": "Neşeyle zıplıyor; çok canlı.",
     "fa": "شاد و پرجنب‌وجوش؛ می‌پرد.",
-    "ar": "مرحٌ نشيطٌ ينط."
+    "ar": "مرحٌ نشيطٌ ينط.",
+    "id": "Senang sekali, sangat aktif dan bersemangat.",
+    "km": "លោតសម្រាប់ភាពរីករាយ; មានជីវិតរស់រវើកនិងរំភើបខ្លាំងណាស់ ។",
+    "vi": "Vui vẻ nhảy nhót, rất năng động."
   },
   {
     "sentence": "爆竹店里起火了——全响了",
@@ -1017,7 +1320,10 @@
     "ru": "Всё взрывается или становится известным разом.",
     "tr": "Her şey bir anda patlar veya ortaya çıkar.",
     "fa": "یک‌دفعه همه چیز منفجر می‌شود یا همه می‌فهمند.",
-    "ar": "ينفجر كلّ شيء دفعةً واحدة أو ينكشف."
+    "ar": "ينفجر كلّ شيء دفعةً واحدة أو ينكشف.",
+    "id": "Semuanya meledak sekaligus, semuanya terbongkar.",
+    "km": "គ្រប់យ៉ាងបានលេចធ្លោ ឬត្រូវបានគេស្គាល់ភ្លាមៗ",
+    "vi": "Mọi thứ bùng nổ cùng một lúc, tất cả đều lộ ra."
   },
   {
     "sentence": "花盆里栽松树——成不了材",
@@ -1027,7 +1333,10 @@
     "ru": "Не тот материал; до успеха не дотянет.",
     "tr": "O işe uygun değil; başarılı olamaz.",
     "fa": "جنسش به درد آن کار نمی‌خورد؛ به جایی نمی‌رسد.",
-    "ar": "ليس من أهل النجاح؛ لا يصلح لهذا."
+    "ar": "ليس من أهل النجاح؛ لا يصلح لهذا.",
+    "id": "Bukan bahan yang tepat, tidak akan menjadi orang yang berhasil.",
+    "km": "មិន មែន ជា រឿង ត្រឹមត្រូវ ដើម្បី ទទួល បាន ជោគជ័យ នោះ ទេ វា នឹង មិន ធ្វើ ឲ្យ មាន លទ្ធភាព នោះ ទេ ។",
+    "vi": "Không phải vật liệu đó, không thể thành tài."
   },
   {
     "sentence": "天下没有免费的午餐",
@@ -1037,7 +1346,10 @@
     "ru": "Бесплатных обедов не бывает: за выгоду нужно платить.",
     "tr": "Bedava öğle yemeği yoktur; kazanç bir bedel ister.",
     "fa": "چیزی رایگان نیست؛ برای بهره باید بهایش را پرداخت.",
-    "ar": "لا غداء مجاني؛ المكسب يتطلب ثمنًا."
+    "ar": "لا غداء مجاني؛ المكسب يتطلب ثمنًا.",
+    "id": "Metafora bahwa tidak ada yang gratis di dunia ini; untuk mendapatkan keuntungan, harus memberikan sesuatu sebagai imbalannya.",
+    "km": "គ្មាន អ្វី ដែល ជា សេរី នោះ ទេ ការ ឈ្នះ តម្រូវ ឲ្យ មាន ការ បង់ ថ្លៃ ។",
+    "vi": "Không có bữa trưa miễn phí trên đời; muốn có lợi ích thì phải trả giá tương xứng."
   },
   {
     "sentence": "家丑不可外扬",
@@ -1047,7 +1359,10 @@
     "ru": "Домашний позор не выносите за порог — не афишируйте посторонним.",
     "tr": "Aile içi ayıpları dışarıya yırtma.",
     "fa": "رسوایی درون خانواده را با بیرونی‌ها در میان نگذار.",
-    "ar": "لا تذيع فضائح الأسرة للغرباء."
+    "ar": "لا تذيع فضائح الأسرة للغرباء.",
+    "id": "Aib keluarga tidak boleh disebarluaskan ke luar.",
+    "km": "ចូរ រក្សា ទុក ការ ខ្មាសអៀន របស់ គ្រួសារ ជា ឯកជន កុំ ឲ្យ ផ្សព្វផ្សាយ ទៅ កាន់ អ្នក ក្រៅ ។",
+    "vi": "Chuyện bôi nhọ trong gia đình không nên đem ra bên ngoài kể cho người khác."
   },
   {
     "sentence": "裁缝不带尺——存心不量（良）",
@@ -1057,7 +1372,10 @@
     "ru": "Злой умысел; нарочно.",
     "tr": "Kötü niyetli; kasıtlı.",
     "fa": "نیت بد دارد؛ عمداً آسیب می‌زند.",
-    "ar": "سوء نيّةٍ عمديّة."
+    "ar": "سوء نيّةٍ عمديّة.",
+    "id": "Sengaja tidak baik, punya niat buruk.",
+    "km": "មានចេតនាមិនល្អ មានន័យថាការបង្កគ្រោះថ្នាក់ដោយចេតនា ។",
+    "vi": "Cố ý không tử tế."
   },
   {
     "sentence": "厨师的帽子——高高在上",
@@ -1067,7 +1385,10 @@
     "ru": "Зазнаётся; слишком высокого себя мнит.",
     "tr": "Hava atar; kendini çok görür.",
     "fa": "غرور می‌فروشد؛ خود را بالاتر می‌بیند.",
-    "ar": "يتعالى ويتصنع الفضل."
+    "ar": "يتعالى ويتصنع الفضل.",
+    "id": "Sombong dan menganggap diri superior.",
+    "km": "ដាក់លើខ្យល់; គិតពីខ្លួនអ្នកខ្លាំងពេក ។",
+    "vi": "Đặt cái uy, tự coi mình rất cao."
   },
   {
     "sentence": "事实胜于雄辩",
@@ -1077,7 +1398,10 @@
     "ru": "Факты убедительнее красивых речей; правда в итоге признаётся.",
     "tr": "Gerçekler süslü sözlerden üstündür; doğru sonunda kabul görür.",
     "fa": "واقعیت از سخن‌وری پرطمطراق قوی‌تر است؛ حقیقت سرانجام پذیرفته می‌شود.",
-    "ar": "الحقائق أقوى من الخطاب البليغ؛ الحقيقة تُعترف بها في النهاية."
+    "ar": "الحقائق أقوى من الخطاب البليغ؛ الحقيقة تُعترف بها في النهاية.",
+    "id": "Fakta lebih meyakinkan daripada retorika yang indah; kebenaran pada akhirnya akan diakui.",
+    "km": "ការពិត ឈ្នះ ពាក្យ ល្អ; ការពិត ឈ្នះ ការទទួលស្គាល់ នៅ ទីបំផុត.",
+    "vi": "Thực tế có sức thuyết phục hơn ngôn từ hoa mỹ, sự thật cuối cùng sẽ được công nhận."
   },
   {
     "sentence": "韩信点兵——多多益善",
@@ -1087,7 +1411,10 @@
     "ru": "Чем больше, тем лучше.",
     "tr": "Ne kadar çok o kadar iyi.",
     "fa": "هر چه بیشتر بهتر.",
-    "ar": "كلّما زاد كان أفضل."
+    "ar": "كلّما زاد كان أفضل.",
+    "id": "Makin banyak makin baik, tidak ada batasnya.",
+    "km": "តិចជាងនេះ គឺល្អជាង ។",
+    "vi": "Càng nhiều càng tốt."
   },
   {
     "sentence": "忍一时风平浪静，退一步海阔天空",
@@ -1097,7 +1424,10 @@
     "ru": "В конфликте терпение и уступка снимают напряжение и дают больше пространства.",
     "tr": "Anlaşmazlıkta biraz sabır ve geri adım gerginliği azaltır, alan açar.",
     "fa": "در اختلاف، کمی تحمل و یک قدم عقب‌نشینی می‌تواند تنش را بشکند و فضای بیشتری بدهد.",
-    "ar": "في الخلاف، قليل من الصبر وخطوة للوراء يهدئان الوضع ويفسحان المجال."
+    "ar": "في الخلاف، قليل من الصبر وخطوة للوراء يهدئان الوضع ويفسحان المجال.",
+    "id": "Metafora bahwa saat menghadapi konflik, bersabar dan mengalah sedikit dapat meredakan pertengkaran dan membuka peluang lebih besar.",
+    "km": "ក្នុង ការ ប៉ះទង្គិច គ្នា ការ អត់ធ្មត់ បន្តិច និង ការ ដើរ ថយ ក្រោយ អាច កាត់ បន្ថយ ភាព តានតឹង និង បើក ចំហ ។",
+    "vi": "Khi gặp mâu thuẫn hay xung đột, nhẫn nhịn một chút, nhượng bộ một bước, là có thể hóa giải mâu thuẫn, có thêm không gian rộng lớn hơn."
   },
   {
     "sentence": "作坊里的石磨——推一推，动一动",
@@ -1107,7 +1437,10 @@
     "ru": "Без толчка не двигается; пассивен.",
     "tr": "İtilmeden kıpırdamaz; çok pasif.",
     "fa": "بدون هل دادن حرکت نمی‌کند؛ منفعل.",
-    "ar": "لا يتحرّك إلا بدفعه؛ سلبيٌّ جدًّا."
+    "ar": "لا يتحرّك إلا بدفعه؛ سلبيٌّ جدًّا.",
+    "id": "Tidak bergerak kalau tidak didorong, sangat pasif.",
+    "km": "នឹងមិនផ្លាស់ទីទេ លុះត្រាតែបានរុញ; អកម្មខ្លាំងណាស់ ។",
+    "vi": "Không đẩy thì không động, rất bị động."
   },
   {
     "sentence": "有志者事竟成",
@@ -1117,7 +1450,10 @@
     "ru": "У кого есть цель и решимость, тот в конце концов добьётся успеха.",
     "tr": "Azimli insan sonunda işi başarır.",
     "fa": "کسی که اراده و عزم دارد، سرانجام به هدف می‌رسد.",
-    "ar": "من له عزيمة يبلغ غايته في النهاية."
+    "ar": "من له عزيمة يبلغ غايته في النهاية.",
+    "id": "Orang yang memiliki tekad pasti akan berhasil pada akhirnya.",
+    "km": "នៅ ទី ដែល មាន ឆន្ទៈ មាន ផ្លូវ មាន មនុស្ស ដែល មាន ចិត្ត ស្មោះ ត្រង់ ទទួល បាន ជោគជ័យ នៅ ទី បំផុត",
+    "vi": "Người có chí hướng và quyết tâm, cuối cùng nhất định sẽ thành công."
   },
   {
     "sentence": "台上一分钟，台下十年功",
@@ -1127,7 +1463,10 @@
     "ru": "За любым успехом стоят долгие усердные тренировки и труд.",
     "tr": "Her başarının arkasında uzun süreli sıkı çalışma ve emek olduğunu anlatır.",
     "fa": "پشت هر موفقیت، تمرین و تلاش طولانی و سخت نهفته است.",
-    "ar": "يصف أن وراء كل نجاح تدريبًا طويلًا وجهدًا كبيرًا."
+    "ar": "يصف أن وراء كل نجاح تدريبًا طويلًا وجهدًا كبيرًا.",
+    "id": "Di balik setiap kesuksesan, ada latihan keras dan pengorbanan jangka panjang.",
+    "km": "វា រៀបរាប់ ពី របៀប ដែល ការ ហាត់ប្រាណ និង ការ ខិតខំ ប្រឹងប្រែង ជា មូលដ្ឋាន នៃ ជោគជ័យ នីមួយៗ",
+    "vi": "Đằng sau bất kỳ thành công nào đều không thể thiếu sự rèn luyện gian khổ lâu dài."
   },
   {
     "sentence": "早开的红梅——一枝独秀",
@@ -1137,7 +1476,10 @@
     "ru": "Явно выделяется среди всех.",
     "tr": "Herkesin arasında belirgin şekilde öne çıkar.",
     "fa": "در میان همه به‌وضوح برجسته است.",
-    "ar": "بارز بين الجميع بوضوح."
+    "ar": "بارز بين الجميع بوضوح.",
+    "id": "Sangat menonjol di antara orang banyak.",
+    "km": "វា មាន ភាព ច្បាស់លាស់ ក្នុង ចំណោម មនុស្ស គ្រប់ គ្នា ។",
+    "vi": "Vượt trội nổi bật giữa đám đông."
   },
   {
     "sentence": "树高千丈，叶落归根",
@@ -1147,7 +1489,10 @@
     "ru": "Как бы далеко человек ни ушёл, в конце концов он возвращается к корням и родине.",
     "tr": "Ne kadar uzakta olursan ol, sonunda köklerine ve yurduna dönersin.",
     "fa": "هرچقدر هم دور بروی، سرانجام به خاک و ریشه‌ات بازمی‌گردی.",
-    "ar": "مهما ابتعد الإنسان، يعود في النهاية إلى أصله ووطنه."
+    "ar": "مهما ابتعد الإنسان، يعود في النهاية إلى أصله ووطنه.",
+    "id": "Metafora bahwa seberapa jauh pun seseorang pergi, akhirnya akan kembali ke kampung halamannya.",
+    "km": "មិន ថា អ្នក ទៅ ដល់ ទី ណា ទេ អ្នក នឹង ត្រឡប់ ទៅ កាន់ កំណើត ឬ ស្រុក កំណើត វិញ ។",
+    "vi": "Dù đi xa đến đâu, cuối cùng vẫn phải trở về quê hương."
   },
   {
     "sentence": "恨铁不成钢",
@@ -1157,7 +1502,10 @@
     "ru": "Выражает досаду и тревогу, когда человек, от которого ждёшь многого, не оправдывает надежд.",
     "tr": "Çok umut bağladığın birinin hakkını vermemesine duyulan üzüntü ve telaştır.",
     "fa": "اندوه و نگرانی از اینکه کسی که از او انتظار داری شایسته نباشد یا تلاش نکند.",
-    "ar": "يعبّر عن الأسف والقلق لأن من نرجو منه الكثير لا يُجيب التوقعات."
+    "ar": "يعبّر عن الأسف والقلق لأن من نرجو منه الكثير لا يُجيب التوقعات.",
+    "id": "Metafora kekecewaan dan kekhawatiran terhadap orang yang diharapkan berhasil tapi tidak memenuhi ekspektasi.",
+    "km": "វាបង្ហាញពីការខកចិត្ត និងការព្រួយបារម្ភថានរណាម្នាក់ដែលអ្នករំពឹងទុកច្រើនមិនវាស់វែង ។",
+    "vi": "Thất vọng và lo lắng vì người mình kỳ vọng không争 khí, không thành tài."
   },
   {
     "sentence": "啃着鱼骨聊天——话中带刺",
@@ -1167,7 +1515,10 @@
     "ru": "Слова колкие.",
     "tr": "Sözlerinde diken var.",
     "fa": "حرف‌ها تیغ دارد.",
-    "ar": "كلامٌ شائكٌ."
+    "ar": "كلامٌ شائكٌ.",
+    "id": "Perkataan yang tajam dan menyakitkan.",
+    "km": "ពាក្យ ទាំង នោះ មាន ពាក្យ ចចាមអារ៉ាម និង ពាក្យ ចចាមអារ៉ាម ។",
+    "vi": "Trong lời nói có sự mỉa mai, cay độc."
   },
   {
     "sentence": "为山九仞，功亏一篑",
@@ -1177,7 +1528,10 @@
     "ru": "Провал на последнем шаге обесценивает весь труд — большая досада.",
     "tr": "Son adımda yenilmek bütün emeği çöpe atar; çok yazık.",
     "fa": "شکست در آخرین قدم همه تلاش را هدر می‌دهد؛ بسیار تأسف‌آور است.",
-    "ar": "الفشل في الخطوة الأخيرة يهدم كل الجهد؛ أمر مؤسف جدًا."
+    "ar": "الفشل في الخطوة الأخيرة يهدم كل الجهد؛ أمر مؤسف جدًا.",
+    "id": "Metafora bahwa gagal hanya karena kurang satu langkah terakhir, sangat disayangkan.",
+    "km": "ការ បរាជ័យ ក្នុង ជំហាន ចុង ក្រោយ នេះ ធ្វើ ឲ្យ ការ ខិតខំ ប្រឹងប្រែង ទាំង អស់ នេះ ខូច ខាត យ៉ាង ខ្លាំង ។",
+    "vi": "Chỉ thiếu bước cuối cùng mà thất bại, rất đáng tiếc."
   },
   {
     "sentence": "坐享其成",
@@ -1187,7 +1541,10 @@
     "ru": "Пользоваться плодами чужого труда, ничего не вкладывая самому.",
     "tr": "Kendi emeğin olmadan başkasının emeğinin meyvesini yersin.",
     "fa": "بدون زحمت خودت بهره کار دیگران را می‌بری.",
-    "ar": "تنعم بثمار عمل غيرك بلا جهد منك."
+    "ar": "تنعم بثمار عمل غيرك بلا جهد منك.",
+    "id": "Menikmati hasil usaha orang lain tanpa berusaha sendiri.",
+    "km": "ចូរ ទទួល បាន ផល ប្រយោជន៍ ពី អ្នក ដទៃ ដោយ មិន ត្រូវ ធ្វើ ការ ដោយ ខ្លួន ឯង ។",
+    "vi": "Không nỗ lực mà hưởng thành quả lao động của người khác."
   },
   {
     "sentence": "刘备编草鞋——内行",
@@ -1197,7 +1554,10 @@
     "ru": "Настоящий знаток дела.",
     "tr": "İşin ehli; bilir.",
     "fa": "کارشناس واقعی؛ بلد است.",
-    "ar": "خبيرٌ حقيقيٌّ بالمهنة."
+    "ar": "خبيرٌ حقيقيٌّ بالمهنة.",
+    "id": "Ahli dan paham bidangnya.",
+    "km": "មនុស្ស ពិត ប្រាកដជា ដឹង ពី ដែន កំណត់ ដែល ខ្លួន អាចទៅរួច ។",
+    "vi": "Người trong nghề, am hiểu nghề."
   },
   {
     "sentence": "有则改之，无则加勉",
@@ -1207,7 +1567,10 @@
     "ru": "Если есть ошибка — исправь; если нет — поощряй себя и продолжай в том же духе.",
     "tr": "Hata varsa düzelt; yoksa iyi gitmeye devam etmeyi kendine telkin et.",
     "fa": "اگر خطایی هست اصلاحش کن؛ اگر نیست، خود را به ادامه خوب بودن تشویق کن.",
-    "ar": "إن وُجد خطأ فصححه، وإلا فشجع نفسك على الاستمرار في الحسن."
+    "ar": "إن وُجد خطأ فصححه، وإلا فشجع نفسك على الاستمرار في الحسن.",
+    "id": "Kalau ada kesalahan, perbaiki; kalau tidak, jadikan pelajaran untuk terus memperbaiki diri.",
+    "km": "បើ មាន ការ ខុស ត្រូវ ចូរ កែប្រែ វា បើ មិន មែន ចូរ លើក ទឹក ចិត្ត ខ្លួន ឯង ឲ្យ បន្ត ធ្វើ ការ ល្អ ។",
+    "vi": "Có lỗi thì sửa, không lỗi thì càng cố gắng hơn."
   },
   {
     "sentence": "木匠戴枷——自作自受",
@@ -1217,7 +1580,10 @@
     "ru": "Сам пожинает плоды своих поступков.",
     "tr": "Kendi yaptığının sonucunu çeker.",
     "fa": "عواقب کار خودش را خودش می‌کشد.",
-    "ar": "يتحمّل تبعات فعله بنفسه."
+    "ar": "يتحمّل تبعات فعله بنفسه.",
+    "id": "Menanggung konsekuensi dari perbuatan sendiri.",
+    "km": "អ្នក នឹង ទទួល រង ផល ប៉ះពាល់ ដែល អ្នក បាន នាំ មក លើ ខ្លួន ឯង ។",
+    "vi": "Tự gây ra hậu quả thì tự mình gánh chịu."
   },
   {
     "sentence": "井底下写文章——学问不浅",
@@ -1227,7 +1593,10 @@
     "ru": "Насмешка над притворной учёностью.",
     "tr": "Bilgi taklidiyle alay eder.",
     "fa": "کنایه به «دانش عمیق»؛ در واقع مسخره می‌کند.",
-    "ar": "سخريةٌ من التظاهر بالعلم."
+    "ar": "سخريةٌ من التظاهر بالعلم.",
+    "id": "Menyindir orang yang sok pintar padahal sebenarnya tidak.",
+    "km": "គួរ ឲ្យ ភ្ញាក់ ផ្អើល ណាស់ ដែល គេ និយាយ ថា \"ការ រៀន សូត្រ យ៉ាង ជ្រៅ\" គឺ ជា ការ ចំអក ដែល ធ្វើ ឲ្យ គេ គិត ថា ខ្លួន ជា មនុស្ស មិន ល្អ ។",
+    "vi": "Mỉa mai học vấn sâu (thực ra là chế giễu)."
   },
   {
     "sentence": "人贵有自知之明",
@@ -1237,7 +1606,10 @@
     "ru": "Самое ценное в человеке — трезвое понимание своих сильных и слабых сторон.",
     "tr": "İnsanın en değerli niteliği, güçlü ve zayıf yanlarını açıkça bilmesidir.",
     "fa": "باارزش‌ترین ویژگی انسان این است که قوت‌ها و ضعف‌های خود را روشن بشناسد.",
-    "ar": "أثمن ما في الإنسان أن يعرف بوضوح مزاياه وعيوبه."
+    "ar": "أثمن ما في الإنسان أن يعرف بوضوح مزاياه وعيوبه.",
+    "id": "Hal yang paling berharga bagi seseorang adalah mampu mengenali kelebihan dan kekurangannya sendiri.",
+    "km": "អ្វី ដែល មាន តម្លៃ បំផុត ក្នុង មនុស្ស ម្នាក់ គឺ ការ ដឹង ខ្លួន ច្បាស់ អំពី កម្លាំង និង ភាព ទន់ខ្សោយ ទាំង ពីរ ។",
+    "vi": "Người quý nhất là có khả năng nhận rõ ưu điểm và khuyết điểm của bản thân."
   },
   {
     "sentence": "踏破铁鞋无觅处，得来全不费工夫",
@@ -1247,7 +1619,10 @@
     "ru": "То, что долго искали безуспешно, может неожиданно достаться без труда.",
     "tr": "Uzun süre arayıp bulamadığın şey, en ummadığın anda kolayca eline geçer.",
     "fa": "آنچه مدت‌ها جستی و نیافتی، گاه ناگهان بی‌زحمت به دست می‌آید.",
-    "ar": "ما طال البحث عنه دون جدوى قد يأتيك بسهولة دون أن تتوقع."
+    "ar": "ما طال البحث عنه دون جدوى قد يأتيك بسهولة دون أن تتوقع.",
+    "id": "Metafora sesuatu yang sudah lama dicari tidak ditemukan, tapi tiba-tiba didapat dengan mudah tanpa usaha.",
+    "km": "អ្វី ដែល អ្នក បាន ស្វែង រក អស់ រយៈពេល ជា យូរ មក ហើយ នោះ អាច នឹង កើត ឡើង យ៉ាង ងាយ ស្រួល នៅ ពេល ដែល អ្នក មិន ទាន់ រំពឹង ទុក នោះ ទេ ។",
+    "vi": "Tìm kiếm lâu rồi không thấy, lại vô tình dễ dàng thu được."
   },
   {
     "sentence": "人非圣贤，孰能无过",
@@ -1257,7 +1632,10 @@
     "ru": "Никто не святой: ошибаются все, поэтому к чужим промахам следует относиться терпимее.",
     "tr": "Kimse kusursuz değildir; herkes hata yapar, bu yüzden başkalarının hatalarına hoşgörülü olmak gerekir.",
     "fa": "هیچ‌کس قدیس نیست؛ همه خطا می‌کنند، پس باید نسبت به لغزش دیگران بردبار بود.",
-    "ar": "لا أحد معصوم؛ الجميع يخطئون، لذا ينبغي التسامح مع أخطاء الآخرين."
+    "ar": "لا أحد معصوم؛ الجميع يخطئون، لذا ينبغي التسامح مع أخطاء الآخرين.",
+    "id": "Tidak ada yang sempurna; semua orang pasti berbuat salah, jadi harus saling memaafkan.",
+    "km": "គ្មាន នរណា ម្នាក់ មាន ប្រាជ្ញា ទេ មនុស្ស គ្រប់ គ្នា តែង តែ ធ្វើ ខុស ដូច្នេះ យើង ត្រូវ តែ អត់ធ្មត់ ចំពោះ ការ ខុស ត្រូវ របស់ អ្នក ដទៃ ។",
+    "vi": "Không ai là thánh hiền, ai cũng có lúc mắc lỗi, cần bao dung với lỗi lầm của người khác."
   },
   {
     "sentence": "静以修身，俭以养德",
@@ -1267,7 +1645,10 @@
     "ru": "Спокойствие ума воспитывает человека; бережливость крепит нравственность.",
     "tr": "İç huzur kişiyi olgunlaştırır; tutumluluk erdemi yeşertir.",
     "fa": "آرامش درونی جسم و روان را می‌پرورد؛ صرفه‌جویی فضیلت می‌آفریند.",
-    "ar": "السكينة تربّي النفس، والاقتصاد يغرس الفضيلة."
+    "ar": "السكينة تربّي النفس، والاقتصاد يغرس الفضيلة.",
+    "id": "Menjaga ketenangan batin untuk membina diri, dan hidup sederhana untuk menumbuhkan kebajikan.",
+    "km": "ភាពស្ងប់ស្ងាត់ដាំដុះខ្លួនឯង; frugality កសាងគុណធម៌ ។",
+    "vi": "Thông qua sự tĩnh lặng trong lòng để tu dưỡng thân tâm, thông qua tiết kiệm để bồi dưỡng phẩm đức."
   },
   {
     "sentence": "媒婆提亲——净拣好听的说",
@@ -1277,7 +1658,10 @@
     "ru": "Говорит лишь приятное; не обязательно правда.",
     "tr": "Sadece güzelini söyler; doğru olmayabilir.",
     "fa": "فقط حرف‌های خوش را می‌گوید؛ لزوماً راست نیست.",
-    "ar": "يقول الجميل فقط؛ ليس بالضرورة حقيقيًا."
+    "ar": "يقول الجميل فقط؛ ليس بالضرورة حقيقيًا.",
+    "id": "Hanya memilih kata-kata yang bagus, belum tentu jujur.",
+    "km": "គ្រាន់ តែ ជ្រើសរើស រឿង ល្អ ដែល ត្រូវ និយាយ មិន មែន ជា ការ ពិត ទេ ។",
+    "vi": "Chỉ chọn lời hay nói, chưa chắc đã là sự thật."
   },
   {
     "sentence": "英雄所见略同",
@@ -1287,7 +1671,10 @@
     "ru": "Способные и дальновидные люди часто сходятся во мнении.",
     "tr": "Yetenekli ve görüşü açık insanlar çoğu zaman aynı fikirdedir.",
     "fa": "آدم‌های توانا و بصیر اغلب به یک نتیجه می‌رسند.",
-    "ar": "أصحاب الرأي والموهبة غالبًا يتفقون."
+    "ar": "أصحاب الرأي والموهبة غالبًا يتفقون.",
+    "id": "Orang-orang hebat biasanya memiliki pandangan yang sama.",
+    "km": "គំនិតដ៏អស្ចារ្យជារឿយៗគិតដូចគ្នា ។",
+    "vi": "Những người có tài năng và tầm nhìn thường có chung quan điểm."
   },
   {
     "sentence": "滴水之恩，当涌泉相报",
@@ -1297,7 +1684,10 @@
     "ru": "Даже малую помощь следует отплатить большей благодарностью.",
     "tr": "Başkalarından gördüğün küçük iyilikleri daha büyük bir minnetle karşılamalısın.",
     "fa": "حتی کمک کوچک دیگران را باید با سپاس و احسان بیشتر پاسخ داد.",
-    "ar": "حتى الإحسان اليسير يجب رده بامتنان وكرم أكبر."
+    "ar": "حتى الإحسان اليسير يجب رده بامتنان وكرم أكبر.",
+    "id": "Meskipun bantuan yang diterima kecil, harus dibalas dengan kebaikan yang lebih besar.",
+    "km": "សូម្បី តែ ការ គោរព តូច តាច របស់ អ្នក ដទៃ ក៏ ត្រូវ បាន គេ សង វិញ ដោយ ការ អរគុណ កាន់ តែ ខ្លាំង ឡើង ។",
+    "vi": "Nhận được ân huệ nhỏ, phải báo đáp bằng lòng biết ơn lớn hơn."
   },
   {
     "sentence": "一把钥匙开一把锁",
@@ -1307,7 +1697,10 @@
     "ru": "Разные задачи требуют разных подходов; универсального рецепта нет.",
     "tr": "Her sorunun ayrı çözümü vardır; tek kalıp olmaz.",
     "fa": "مسائل گوناگون راه‌حل‌های گوناگون می‌خواهند؛ یک نسخه برای همه نیست.",
-    "ar": "لكل مشكلة حل خاص؛ لا يصلح حل واحد للجميع."
+    "ar": "لكل مشكلة حل خاص؛ لا يصلح حل واحد للجميع.",
+    "id": "Metafora bahwa masalah yang berbeda membutuhkan penyelesaian yang berbeda, tidak bisa disamaratakan.",
+    "km": "បញ្ហា ផ្សេង គ្នា ត្រូវ ការ ដំណោះស្រាយ ផ្សេង គ្នា; ទំហំ មួយ មិន សមស្រប សម្រាប់ មនុស្ស គ្រប់ គ្នា ទេ ។",
+    "vi": "Mỗi vấn đề khác nhau cần phương pháp giải quyết khác nhau, không thể tổng quát hóa."
   },
   {
     "sentence": "人穷志不短",
@@ -1317,7 +1710,10 @@
     "ru": "Даже в бедности нельзя терять стремления и достоинства.",
     "tr": "Yaşam yoksul olsa bile insan özgüvenini ve onurunu yitirmemelidir.",
     "fa": "حتی اگر زندگی تنگدستی باشد، نباید اراده و کرامت از دست برود.",
-    "ar": "حتى مع الفقر، لا ينبغي أن يفقد الإنسان همته وكرامته."
+    "ar": "حتى مع الفقر، لا ينبغي أن يفقد الإنسان همته وكرامته.",
+    "id": "Meskipun hidup miskin, tidak boleh kehilangan semangat dan harga diri.",
+    "km": "ទោះបីជា ជីវិត មាន ភាពក្រីក្រ ក៏ដោយ ក៏ អ្នក មិន ត្រូវ បាត់បង់ ក្តី សង្ឃឹម ឬ កិត្តិយស នោះ ទេ ។",
+    "vi": "Dù nghèo khó cũng không được mất chí khí và lòng tự trọng."
   },
   {
     "sentence": "刘姥姥坐席——洋相百出",
@@ -1327,7 +1723,10 @@
     "ru": "Комично позорится; сплошные казусы.",
     "tr": "Rezalet çıkarır; komik hatalar.",
     "fa": "آبرو می‌ریزد؛ یک اشتباه بعد از دیگری.",
-    "ar": "يفضح نفسهٌ بمواقفٍ مضحكةٍ."
+    "ar": "يفضح نفسهٌ بمواقفٍ مضحكةٍ.",
+    "id": "Membuat diri jadi bahan tertawaan, jadi bahan olokan.",
+    "km": "ធ្វើ ឲ្យ ខ្លួន ឯង ក្លាយ ជា មនុស្ស អៀនខ្មាស ម្នាក់ ធ្វើ ឲ្យ ខ្លួន ឯង ក្លាយ ជា មនុស្ស អៀនខ្មាស ម្នាក់ ទៀត",
+    "vi": "Làm trò cười, ra vẻ ngốc nghếch."
   },
   {
     "sentence": "冰块掉进醋缸里——寒酸",
@@ -1337,7 +1736,10 @@
     "ru": "Жалко беден или скуп.",
     "tr": "Zavallıca fakir veya çok cimri.",
     "fa": "تهیدست یا خیلی خسیس.",
-    "ar": "بائسٌ أو شحيحٌ جدًّا."
+    "ar": "بائسٌ أو شحيحٌ جدًّا.",
+    "id": "Kikir dan pelit.",
+    "km": "មានភាពក្រីក្រ ឬមានភាពក្រីក្រ ។",
+    "vi": "Nghèo hèn, keo kiệt."
   },
   {
     "sentence": "草把做灯——粗心（芯）",
@@ -1347,7 +1749,10 @@
     "ru": "Очень небрежен.",
     "tr": "Çok dikkatsiz.",
     "fa": "خیلی سهل‌انگار.",
-    "ar": "غير منتبهٍ جدًّا."
+    "ar": "غير منتبهٍ جدًّا.",
+    "id": "Terlalu ceroboh dan tidak teliti.",
+    "km": "ធ្វេសប្រហែសខ្លាំងណាស់ ។",
+    "vi": "Quá cẩu thả."
   },
   {
     "sentence": "一寸光阴一寸金",
@@ -1357,7 +1762,10 @@
     "ru": "Время ценно, как золото; береги каждую минуту.",
     "tr": "Zaman altın kadar değerlidir; her anı koru.",
     "fa": "زمان مانند طلا گرانبهاست؛ هر لحظه را دریاب.",
-    "ar": "الوقت ثمين كالذهب؛ احرص على كل لحظة."
+    "ar": "الوقت ثمين كالذهب؛ احرص على كل لحظة.",
+    "id": "Waktu sangat berharga, harus menghargai setiap detiknya.",
+    "km": "ពេលវេលា មាន តម្លៃ ដូច មាស ចូរ គោរព គ្រប់ ពេល វេលា",
+    "vi": "Thời gian rất quý giá, phải trân trọng từng phút từng giây."
   },
   {
     "sentence": "老和尚住山洞——没事（寺）",
@@ -1367,7 +1775,10 @@
     "ru": "Нечего делать; безделье (каламбур).",
     "tr": "İş yok; boş (kelime oyunu).",
     "fa": "کاری نیست؛ بیکار (بازی با «寺»).",
-    "ar": "بلا شغلٍ؛ فراغٌ (توريةٌ)."
+    "ar": "بلا شغلٍ؛ فراغٌ (توريةٌ).",
+    "id": "Tidak ada urusan, sedang santai.",
+    "km": "គ្មានអ្វីដែលត្រូវធ្វើ; ទំនេរ (សរសេរនៅលើ 'វិហារ') ។",
+    "vi": "Không có việc gì, rảnh rỗi (cách âm \"tự\")."
   },
   {
     "sentence": "黄豆切细丝——功夫到家了",
@@ -1377,7 +1788,10 @@
     "ru": "Мастерство на высоте.",
     "tr": "Ustalık tam; işi mükemmel.",
     "fa": "مهارت عالی؛ دستش به کار آمد است.",
-    "ar": "براعةٌ كاملةٌ في الحرفة."
+    "ar": "براعةٌ كاملةٌ في الحرفة.",
+    "id": "Keterampilan sudah sangat mahir dan matang.",
+    "km": "ជំនាញគឺល្អឥតខ្ចោះ; សិប្បកម្មបានល្អឥតខ្ចោះ ។",
+    "vi": "Công phu sâu, tay nghề đạt trình độ cao."
   },
   {
     "sentence": "狗咬吕洞宾——不识好人心",
@@ -1387,7 +1801,10 @@
     "ru": "Хотел помочь с добрыми намерениями, а его считают злодеем.",
     "tr": "İyi niyetle yardım eder; karşı taraf onu kötü sanır.",
     "fa": "با نیت خوب کمک می‌کند، اما طرف او را بد جلوه می‌دهد.",
-    "ar": "يحسن النية بالمساعدة فيُنظر إليه على أنه شرير."
+    "ar": "يحسن النية بالمساعدة فيُنظر إليه على أنه شرير.",
+    "id": "Menolong orang justru disalahartikan sebagai perbuatan buruk.",
+    "km": "អ្នក មាន ន័យ ថា អ្នក ជួយ មនុស្ស ម្នាក់ ប៉ុន្តែ គេ ចាត់ ទុក អ្នក ថា ជា មនុស្ស អាក្រក់ ។",
+    "vi": "Tốt bụng giúp người lại bị coi là kẻ xấu."
   },
   {
     "sentence": "子欲养而亲不待",
@@ -1397,7 +1814,10 @@
     "ru": "Когда дети хотят заботиться о родителях, может быть поздно — будь добрым к ним при жизни.",
     "tr": "Çocuklar bakmak istediğinde anne baba gitmiş olabilir; zamanında vefa göster.",
     "fa": "وقتی فرزند بخواهد والدین را نگاه دارد، شاید دیر شده باشد؛ به‌موقع احترام بگذار.",
-    "ar": "قد يفوت الأوان حين يريد الولدان برّ الوالدين؛ برّهما في حياتهما."
+    "ar": "قد يفوت الأوان حين يريد الولدان برّ الوالدين؛ برّهما في حياتهما.",
+    "id": "Ketika anak ingin berbakti kepada orang tua, orang tua sudah tidak ada lagi; menekankan pentingnya berbakti selagi orang tua masih hidup.",
+    "km": "ពេល ដែល កូន ចង់ ថែទាំ ឪពុក ម្តាយ វា អាច ជា ការ យឺតយ៉ាវ ណាស់ ។",
+    "vi": "Khi con muốn phụng dưỡng cha mẹ thì cha mẹ đã không còn nữa, nhấn mạnh cần hiếu kính kịp thời."
   },
   {
     "sentence": "以其人之道，还治其人之身",
@@ -1407,7 +1827,10 @@
     "ru": "Поступай с другими так, как они поступили с тобой.",
     "tr": "Sana nasıl davrandılarsa sen de onlara öyle davran.",
     "fa": "با همان روشی که دیگری با تو کرده، با او رفتار کن.",
-    "ar": "عامل الآخرين بما عاملوك به."
+    "ar": "عامل الآخرين بما عاملوك به.",
+    "id": "Membalas perlakuan seseorang dengan cara yang sama seperti yang dilakukannya kepada kita.",
+    "km": "ចូរ ប្រព្រឹត្ត ចំពោះ អ្នក ដទៃ ដូច គេ បាន ប្រព្រឹត្ត ចំពោះ អ្នក ដែរ ។",
+    "vi": "Dùng cách người khác đối xử với mình để đối xử lại với người đó."
   },
   {
     "sentence": "热锅上的蚂蚁——团团转",
@@ -1417,7 +1840,10 @@
     "ru": "Тревожится и не может усидеть на месте.",
     "tr": "Endişeli ve huzursuz; duramıyor.",
     "fa": "نگران و بی‌قرار؛ نمی‌تواند آرام بگیرد.",
-    "ar": "قلقٌ ولا يهدأ ولا يستقر."
+    "ar": "قلقٌ ولا يهدأ ولا يستقر.",
+    "id": "Sangat cemas dan gelisah, tidak tenang.",
+    "km": "មានអារម្មណ៍ថប់បារម្ភ និងមិនស្ងប់ចិត្ត មិនអាចអង្គុយស្ងៀមបានទេ ។",
+    "vi": "Lo lắng bồn chồn, không ngồi không yên được."
   },
   {
     "sentence": "七窍通了六窍——一窍不通",
@@ -1427,7 +1853,10 @@
     "ru": "Ничего не смыслит.",
     "tr": "Hiçbir şey anlamıyor.",
     "fa": "اصلاً چیزی نمی‌فهمد.",
-    "ar": "لا يفهم شيئًا البتّة."
+    "ar": "لا يفهم شيئًا البتّة.",
+    "id": "Sama sekali tidak mengerti.",
+    "km": "ខ្ញុំ មិន យល់ អ្វី ទេ ។",
+    "vi": "Hoàn toàn không hiểu gì cả."
   },
   {
     "sentence": "林黛玉进贾府——谨小慎微",
@@ -1437,7 +1866,10 @@
     "ru": "Чрезвычайно осторожен; боится ошибиться.",
     "tr": "Çok dikkatli; hatadan korkar.",
     "fa": "بسیار محتاط؛ از اشتباه می‌ترسد.",
-    "ar": "حذرٌ جدًّا يخاف الخطأ."
+    "ar": "حذرٌ جدًّا يخاف الخطأ.",
+    "id": "Sangat berhati-hati, takut salah.",
+    "km": "គាត់ ចាប់អារម្មណ៍ ហើយ គាត់ ខ្លាច ។",
+    "vi": "Rất cẩn thận, sợ sai."
   },
   {
     "sentence": "宁可信其有，不可信其无",
@@ -1447,7 +1879,10 @@
     "ru": "В сомнительных случаях лучше допустить, что это возможно, и заранее принять меры, чтобы избежать ущерба.",
     "tr": "Belirsiz durumlarda, var olabileceğini kabul edip önlem almak kaybı önlemek için daha güvenlidir.",
     "fa": "در امور نامطمئن بهتر است احتمال وجود را جدی بگیری و پیشگیری کنی تا زیان نبینی.",
-    "ar": "في الأمور غير المؤكدة، الأفضل افتراض احتمال وجودها واتخاذ الاحتياط لتفادي الخسارة."
+    "ar": "في الأمور غير المؤكدة، الأفضل افتراض احتمال وجودها واتخاذ الاحتياط لتفادي الخسارة.",
+    "id": "Lebih baik percaya daripada tidak; mengambil langkah preventif untuk menghindari kerugian.",
+    "km": "ចំពោះ បញ្ហា ដែល មិន ច្បាស់លាស់ នោះ វា មាន សុវត្ថិភាព ជាង មុន ក្នុង ការ យល់ ថា វា អាច ជា ការ ពិត ហើយ ត្រូវ ការ ការ ប្រុង ប្រយ័ត្ន ដើម្បី បញ្ចៀស ការ បាត់បង់ ។",
+    "vi": "Đối với những việc chưa chắc chắn, thà tin có còn hơn tin không, để đề phòng rủi ro."
   },
   {
     "sentence": "知彼知己，百战不殆",
@@ -1457,7 +1892,10 @@
     "ru": "Зная себя и противника, не попадёшь в опасность; это верно для любого дела.",
     "tr": "Kendini ve rakibini bilersen tehlikeye düşmezsin; her işte geçerli.",
     "fa": "خود و حریف را بشناسی در خطر نمی‌افتی؛ در هر کاری همین اصل است.",
-    "ar": "من عرف نفسه وخصمه لم يُهْدَد؛ وهذا ينطبق على أي مسعى."
+    "ar": "من عرف نفسه وخصمه لم يُهْدَد؛ وهذا ينطبق على أي مسعى.",
+    "id": "Mengenal diri sendiri dan lawan, maka tidak akan kalah dalam pertempuran; berlaku juga dalam segala hal.",
+    "km": "ចូរ ស្គាល់ ខ្លួន ឯង និង អ្នក ប្រកួត ប្រជែង របស់ អ្នក ហើយ អ្នក នឹង មិន ត្រូវ រង ការ រំលោភ បំពាន នោះ ទេ គឺ ជា ការ ពិត សម្រាប់ ក្រុមហ៊ុន ណា មួយ ។",
+    "vi": "Hiểu rõ mình và đối thủ thì đánh trăm trận không thất bại."
   },
   {
     "sentence": "麻雀虽小，五脏俱全",
@@ -1467,7 +1905,10 @@
     "ru": "Даже небольшая вещь может иметь полный набор необходимых частей.",
     "tr": "Bir şey küçük olsa da gerekli tüm parçaları tam olabilir.",
     "fa": "یعنی چیزی با اینکه کوچک است، همه اجزای لازم را کامل دارد.",
-    "ar": "رغم صغر الحجم، قد يكون الشيء مكتمل الأجزاء الضرورية."
+    "ar": "رغم صغر الحجم، قد يكون الشيء مكتمل الأجزاء الضرورية.",
+    "id": "Metafora bahwa meskipun sesuatu kecil, semua bagiannya lengkap.",
+    "km": "ទោះបីជា អ្វីមួយ មាន ទំហំ តូច ក៏ដោយ ក៏ វា អាច មាន ផ្នែក គ្រប់គ្រាន់ ។",
+    "vi": "Vật tuy nhỏ nhưng các bộ phận cần thiết đều đầy đủ."
   },
   {
     "sentence": "老虎拉车——谁赶（敢）",
@@ -1477,7 +1918,10 @@
     "ru": "Кто осмелится? Никто (игра слов).",
     "tr": "Kim cesaret eder? Kimse (çift anlam).",
     "fa": "کی جرأت دارد؟ هیچ‌کس (دو معنی).",
-    "ar": "من يجرؤ؟ لا أحدٌ (ازدواجيّةٌ معنويّة)."
+    "ar": "من يجرؤ؟ لا أحدٌ (ازدواجيّةٌ معنويّة).",
+    "id": "Siapa yang berani? Tidak ada yang berani.",
+    "km": "អ្នកណាហ៊ាន? គ្មាននរណាហ៊ាន (pun on drive/dare) ។",
+    "vi": "Ai dám? Không ai dám (chơi chữ)."
   },
   {
     "sentence": "一失足成千古恨",
@@ -1487,7 +1931,10 @@
     "ru": "Одна тяжёлая ошибка может оставить пожизненное сожаление.",
     "tr": "Bir büyük hata ömür boyu pişmanlık bırakır.",
     "fa": "یک خطای جدی پشیمانی مادام‌العمر می‌گذارد.",
-    "ar": "زلّة جسيمة واحدة تترك ندمًا دائمًا."
+    "ar": "زلّة جسيمة واحدة تترك ندمًا دائمًا.",
+    "id": "Metafora bahwa satu kesalahan fatal akan menimbulkan penyesalan seumur hidup.",
+    "km": "កំហុសធ្ងន់ធ្ងរមួយអាចបន្សល់ទុកការសោកស្តាយអស់មួយជីវិត ។",
+    "vi": "Một khi mắc sai lầm nghiêm trọng sẽ để lại tiếc nuối cả đời."
   },
   {
     "sentence": "聋子看戏——饱眼福",
@@ -1497,7 +1944,10 @@
     "ru": "Только смотрит для удовольствия; глазам пир.",
     "tr": "Sadece seyreder; gözü doyurur.",
     "fa": "فقط تماشا برای تفریح؛ چشم را سیر می‌کند.",
-    "ar": "مشاهدةٌ للمتعة فقط؛ تشبع العين."
+    "ar": "مشاهدةٌ للمتعة فقط؛ تشبع العين.",
+    "id": "Hanya bisa menonton, cuma bisa menikmati pemandangan.",
+    "km": "គ្រាន់ តែ មើល ទៅ ដើម្បី កម្សាន្ត; បុណ្យ ភ្នែក តែ ប៉ុណ្ណោះ.",
+    "vi": "Chỉ xem cho biết thôi, thỏa mãn đôi mắt."
   },
   {
     "sentence": "司马昭之心——路人皆知",
@@ -1507,7 +1957,10 @@
     "ru": "Замысел виден всем и каждому.",
     "tr": "Niyeti herkesçe belli.",
     "fa": "نیتش برای همه روشن است.",
-    "ar": "مقصده واضحٌ للجميع."
+    "ar": "مقصده واضحٌ للجميع.",
+    "id": "Tujuannya sudah sangat jelas, semua orang bisa melihatnya.",
+    "km": "វា ជា រឿង ធម្មតា សម្រាប់ មនុស្ស គ្រប់ គ្នា ។",
+    "vi": "Dụ ý rất rõ ràng, ai cũng nhìn ra."
   },
   {
     "sentence": "一双筷子夹骨头——三条光棍",
@@ -1517,7 +1970,10 @@
     "ru": "Все холостяки; без семей.",
     "tr": "Hepsi bekâr; aile yok.",
     "fa": "همه مجرد؛ خانواده‌ای در کار نیست.",
-    "ar": "كلّهم عزّابٌ بلا عائلاتٍ."
+    "ar": "كلّهم عزّابٌ بلا عائلاتٍ.",
+    "id": "Semuanya bujangan, tidak punya keluarga.",
+    "km": "ទាំង អស់ គ្នា គ្មាន គ្រួសារ នៅ ក្នុង រូបថត នោះ ទេ ។",
+    "vi": "Đều là người độc thân, không có gia đình."
   },
   {
     "sentence": "塞翁失马，焉知非福",
@@ -1527,7 +1983,10 @@
     "ru": "Потеря может обернуться выгодой; беда и удача переходят друг в друга.",
     "tr": "Kayıp iyi sonuç doğurabilir; talih ve talihsizlik yer değiştirir.",
     "fa": "زیان موقت شاید به سود تبدیل شود؛ بلا و نعمت جایشان را عوض می‌کنند.",
-    "ar": "قد يتحول الضرر إلى نفع؛ السراء والضراء يتبادلان."
+    "ar": "قد يتحول الضرر إلى نفع؛ السراء والضراء يتبادلان.",
+    "id": "Metafora bahwa kerugian sementara belum tentu buruk, bisa jadi membawa kebaikan; nasib baik dan buruk bisa saling berubah.",
+    "km": "ការបាត់បង់អាចងាកទៅរកការឈ្នះ ។ សំណាង និងសំណាងអាចផ្លាស់ប្តូរទីតាំង ។",
+    "vi": "Thiệt hại nhất thời chưa chắc đã là việc xấu, có thể đổi được kết quả tốt, họa phúc có thể chuyển hóa lẫn nhau."
   },
   {
     "sentence": "苍蝇采蜜——装疯（蜂）",
@@ -1537,7 +1996,10 @@
     "ru": "Притворяется дурачком; ведёт себя несерьёзно.",
     "tr": "Aptal veya deli taklidi yapıyor; ciddi değil.",
     "fa": "خود را احمق یا دیوانه جا می‌زند؛ جدی نیست.",
-    "ar": "يتصنع الغباء أو الجنون؛ غير جادّ."
+    "ar": "يتصنع الغباء أو الجنون؛ غير جادّ.",
+    "id": "Pura-pura gila, tidak serius.",
+    "km": "គាត់ មិន មែន ជា មនុស្ស ល្ងង់ ឬ មនុស្ស ចាស់ ទេ គាត់ មិន មែន ជា មនុស្ស ធ្ងន់ធ្ងរ ទេ ។",
+    "vi": "Giả điên giả ngốc, không nghiêm túc."
   },
   {
     "sentence": "包公断案——铁面无私",
@@ -1547,7 +2009,10 @@
     "ru": "Справедлив и беспристрастен.",
     "tr": "Adil ve tarafsız; kayırma yok.",
     "fa": "منصف و بی‌طرف؛ طرفداری نمی‌کند.",
-    "ar": "عادلٌ بلا محاباة."
+    "ar": "عادلٌ بلا محاباة.",
+    "id": "Menegakkan keadilan tanpa memihak.",
+    "km": "ត្រឹមត្រូវ និងមិនរើសអើង; មិនបង្ហាញការរើសអើង ។",
+    "vi": "Công bằng tư pháp, không thiên vị tư lợi."
   },
   {
     "sentence": "东洋人戴高帽——假充大个",
@@ -1557,7 +2022,10 @@
     "ru": "Корчит из себя важную персону.",
     "tr": "Büyük adam numarası yapıyor.",
     "fa": "خود را آدم بزرگ جا می‌زند.",
-    "ar": "يتظاهر بالعظمة."
+    "ar": "يتظاهر بالعظمة.",
+    "id": "Sok besar, pura-pura hebat.",
+    "km": "\"តោខៀវ គួរតែមានទំហំតូចដូចមួយគ្រាប់!",
+    "vi": "Làm ra vẻ to lớn, giả vờ."
   },
   {
     "sentence": "霸王被围——四面楚歌",
@@ -1567,7 +2035,10 @@
     "ru": "В осаде и изолирован; без поддержки.",
     "tr": "Kuşatılmış ve yalnız; çıkış yok.",
     "fa": "محاصره و منزوی؛ راه فرار نیست.",
-    "ar": "محاصَرٌ معزولٌ بلا مهرب."
+    "ar": "محاصَرٌ معزولٌ بلا مهرب.",
+    "id": "Dikepung dari segala arah, situasi terisolasi.",
+    "km": "នៅជុំវិញ និងកាត់ចេញ; ដាច់ដោយឡែកទាំងស្រុង ។",
+    "vi": "Bị bao vây, hoàn cảnh cô lập."
   },
   {
     "sentence": "笨鸟先飞早入林",
@@ -1577,7 +2048,10 @@
     "ru": "Кому дано меньше способностей, нужно начать раньше и стараться больше, чтобы угнаться за другими.",
     "tr": "Yeteneği daha zayıf olanlar yetişmek için erken başlayıp daha çok çalışmalıdır.",
     "fa": "کسی که توان کمتری دارد باید زودتر شروع کند و بیشتر تلاش کند تا به دیگران برسد.",
-    "ar": "من ضعفت قدرته يحتاج أن يبكر ويجتهد أكثر ليلحق بالآخرين."
+    "ar": "من ضعفت قدرته يحتاج أن يبكر ويجتهد أكثر ليلحق بالآخرين.",
+    "id": "Metafora orang yang kurang mampu harus berusaha lebih awal dan lebih keras untuk mengejar yang lain.",
+    "km": "សមត្ថភាពខ្សោយត្រូវការការចាប់ផ្តើមដំបូង និងការខិតខំប្រឹងប្រែងបន្ថែមដើម្បីចាប់យក ។",
+    "vi": "Người năng lực kém cần hành động sớm hơn, nỗ lực nhiều hơn mới theo kịp người khác."
   },
   {
     "sentence": "周瑜打黄盖——一个愿打一个愿挨",
@@ -1587,7 +2061,10 @@
     "ru": "Оба согласны: один бьёт, другой терпит.",
     "tr": "İkisi de razı; biri vurur, biri yer.",
     "fa": "هر دو راضی‌اند؛ یکی می‌زند، یکی تحمل می‌کند.",
-    "ar": "الطرفان راضيان؛ ضاربٌ ومضروبٌ طوعًا."
+    "ar": "الطرفان راضيان؛ ضاربٌ ومضروبٌ طوعًا.",
+    "id": "Saling rela; satu pukul satu terima.",
+    "km": "ភាគី ទាំងពីរ មាន ឆន្ទៈ មួយ គ្រាប់ ហើយ ភាគី មួយ ទៀត យក វា ទៅ ។",
+    "vi": "Cả hai bên đều tự nguyện, một bên đánh một bên chịu."
   },
   {
     "sentence": "财神爷要饭——装穷",
@@ -1597,7 +2074,10 @@
     "ru": "Притворяется бедным, хотя деньги есть.",
     "tr": "Fakir numarası yapıyor; aslında varlıklı.",
     "fa": "فقیر جا می‌زند؛ در واقع پولدار است.",
-    "ar": "يتظاهر بالفقر وهو ميسور."
+    "ar": "يتظاهر بالفقر وهو ميسور.",
+    "id": "Pura-pura miskin padahal sebenarnya kaya.",
+    "km": "វា ហាក់ ដូច ជា មាន ភាព ក្រីក្រ ប៉ុន្តែ វា ពិត ជា មាន ភាព ល្អ ប្រសើរ ។",
+    "vi": "Giả vờ nghèo, thực ra có tiền."
   },
   {
     "sentence": "刘备的江山——哭出来的",
@@ -1607,7 +2087,10 @@
     "ru": "Страна достигнута слезами (шутка про Лю Бэя).",
     "tr": "Hüküm gözyaşıyla (Liu Bei şakası).",
     "fa": "قلمرو با گریه به دست آمده (شوخی با لیو بی).",
-    "ar": "المُلك بالبكاءٍ (نكتةٌ تاريخيّةٌ)."
+    "ar": "المُلك بالبكاءٍ (نكتةٌ تاريخيّةٌ).",
+    "id": "Kerajaan didapat dengan cara merengek dan menangis.",
+    "km": "រាជវាំង បាន ឈ្នះ ដោយ ទឹកភ្នែក (កំប្លែង អំពី Liu Bei) ។",
+    "vi": "Thành nghiệp là nhờ khóc lóc mà có (trêu ghẹo)."
   },
   {
     "sentence": "三百六十行，行行出状元",
@@ -1617,7 +2100,10 @@
     "ru": "В любой профессии при усердии можно добиться успеха и стать лучшим в своём деле.",
     "tr": "Her meslekte ciddi çabayla başarı ve alanda öne çıkmak mümkündür.",
     "fa": "در هر حرفه‌ای با تلاش جدی می‌توان به موفقیت و برتری رسید.",
-    "ar": "في أي مهنة، الجد والاجتهاد يؤديان إلى التميز والتفوق."
+    "ar": "في أي مهنة، الجد والاجتهاد يؤديان إلى التميز والتفوق.",
+    "id": "Di bidang apa pun, asalkan sungguh-sungguh, bisa menjadi yang terbaik di bidangnya.",
+    "km": "ក្នុង ការ ពាណិជ្ជកម្ម ណា មួយ ការ ខិតខំ យ៉ាង ខ្លាំង អាច នាំ ឲ្យ មាន ភាព ល្អ ប្រសើរ និង មាន ភាព លេច ធ្លោ ក្នុង វិស័យ របស់ អ្នក ។",
+    "vi": "Bất kỳ nghề nghiệp nào, chỉ cần nghiêm túc nỗ lực đều có thể đạt thành tích, trở thành người giỏi trong ngành."
   },
   {
     "sentence": "白骨精骗唐僧——一计不成又生一计",
@@ -1627,7 +2113,10 @@
     "ru": "Один коварный план провалился — тут же новый.",
     "tr": "Bir oyun çöker; hemen yenisi.",
     "fa": "یک نقشه شکست خورد؛ فوراً نقشهٔ دیگر.",
-    "ar": "فشل مكرٌ فأتى مكرٌ آخرٌ فورًا."
+    "ar": "فشل مكرٌ فأتى مكرٌ آخرٌ فورًا.",
+    "id": "Satu rencana gagal, lalu menyusun rencana baru lagi.",
+    "km": "មួយ គ្រាប់ ត្រូវ បាន គេ បាញ់ សម្លាប់ ហើយ មួយ គ្រាប់ ទៀត ត្រូវ បាន គេ បាញ់ សម្លាប់ ភ្លាមៗ",
+    "vi": "Một kế không thành lại sinh một kế khác."
   },
   {
     "sentence": "言者无罪，闻者足戒",
@@ -1637,7 +2126,10 @@
     "ru": "Критикующий не виноват; слушающий должен извлечь урок и насторожиться.",
     "tr": "Eleştiren suçlu değildir; dinleyen ders çıkarıp tedbir almalıdır.",
     "fa": "منتقد گناهی ندارد؛ شنونده باید عبرت گیرد و مراقب باشد.",
-    "ar": "المُنتقد بريء؛ على المستمع أن يتعظ ويتحفظ."
+    "ar": "المُنتقد بريء؛ على المستمع أن يتعظ ويتحفظ.",
+    "id": "Orang yang memberikan kritik tidak bersalah; yang mendengar harus menjadikannya peringatan.",
+    "km": "អ្នក និយាយ រិះគន់ មិន មែន ជា អ្នក ទទួល ខុស ត្រូវ ទេ អ្នក ស្តាប់ ត្រូវ តែ ទទួល ការ ព្រមាន ពី វា ។",
+    "vi": "Người góp ý không có tội, người nghe phải从中 rút kinh nghiệm, đề phòng."
   },
   {
     "sentence": "十五个婆娘吵架——七嘴八舌",
@@ -1647,7 +2139,10 @@
     "ru": "Слишком много ртов; все говорят разом.",
     "tr": "Çok ağız bir anda konuşuyor.",
     "fa": "دهان‌های زیاد؛ همه با هم حرف می‌زنند.",
-    "ar": "ألسنةٌ كثيرةٌ تتكلم معًا."
+    "ar": "ألسنةٌ كثيرةٌ تتكلم معًا.",
+    "id": "Banyak orang, banyak pendapat, ramai sekali.",
+    "km": "មាន សំឡេង ច្រើន ពេក និយាយ ក្នុង ពេល តែ មួយ ។",
+    "vi": "Nhiều người nói cùng một lúc, ồn ào lộn xộn."
   },
   {
     "sentence": "出水的荷花——不沾泥",
@@ -1657,7 +2152,10 @@
     "ru": "Сохраняет чистоту; не пачкается в грязи.",
     "tr": "Temiz kalır; pis işlere bulaşmaz.",
     "fa": "پاک و بی‌گناه می‌ماند؛ به کار زشت دست نمی‌زند.",
-    "ar": "يبقى نظيفًا بعيدًا عن القذارة."
+    "ar": "يبقى نظيفًا بعيدًا عن القذارة.",
+    "id": "Tetap bersih dan suci, tidak tercemar hal-hal buruk.",
+    "km": "រក្សាភាពស្អាត និងត្រង់; នឹងមិនប៉ះអាជីវកម្មកខ្វក់ទេ ។",
+    "vi": "Giữ sự trong sạch, không bị vấy bẩn việc xấu."
   },
   {
     "sentence": "巧妇难为无米之炊",
@@ -1667,7 +2165,10 @@
     "ru": "Даже способный человек не выполнит задачу без необходимых условий и ресурсов.",
     "tr": "Yetenekli biri bile gerekli koşullar olmadan işi tamamlayamaz.",
     "fa": "حتی آدم توانمند هم بدون امکانات لازم نمی‌تواند کار را انجام دهد.",
-    "ar": "حتى الماهر لا يستطيع إتمام المهمة إذا غابت الشروط والموارد اللازمة."
+    "ar": "حتى الماهر لا يستطيع إتمام المهمة إذا غابت الشروط والموارد اللازمة.",
+    "id": "Metafora bahwa orang yang berbakat pun tidak bisa berbuat apa-apa tanpa sarana yang mendukung.",
+    "km": "សូម្បី តែ មនុស្ស ដែល មាន សមត្ថភាព ក៏ មិន អាច បញ្ចប់ ការងារ បាន ដោយ គ្មាន លក្ខខណ្ឌ ចាំបាច់ នោះ ទេ ។",
+    "vi": "Dù có tài năng mà thiếu điều kiện cần thiết thì cũng không thể hoàn thành nhiệm vụ."
   },
   {
     "sentence": "黄连树下种苦瓜——苦生苦长",
@@ -1677,7 +2178,10 @@
     "ru": "Беда на беду; всё труднее и труднее.",
     "tr": "Dert üstüne dert; giderek zorlaşıyor.",
     "fa": "بدبختی روی بدبختی؛ اوضاع سخت‌تر و سخت‌تر می‌شود.",
-    "ar": "يتراكم الشقاء؛ الأمور أصعب فأصعب."
+    "ar": "يتراكم الشقاء؛ الأمور أصعب فأصعب.",
+    "id": "Sengsara bertambah sengsara, semakin sulit.",
+    "km": "ភាពក្រីក្រ មាន ភាពក្រីក្រ ហើយ ភាពក្រីក្រ មាន ភាពក្រីក្រ ជាង មុន ។",
+    "vi": "Khổ chồng thêm khổ, ngày càng khó khăn."
   },
   {
     "sentence": "按老方子吃药——还是老一套",
@@ -1687,7 +2191,10 @@
     "ru": "По-старому; ничего нового.",
     "tr": "Eski yöntemler; yenilik yok.",
     "fa": "همان روش‌های قدیمی؛ چیز تازه‌ای نیست.",
-    "ar": "نفس الأساليب القديمة؛ بلا جديد."
+    "ar": "نفس الأساليب القديمة؛ بلا جديد.",
+    "id": "Cara lama, tidak ada hal baru.",
+    "km": "វា មិន មែន ជា រឿង ចាស់ ទេ វា មិន មែន ជា រឿង ថ្មី ទេ",
+    "vi": "Cách cũ, không có gì mới."
   },
   {
     "sentence": "宁为玉碎，不为瓦全",
@@ -1697,7 +2204,10 @@
     "ru": "Лучше погибнуть, сохранив честь, чем жить бесчестно и без достоинства.",
     "tr": "Onuru koruyarak bedel ödemek, onursuzca yaşamaktan daha iyidir.",
     "fa": "بهتر است با حفظ شرافت فدا شوی تا اینکه بی‌آبرو و ذلیل زنده بمانی.",
-    "ar": "الأفضل التضحية مع حفظ الكرامة على العيش بذلّ وفقدان الشرف."
+    "ar": "الأفضل التضحية مع حفظ الكرامة على العيش بذلّ وفقدان الشرف.",
+    "id": "Lebih baik mati dengan mempertahankan kehormatan daripada hidup dalam kehinaan.",
+    "km": "ការ បូជា ដោយ ស្មោះ ត្រង់ គឺ ល្អ ជាង ការ រស់ នៅ ដោយ មិន មាន កិត្តិយស ។",
+    "vi": "Thà giữ khí tiết cao cả mà hy sinh còn hơn sống hèn hạ mất phẩm giá."
   },
   {
     "sentence": "葫芦瓢捞饺子——滴水不漏",
@@ -1707,7 +2217,10 @@
     "ru": "Действует плотно; без щелей.",
     "tr": "İşi sıkı tutar; boşluk bırakmaz.",
     "fa": "کار را محکم می‌کند؛ رخنه‌ای نیست.",
-    "ar": "يضبط الأمر بدقّةٍ بلا ثغراتٍ."
+    "ar": "يضبط الأمر بدقّةٍ بلا ثغراتٍ.",
+    "id": "Bekerja sangat rapi dan teliti, tidak ada celah sedikit pun.",
+    "km": "ធ្វើអ្វីៗឱ្យបានខ្ជាប់ខ្ជួន ។ មិនទុកចន្លោះទំនេរទេ ។",
+    "vi": "Làm việc rất nghiêm ngặt, không lộ sơ hở."
   },
   {
     "sentence": "出土的笋子——冒尖了",
@@ -1717,7 +2230,10 @@
     "ru": "Внезапно выделяется и привлекает внимание.",
     "tr": "Birden öne çıkar, dikkat çeker.",
     "fa": "ناگهان سر می‌زند و توجه می‌گیرد.",
-    "ar": "برز فجأةً ولفت الأنظار."
+    "ar": "برز فجأةً ولفت الأنظار.",
+    "id": "Menonjol dan menonjol, menarik perhatian.",
+    "km": "រំពេច នោះ ស្រាប់ តែ លេច ចេញ មក ហើយ ចាប់ អារម្មណ៍ ។",
+    "vi": "Nổi bật lên, thu hút sự chú ý."
   },
   {
     "sentence": "君子之交淡如水",
@@ -1727,7 +2243,10 @@
     "ru": "Дружба благородных людей сдержанна и искренна, без расчёта на выгоду.",
     "tr": "Dürüst insanların dostluğu sade ama samimi; çıkar hesabı yoktur.",
     "fa": "دوستی نیکان ساده و صمیمی است، بدون منفعت‌جویی.",
-    "ar": "صداقة أهل الفضيلة بسيطة وصادقة بلا رغبة في المنفعة."
+    "ar": "صداقة أهل الفضيلة بسيطة وصادقة بلا رغبة في المنفعة.",
+    "id": "Persahabatan antara orang bijak sederhana namun tulus, tanpa kepentingan pribadi.",
+    "km": "មិត្តភាពក្នុងចំណោមមនុស្សទៀងត្រង់គឺច្បាស់លាស់នៅឡើយទេដោយស្មោះត្រង់ដោយគ្មានការគណនាប្រាក់ចំណេញ ។",
+    "vi": "Tình bạn giữa người quân tử thanh đạm mà chân thành, không掺杂 lợi ích."
   },
   {
     "sentence": "喝风油精长大的——净说风凉话",
@@ -1737,7 +2256,10 @@
     "ru": "Лишь язвит; без сочувствия.",
     "tr": "Sadece laf sokar; acımaz.",
     "fa": "فقط حرف طعنه‌زن می‌زند؛ همدلی ندارد.",
-    "ar": "يقول السخرية فقط بلا تعاطف."
+    "ar": "يقول السخرية فقط بلا تعاطف.",
+    "id": "Selalu mengomentari dan mengkritik tanpa empati.",
+    "km": "គ្រាន់តែធ្វើការអត្ថាធិប្បាយចំអកប៉ុណ្ណោះ ។ មិនបង្ហាញការអាណិតអាសូរ ។",
+    "vi": "Nói lời đay nghiến, không thông cảm cho người khác."
   },
   {
     "sentence": "摸着石头过河——稳稳当当",
@@ -1747,7 +2269,10 @@
     "ru": "Осторожно и уверенно; на ощупь вперёд.",
     "tr": "Dikkatli ve sağlam; yolu yoklayarak.",
     "fa": "محتاط و مطمئن؛ قدم‌به‌قدم جلو می‌رود.",
-    "ar": "حذرٌ ثابتٌ يتقدّم بحسٍّ للطريق."
+    "ar": "حذرٌ ثابتٌ يتقدّم بحسٍّ للطريق.",
+    "id": "Hat-hati dan pasti, langkah demi langkah.",
+    "km": "ចូរ ប្រយ័ត្នប្រយែង និង ប្រុងប្រយ័ត្ន; ចូរ មាន អារម្មណ៍ ថា អ្នក កំពុង តែ ដើរ ទៅ មុខ ។",
+    "vi": "Thận trọng, từ từ làm từng bước."
   },
   {
     "sentence": "宋江的军师——吴（无）用",
@@ -1757,7 +2282,10 @@
     "ru": "Бесполезен или бездарен (игра слов с именем).",
     "tr": "İşe yaramaz veya beceriksiz (isim kelime oyunu).",
     "fa": "بی‌فایده یا بی‌عرضه (بازی با نام «吴用»).",
-    "ar": "بلا فائدةٍ أو بلا مهارةٍ (توريةٌ على اسمٍ)."
+    "ar": "بلا فائدةٍ أو بلا مهارةٍ (توريةٌ على اسمٍ).",
+    "id": "Tidak berguna dan tidak punya kemampuan.",
+    "km": "គ្មានប្រយោជន៍ ឬគ្មានសមត្ថភាព (pun លើឈ្មោះ Wu Yong) ។",
+    "vi": "Vô dụng, không có năng lực (cách âm \"Vô Dụng\")."
   },
   {
     "sentence": "里弄里扛竹竿——直来直去",
@@ -1767,7 +2295,10 @@
     "ru": "Говорит и действует прямо.",
     "tr": "Doğrudan konuşur ve davranır.",
     "fa": "رک و بی‌پرده حرف می‌زند و عمل می‌کند.",
-    "ar": "مباشرٌ بلا لفٍ ودوران."
+    "ar": "مباشرٌ بلا لفٍ ودوران.",
+    "id": "Bicara dan bertindak langsung to the point.",
+    "km": "និយាយ និង ធ្វើ ការ ដោយ ត្រង់ ដោយ មិន វាយ នៅ ជុំវិញ ព្រៃ ។",
+    "vi": "Nói chuyện làm việc thẳng thắn, đi thẳng vào vấn đề."
   },
   {
     "sentence": "因地制宜",
@@ -1777,7 +2308,10 @@
     "ru": "Принимай меры с учётом местных условий.",
     "tr": "Önlemleri yerel koşullara göre uyarla.",
     "fa": "اقدامات را متناسب با شرایط هر مکان تنظیم کن.",
-    "ar": "اضبط الإجراءات وفق ظروف كل مكان."
+    "ar": "اضبط الإجراءات وفق ظروف كل مكان.",
+    "id": "Menyesuaikan langkah dengan kondisi setempat; mengambil kebijakan sesuai situasi dan kondisi.",
+    "km": "ការ អនុវត្ត វិធានការ នេះ គឺ ត្រូវ បាន គេ អនុវត្ត តាម លក្ខខណ្ឌ ក្នុង ស្រុក ។",
+    "vi": "Tùy theo hoàn cảnh cụ thể của từng nơi để đề ra biện pháp phù hợp."
   },
   {
     "sentence": "山中无老虎——猴子称大王",
@@ -1787,7 +2321,10 @@
     "ru": "Когда нет настоящего лидера, обычный человек ведёт себя как главный.",
     "tr": "Gerçek lider yokken sıradan biri patron kesilir.",
     "fa": "بدون رهبر واقعی، آدم معمولی خودش را رئیس می‌داند.",
-    "ar": "بلا زعيم حقيقي يتصرف العاديّ كالرئيس."
+    "ar": "بلا زعيم حقيقي يتصرف العاديّ كالرئيس.",
+    "id": "Tanpa pemimpin yang kuat, orang biasa jadi sok berkuasa.",
+    "km": "បើ គ្មាន មេដឹកនាំ ពិតប្រាកដ ទេ គ្មាន នរណា ម្នាក់ ធ្វើ ដូច មេដឹកនាំ នោះ ទេ ។",
+    "vi": "Không có kẻ mạnh, người bình thường liền xưng vương."
   },
   {
     "sentence": "老虎的屁股——摸不得",
@@ -1797,7 +2334,10 @@
     "ru": "Вспыльчивый, лучше не трогать.",
     "tr": "Huysuz ve üstüne gidilmez; karışmayın.",
     "fa": "تندخو و دست‌نداشتنی؛ بهتر است کاری نداشته باشید.",
-    "ar": "سريع الغضب ولا يُستفزّ؛ من الأفضل تركه وشأنه."
+    "ar": "سريع الغضب ولا يُستفزّ؛ من الأفضل تركه وشأنه.",
+    "id": "Punya temperamen buruk, jangan diprovokasi.",
+    "km": "មាន អារម្មណ៍ តិចតួច និង គ្រោះថ្នាក់ ក្នុង ការ បង្ក ឲ្យ មាន ការ ភ្ញាក់ផ្អើល - ទុក ពួកគេ នៅ តែ ម្នាក់ ឯង ។",
+    "vi": "Tính tình nóng nảy, không thể chọc vào."
   },
   {
     "sentence": "墙上茅草——风吹两边倒",
@@ -1807,7 +2347,10 @@
     "ru": "Без собственного мнения; куда ветер — туда и он.",
     "tr": "Kendi fikri yok; rüzgâr nereden eserse oraya yatar.",
     "fa": "نظر محکم ندارد؛ هر طرف باد بزند همان طرف می‌رود.",
-    "ar": "بلا رأي ثابت؛ يميل مع الريح."
+    "ar": "بلا رأي ثابت؛ يميل مع الريح.",
+    "id": "Tidak punya prinsip, mudah berbalik arah.",
+    "km": "គ្មានការយល់ឃើញរឹងមាំ; បង្ហូរទឹកជាមួយខ្យល់.",
+    "vi": "Không có chủ kiến, nghiêng về hai bên."
   },
   {
     "sentence": "满招损，谦受益",
@@ -1817,7 +2360,10 @@
     "ru": "Самодовольство приводит к потерям, а скромность и осторожность приносят пользу.",
     "tr": "Kibir zarar getirir; tevazu ve temkin fayda sağlar.",
     "fa": "غرور و خودپسندی زیان می‌آورد، اما فروتنی و احتیاط سود می‌دهد.",
-    "ar": "الغرور يجرّ الخسارة، أما التواضع والحذر فيجلبان المنفعة."
+    "ar": "الغرور يجرّ الخسارة، أما التواضع والحذر فيجلبان المنفعة.",
+    "id": "Kesombongan mendatangkan kerugian, kerendahan hati mendatangkan kebaikan.",
+    "km": "ភាពក្រអឺតក្រទមនាំមកនូវការបាត់បង់ខណៈពេលដែលការបន្ទាបខ្លួននិងការប្រុងប្រយ័ត្ននាំមកនូវអត្ថប្រយោជន៍ ។",
+    "vi": "Kiêu ngạo tự mãn sẽ mang đến tổn thất, khiêm tốn cẩn trọng sẽ được lợi ích."
   },
   {
     "sentence": "三人行，必有我师",
@@ -1827,7 +2373,10 @@
     "ru": "Среди попутчиков всегда найдётся, у кого поучиться; будь скромен и обращайся за советом.",
     "tr": "Birlikte yürüyenler arasında öğreneceğin biri mutlaka vardır; alçakgönüllü ol ve sor.",
     "fa": "در جمع همیشه کسی هست که چیزی برای آموختن دارد؛ فروتن باش و از دیگران بپرس.",
-    "ar": "مع القوم يوجد من يستحق أن تتعلم منه؛ تواضع واسأل."
+    "ar": "مع القوم يوجد من يستحق أن تتعلم منه؛ تواضع واسأل.",
+    "id": "Di antara beberapa orang yang bersama, pasti ada yang bisa dijadikan guru; menekankan pentingnya rendah hati belajar.",
+    "km": "ក្នុងចំណោមអ្នកដែលដើរជាមួយគ្នា មាននរណាម្នាក់តែងតែមានអ្វីមួយដើម្បីបង្រៀនអ្នក ។ ចូរបន្ទាបខ្លួន ហើយសួរអ្នកដទៃ ។",
+    "vi": "Trong nhóm người cùng đi, chắc chắn có người đáng để mình học hỏi, nhấn mạnh cần khiêm tốn请教 người khác."
   },
   {
     "sentence": "话到嘴边留半句",
@@ -1837,7 +2386,10 @@
     "ru": "Говори осмотрительно; не будь чрезмерно категоричен — оставь пространство для манёвра.",
     "tr": "Dikkatli konuş; fazla kesin ve kapalı olma—pay bırak.",
     "fa": "در گفتار احتیاط کن؛ سخن را تمام‌کننده و مطلق نگو؛ راه باز بگذار.",
-    "ar": "تكلم بحذر؛ لا تُقطع الكلمة قطعًا مطلقًا—اترك مجالًا للمرونة."
+    "ar": "تكلم بحذر؛ لا تُقطع الكلمة قطعًا مطلقًا—اترك مجالًا للمرونة.",
+    "id": "Bicara harus hati-hati, jangan sampai terlalu mutlak, sisakan ruang.",
+    "km": "និយាយ ដោយ ប្រយ័ត្នប្រយែង កុំ ឲ្យ មាន កន្លែង គ្រប់គ្រាន់ សម្រាប់ ភាព លម្អិត ។",
+    "vi": "Nói chuyện phải cẩn thận, đừng nói quá tuyệt đối, để lại đường lui."
   },
   {
     "sentence": "真金不怕火炼",
@@ -1847,7 +2399,10 @@
     "ru": "Подлинный талант и нрав выдерживают испытание и не остаются незамеченными.",
     "tr": "Gerçek yetenek ve karakter sınavdan çıkar, gizlenmez.",
     "fa": "استعداد و اخلاق راستین از آزمون سربلند بیرون می‌آید و پنهان نمی‌ماند.",
-    "ar": "الموهبة والأخلاق الحقيقيتان تصمدان أمام الاختبار ولا تُطمس."
+    "ar": "الموهبة والأخلاق الحقيقيتان تصمدان أمام الاختبار ولا تُطمس.",
+    "id": "Metafora bahwa orang yang benar-benar berkualitas akan tetap bertahan setelah melewati ujian.",
+    "km": "ទេពកោសល្យ និងតួអង្គពិតប្រាកដអាចរស់រានមានជីវិតពីការជំនុំជម្រះក្តី ហើយមិនត្រូវបានលាក់",
+    "vi": "Người có tài năng và phẩm chất thực sự sau khi thử thách vẫn giữ được bản sắc, không bị mai một."
   },
   {
     "sentence": "半夜吃柿子——专拣软的捏",
@@ -1857,7 +2412,10 @@
     "ru": "Обижает только слабых.",
     "tr": "Sadece güçsüze bulaşır.",
     "fa": "ضعیف‌ها را هدف می‌گیرد.",
-    "ar": "يستضعف الضعفاء فقط."
+    "ar": "يستضعف الضعفاء فقط.",
+    "id": "Hanya memilih yang lemah untuk dibully.",
+    "km": "វា មាន តែ អ្នក ដែល មើល ទៅ មាន ភាព ទន់ខ្សោយ ប៉ុណ្ណោះ ។",
+    "vi": "Chuyên chọn kẻ yếu để bắt nạt."
   },
   {
     "sentence": "旁观者清，当局者迷",
@@ -1867,7 +2425,10 @@
     "ru": "Участник ситуации часто видит её хуже, чем сторонний наблюдатель.",
     "tr": "Olayın içindeki kişi gerçeği net göremeyebilir; dışarıdan bakan ise daha açık görür.",
     "fa": "کسی که درگیر ماجراست گاهی حقیقت را خوب نمی‌بیند، اما ناظر بیرونی روشن‌تر می‌بیند.",
-    "ar": "المنغمس في القضية قد لا يرى حقيقتها بوضوح، بينما يراها المراقب الخارجي أوضح."
+    "ar": "المنغمس في القضية قد لا يرى حقيقتها بوضوح، بينما يراها المراقب الخارجي أوضح.",
+    "id": "Metafora bahwa orang yang terlibat sulit melihat kebenaran, sementara pengamat dari luar bisa melihat dengan jelas.",
+    "km": "អ្នក ដែល ពាក់ព័ន្ធ នឹង រឿង មួយ ប្រហែល ជា មិន អាច មើល ឃើញ បាន ច្បាស់ ទេ ខណៈ ដែល អ្នក ក្រៅ តែង តែ មើល ឃើញ បាន ល្អ ជាង មុន ។",
+    "vi": "Người trong cuộc dễ bị mù quáng, người ngoài cuộc lại nhìn rõ ràng."
   },
   {
     "sentence": "药铺里的甘草——百搭（配）",
@@ -1877,7 +2438,10 @@
     "ru": "Подходит ко всему; со всеми ладит.",
     "tr": "Her şeye uyar; herkesle geçinir.",
     "fa": "با همه چیز می‌سازد؛ با همه سازگار است.",
-    "ar": "يُلائم كلّ شيء ويتفق مع الجميع."
+    "ar": "يُلائم كلّ شيء ويتفق مع الجميع.",
+    "id": "Cocok dengan siapa saja, bisa beradaptasi di mana saja.",
+    "km": "ទៅ ជាមួយ មនុស្ស គ្រប់ គ្នា ទៅ ជាមួយ មនុស្ស គ្រប់ គ្នា",
+    "vi": "Phối hợp với ai cũng được, hợp với tất cả mọi người."
   },
   {
     "sentence": "一二三五六——没事（四）",
@@ -1887,7 +2451,10 @@
     "ru": "Всё в порядке; ничего страшного (каламбур).",
     "tr": "Sorun yok (sayı kelime oyunu).",
     "fa": "اشکالی ندارد؛ ربطی نیست (بازی با «四»).",
-    "ar": "بلا مشكلةٍ (توريةٌ على رقمٍ)."
+    "ar": "بلا مشكلةٍ (توريةٌ على رقمٍ).",
+    "id": "Tidak ada masalah, tidak apa-apa.",
+    "km": "វា ជា ការ ល្អ; គ្មាន បញ្ហា (ចុច លើ '៤').",
+    "vi": "Không sao, không sao cả (cách âm \"tứ\")."
   },
   {
     "sentence": "无事不登三宝殿",
@@ -1897,7 +2464,10 @@
     "ru": "Без дела не ходят в гости; пришедший обычно чего-то хочет.",
     "tr": "İnsanlar boş yere kapıya gelmez; gelenin bir amacı vardır.",
     "fa": "کسی بی‌کار به دیدن نمی‌آید؛ آمدن معمولاً هدفی دارد.",
-    "ar": "لا يزور الناس بلا غرض؛ الزائر غالبًا له مطلب."
+    "ar": "لا يزور الناس بلا غرض؛ الزائر غالبًا له مطلب.",
+    "id": "Metafora bahwa orang tidak akan datang tanpa tujuan; kalau datang pasti ada maksudnya.",
+    "km": "មនុស្ស មិន ទៅ ទស្សនា ដោយ គ្មាន មូលហេតុ ទេ អ្នក ដែល ហៅ គេ តែង តែ ចង់ បាន អ្វី មួយ ។",
+    "vi": "Không có việc gì thì không tự đến cửa, thường chỉ người đến cửa nhất định có mục đích."
   },
   {
     "sentence": "十五只吊桶打水——七上八下",
@@ -1907,7 +2477,10 @@
     "ru": "Тревожно; не по себе.",
     "tr": "Endişeli, huzursuz.",
     "fa": "اضطراب و بی‌قراری.",
-    "ar": "قلقٌ وعدم اطمئنان."
+    "ar": "قلقٌ وعدم اطمئنان.",
+    "id": "Hatinya gelisah dan tidak tenang.",
+    "km": "នៅលើគែម; ថប់បារម្ភនិងមិនស្ថិតស្ថេរ ។",
+    "vi": "Trong lòng bồn chồn lo âu, không yên ổn."
   },
   {
     "sentence": "无风不起浪",
@@ -1917,7 +2490,10 @@
     "ru": "Ничто не происходит без причины; из ниоткуда события не берутся.",
     "tr": "Her olayın bir nedeni vardır; boş yere çıkmaz.",
     "fa": "هیچ رویدادی بی‌علت نیست؛ از هیچ پدید نمی‌آید.",
-    "ar": "لا يحدث شيء بلا سبب؛ لا يخرج من العدم."
+    "ar": "لا يحدث شيء بلا سبب؛ لا يخرج من العدم.",
+    "id": "Metafora bahwa segala sesuatu pasti ada penyebabnya, tidak terjadi begitu saja.",
+    "km": "គ្មាន អ្វី កើត ឡើង ដោយ គ្មាន មូលហេតុ ទេ ហេតុការណ៍ មិន កើត ឡើង ដោយ គ្មាន មូលហេតុ ទេ",
+    "vi": "Việc xảy ra nhất định có nguyên nhân, không tự nhiên xuất hiện."
   },
   {
     "sentence": "包子铺的笼屉——气往上冲",
@@ -1927,7 +2503,10 @@
     "ru": "Переполнен злостью; не может сдержать.",
     "tr": "Öfkeyle dolu; içinde tutamaz.",
     "fa": "از عصبانیت پر است؛ نمی‌تواند فرو بخورد.",
-    "ar": "ممتلئٌ بالغضب ولا يستطيع كظمه."
+    "ar": "ممتلئٌ بالغضب ولا يستطيع كظمه.",
+    "id": "Sangat marah, tidak tahan lagi.",
+    "km": "វា ពោរពេញ ទៅ ដោយ កំហឹង ដែល មិន អាច ទប់ទល់ បាន ។",
+    "vi": "Một bụng tức giận, không kiềm được."
   },
   {
     "sentence": "二十一天不出鸡——坏蛋",
@@ -1937,7 +2516,10 @@
     "ru": "Плохиш; ненадёжен.",
     "tr": "Kötü adam; güvenilmez.",
     "fa": "آدم بد؛ قابل اعتماد نیست.",
-    "ar": "شريرٌ غير موثوق."
+    "ar": "شريرٌ غير موثوق.",
+    "id": "Orang jahat, tidak bisa diandalkan.",
+    "km": "ស៊ុតអាក្រក់; មិនគួរឱ្យទុកចិត្ត ។",
+    "vi": "Kẻ xấu, không đáng tin."
   },
   {
     "sentence": "刺猬钻进丝线铺——纠缠不清",
@@ -1947,7 +2529,10 @@
     "ru": "Запутано без конца; не разрулить.",
     "tr": "Çözülemeyecek şekilde dolaşmış.",
     "fa": "سرگردان و درهم؛ جدا نمی‌شود.",
-    "ar": "متشابكٌ بلا فكّ."
+    "ar": "متشابكٌ بلا فكّ.",
+    "id": "Sangat kusut dan tidak karuan.",
+    "km": "(បច្ចេកទេស) មិនច្បាស់លាស់, មិនច្បាស់លាស់, មិនច្បាស់លាស់",
+    "vi": "Vướng víu không rõ ràng, không gỡ được."
   },
   {
     "sentence": "猫哭耗子——假慈悲",
@@ -1957,7 +2542,10 @@
     "ru": "Притворяется сочувствующим; на самом деле неискренен.",
     "tr": "Acıyormuş gibi yapar; içten değildir.",
     "fa": "دلسوزی را نقش بازی می‌کند؛ واقعاً دلسوز نیست.",
-    "ar": "يتظاهر بالشفقة وليست صادقة."
+    "ar": "يتظاهر بالشفقة وليست صادقة.",
+    "id": "Pura-pura kasihan, sebenarnya tidak tulus.",
+    "km": "ធ្វើពុតជាអាណិតអាសូរអ្នកដទៃ ។ ការអាណិតអាសូរមិនមែនជាការពិតទេ ។",
+    "vi": "Giả vờ thương xót, thực ra không thật lòng."
   },
   {
     "sentence": "一叶障目，不见泰山",
@@ -1967,7 +2555,10 @@
     "ru": "Мелочь заслоняет взгляд от целого и общей картины.",
     "tr": "Ufak bir şey gözünü büyük resimden alıkoyar.",
     "fa": "چیز کوچک محلی دید کل را می‌پوشاند.",
-    "ar": "الجزء الصغير يحجب رؤية الكل."
+    "ar": "الجزء الصغير يحجب رؤية الكل.",
+    "id": "Metafora bahwa hal kecil bisa menghalangi pandangan terhadap keseluruhan.",
+    "km": "រឿង តូច មួយ បិទ ទស្សនៈ ទាំងមូល អ្នក នឹង បាត់បង់ រូបភាព ធំ",
+    "vi": "Bị che mắt bởi sự vật nhỏ nhặt cục bộ mà không thấy toàn cục."
   },
   {
     "sentence": "以小人之心，度君子之腹",
@@ -1977,7 +2568,10 @@
     "ru": "Мерить порядочного человека узкой, эгоистичной меркой.",
     "tr": "Asil insanın niyetini dar ve bencil bir zihniyetle ölçmek.",
     "fa": "قضاوت درباره آدم نیک‌سرشت با ذهن تنگ و خودخواه.",
-    "ar": "تقدير نوايا النبلاء بعقل ضيق أناني."
+    "ar": "تقدير نوايا النبلاء بعقل ضيق أناني.",
+    "id": "Metafora menilai orang baik dengan pikiran sempit dan egois.",
+    "km": "ការ កាត់ទោស មនុស្ស ដ៏ ខ្ពង់ខ្ពស់ ដោយ គំនិត តូចតាច ដែល មាន អត្តចរិត អត្តចរិត អត្តចរិត ។",
+    "vi": "Dùng tâm lý hẹp hòi ích kỷ để suy đoán ý nghĩ của người có phẩm chất cao."
   },
   {
     "sentence": "言多必失",
@@ -1987,7 +2581,10 @@
     "ru": "Многословие ведёт к ошибкам и проболчкам; говори осторожно.",
     "tr": "Çok konuşmak hata veya sır sızdırmaya yol açar; dikkatli ol.",
     "fa": "زیاد گفتن خطا یا افشای راز می‌آورد؛ در سخن احتیاط کن.",
-    "ar": "كثرة الكلام تجرّ الزلل أو كشف الأسرار؛ كن حذرًا في القول."
+    "ar": "كثرة الكلام تجرّ الزلل أو كشف الأسرار؛ كن حذرًا في القول.",
+    "id": "Bicara terlalu banyak mudah terpeleset dan membocorkan rahasia; harus hati-hati dalam berbicara.",
+    "km": "ការនិយាយច្រើនពេកប្រឈមនឹងកំហុស ឬការលេចធ្លាយ ។ និយាយដោយប្រុងប្រយ័ត្ន ។",
+    "vi": "Nói nhiều dễ mắc lỗi hoặc lộ bí mật, cần nói chuyện cẩn thận."
   },
   {
     "sentence": "人不可貌相，海水不可斗量",
@@ -1997,7 +2594,10 @@
     "ru": "Нельзя судить о способностях и характере человека по внешности, как нельзя измерить море ковшом.",
     "tr": "İnsanı dış görünüşüne bakarak değerlendirme; deniz küçük kapla ölçülmez.",
     "fa": "نباید از ظاهر درباره توانایی و شخصیت کسی قضاوت کرد، همان‌طور که دریا را با پیمانه نمی‌سنجند.",
-    "ar": "لا تُحكَم قدرات الإنسان وخُلقه من مظهره، كما لا يُقاس البحر بمكيال صغير."
+    "ar": "لا تُحكَم قدرات الإنسان وخُلقه من مظهره، كما لا يُقاس البحر بمكيال صغير.",
+    "id": "Metafora bahwa tidak bisa menilai seseorang dari penampilan luarnya, seperti tidak bisa mengukur lautan dengan gayung.",
+    "km": "កុំ កាត់ទោស សមត្ថភាព ឬ លក្ខណៈ របស់ មនុស្ស តាម រូបរាង ដូច សមុទ្រ មិន អាច កាត់ទោស បាន ដោយ ប្រើ កង់ តូចៗ",
+    "vi": "Không thể đánh giá năng lực và phẩm chất của một người qua vẻ bề ngoài, giống như không thể dùng thùng để đo lượng nước biển."
   },
   {
     "sentence": "姜还是老的辣",
@@ -2007,7 +2607,10 @@
     "ru": "Старшие опытнее — рассматривают вопросы обстоятельнее и знают, как поступить.",
     "tr": "Yaşlılar tecrübelidir; işi daha bütünsel görür ve çare bilir.",
     "fa": "سال‌خورده‌ها تجربه دارند؛ مسائل را جامع‌تر می‌بینند و راه‌حل بهتری می‌دانند.",
-    "ar": "كبار السن أصحاب تجربة فيرون الأمور أشمل ويعرفون ما ينبغي فعله."
+    "ar": "كبار السن أصحاب تجربة فيرون الأمور أشمل ويعرفون ما ينبغي فعله.",
+    "id": "Orang yang lebih tua berpengalaman, mempertimbangkan masalah lebih matang dan lebih tahu cara menyelesaikannya.",
+    "vi": "Gừng càng già càng cay, ý nói người lớn tuổi kinh nghiệm phong phú hơn, suy nghĩ thấu đáo và có cách giải quyết tốt hơn.",
+    "km": "មនុស្ស ចាស់ មាន បញ្ហា ច្រើន ជាង គេ គេ គេ មើល ឃើញ បញ្ហា ច្រើន ជាង គេ ហើយ ដឹង ថា ត្រូវ ធ្វើ អ្វី ។"
   },
   {
     "sentence": "自食其力",
@@ -2017,7 +2620,10 @@
     "ru": "Корми себя своим трудом, не завися от других.",
     "tr": "Başkasına muhtaç olmadan kendi emeğinle geçin.",
     "fa": "با کار خودت زندگی کن، وابسته نباش.",
-    "ar": "اعش على كدّ يدك دون الاتكال على الغير."
+    "ar": "اعش على كدّ يدك دون الاتكال على الغير.",
+    "id": "Hidup dari usaha sendiri tanpa bergantung pada orang lain.",
+    "vi": "Tự lực cánh sinh, chỉ dựa vào lao động của chính mình để nuôi sống bản thân, không phụ thuộc vào người khác.",
+    "km": "រស់នៅ ដោយ ការងារ របស់ អ្នក ដោយ មិន ពឹង ផ្អែក លើ អ្នក ដទៃ ទេ ។"
   },
   {
     "sentence": "千里之堤，溃于蚁穴",
@@ -2027,7 +2633,10 @@
     "ru": "Мелкая небрежность губит большое дело; беду лучше предупредить заранее.",
     "tr": "Küçük ihmaller büyük felakete yol açar; baştan önle.",
     "fa": "غفلت در جزئیات فاجعه می‌آورد؛ از اول پیشگیری کن.",
-    "ar": "إهمال التفاصيل الصغيرة يهدم العظيم؛ وقِ البلاء مبكرًا."
+    "ar": "إهمال التفاصيل الصغيرة يهدم العظيم؛ وقِ البلاء مبكرًا.",
+    "id": "Hal kecil yang diabaikan bisa mendatangkan bencana besar, harus mencegah dari awal.",
+    "vi": "Con đê ngàn dặm sụp vì lỗ kiến, ví dụ việc nhỏ không chú ý sẽ dẫn đến hậu quả lớn, nhấn mạnh việc phòng ngừa từ sớm.",
+    "km": "ការធ្វេសប្រហែសតិចតួចអាចបំផ្លាញការងារដ៏អស្ចារ្យ ។ ការពារបញ្ហាមុនពេល ។"
   },
   {
     "sentence": "纸上得来终觉浅，绝知此事要躬行",
@@ -2037,7 +2646,10 @@
     "ru": "Знание из книг остаётся поверхностным, пока не попробуешь сам на практике.",
     "tr": "Kitaptan gelen bilgi, kendin yapmadıkça yüzeysel kalır.",
     "fa": "دانش کتابی سطحی می‌ماند تا خود عمل نکنی و تجربه نکنی.",
-    "ar": "علم الكتب يبقى سطحيًا دون ممارسة وتجربة ذاتية."
+    "ar": "علم الكتب يبقى سطحيًا دون ممارسة وتجربة ذاتية.",
+    "id": "Pengetahuan dari buku tetap dangkal sampai seseorang mempraktikkannya sendiri.",
+    "vi": "Kiến thức từ sách vở cuối cùng vẫn nông cạn, muốn hiểu rõ sự việc phải tự mình trải nghiệm thực tiễn.",
+    "km": "ការរៀនសៀវភៅនៅតែមានកម្រិតទាបរហូតដល់អ្នកអនុវត្ត និងជួបប្រទះវាដោយខ្លួនឯង ។"
   },
   {
     "sentence": "背着娃娃推磨——添人不添劲",
@@ -2047,7 +2659,10 @@
     "ru": "Народу больше, толку нет; никто не тянет.",
     "tr": "Çok insan, az iş; kimse yüklenmiyor.",
     "fa": "آدم بیشتر، زحمت همان؛ کسی زور نمی‌زند.",
-    "ar": "أكثر ناسًا بلا جهدٍ إضافي."
+    "ar": "أكثر ناسًا بلا جهدٍ إضافي.",
+    "id": "Banyak orang tapi tidak ada usaha ekstra, tidak ada yang membantu.",
+    "vi": "Mang theo trẻ con mà đẩy cối —— thêm người nhưng không thêm sức, ý nói đông người mà không ai chịu làm.",
+    "km": "មនុស្ស ច្រើន ជាង គេ ប៉ុន្តែ មិន មាន ការ ខិតខំ បន្ថែម ទៀត ទេ ពួកគេ មិន ទាញ ទម្ងន់ របស់ ពួកគេ ទេ ។"
   },
   {
     "sentence": "猪八戒照镜子——里外不是人",
@@ -2057,7 +2672,10 @@
     "ru": "Ни туда ни сюда; всем не угодил.",
     "tr": "İki tarafı da memnun etmez; sıkışmış.",
     "fa": "هیچ طرف را راضی نمی‌کند؛ درمانده.",
-    "ar": "لا يرضي طرفًا؛ في ورطةٍ."
+    "ar": "لا يرضي طرفًا؛ في ورطةٍ.",
+    "id": "Tidak memuaskan kedua belah pihak, terjebak di tengah.",
+    "vi": "Trư Bát Giới soi gương —— không làm được người ở bên trong cũng như bên ngoài, ý nói làm hài lòng cả hai bên mà cuối cùng không ai vừa lòng.",
+    "km": "វា មិន សប្បាយ ចិត្ត នឹង ភាគី ណា មួយ ទេ វា ជាប់ នៅ កណ្តាល ។"
   },
   {
     "sentence": "针尖对麦芒——谁也不让谁",
@@ -2067,7 +2685,10 @@
     "ru": "Никто не уступает; острый противостояние.",
     "tr": "Kimse geri adım atmaz; doğrudan çatışır.",
     "fa": "هیچ‌کس عقب نمی‌کشد؛ رودررو و تند.",
-    "ar": "لا يتنازل أحد؛ مواجهة حادة."
+    "ar": "لا يتنازل أحد؛ مواجهة حادة.",
+    "id": "Kedua belah pihak tidak mau mengalah, berhadapan langsung.",
+    "vi": "Đỉnh kim đối mũi lúa —— không ai nhường ai, chỉ sự đối đầu gay gắt, không bên nào chịu lùi bước.",
+    "km": "គ្មានអ្នកណាកែចិត្តបងទេ - ព្រាប សុវត្ថិ [OFFICIAL MV]"
   },
   {
     "sentence": "兔子拉车——连蹦带跳",
@@ -2077,7 +2698,10 @@
     "ru": "Неровно, как скачками.",
     "tr": "Tümsek tümsek; zıplar gibi.",
     "fa": "ناصاف و پرتکان؛ مثل پریدن‌های پیاپی.",
-    "ar": "غير مستقرّ؛ كالقفز المتقطّع."
+    "ar": "غير مستقرّ؛ كالقفز المتقطّع.",
+    "id": "Tidak stabil dan tidak rata, seperti melompat-lompat.",
+    "vi": "Thỏ kéo xe —— vừa nhảy vừa chạy, ý nói không ổn định, cứ nhảy nhót lung tung.",
+    "km": "មានភាពមិនប្រក្រតី និងមិនប្រក្រតី ដូចការលោត ។"
   },
   {
     "sentence": "顺藤摸瓜",
@@ -2087,7 +2711,10 @@
     "ru": "По ниточке, шаг за шагом, можно дойти до правды или способа решения.",
     "tr": "İpuçlarını adım adım izleyerek gerçeğe veya çözüme ulaşırsın.",
     "fa": "با دنبال کردن سرنخ‌ها قدم‌به‌قدم به حقیقت یا راه‌حل می‌رسی.",
-    "ar": "اتبع الخيوط خطوة بخطوة لتصل إلى الحقيقة أو الحل."
+    "ar": "اتبع الخيوط خطوة بخطوة لتصل إلى الحقيقة أو الحل.",
+    "id": "Mengikuti jejak langkah demi langkah untuk menemukan kebenaran atau solusi.",
+    "vi": "Bám theo dây leo tìm quả bầu, ví dụ đi theo manh mối từng bước để tìm ra sự thật hoặc giải pháp.",
+    "km": "ចូរ ដើរ តាម ផ្លូវ មួយ ជំហាន ដើម្បី សម្រេច បាន ការ ពិត ឬ ដំណោះស្រាយ ។"
   },
   {
     "sentence": "不怕慢，就怕站",
@@ -2097,7 +2724,10 @@
     "ru": "Пугает не медлительность, а остановка или бросание на полпути.",
     "tr": "Yavaşlık değil, durmak veya yarıda bırakmak tehlikelidir.",
     "fa": "نه کندی که توقف یا نیمه‌کاره رها کردن خطرناک است.",
-    "ar": "ليس البطء هو المشكلة، بل التوقف أو الترك في المنتصف."
+    "ar": "ليس البطء هو المشكلة، بل التوقف أو الترك في المنتصف.",
+    "id": "Yang ditakuti bukan lambat, tapi berhenti di tengah jalan atau menyerah.",
+    "vi": "Không sợ chậm, chỉ sợ dừng lại, ý nói làm việc không sợ tiến độ chậm, chỉ sợ đứng im không tiến tới, bỏ dở giữa chừng.",
+    "km": "ការ ភ័យ ខ្លាច មិន មែន ជា ភាព យឺតយ៉ាវ ទេ គឺ ជា ការ ឈរ នៅ តែ ឬ បោះបង់ ចោល នៅ កណ្តាល ផ្លូវ ។"
   },
   {
     "sentence": "赠人玫瑰，手有余香",
@@ -2107,7 +2737,10 @@
     "ru": "Помогая другим, сам чувствуешь радость и тепло.",
     "tr": "Başkasına yardım ettikten sonra sen de mutluluk ve sıcaklık hissedersin.",
     "fa": "پس از کمک به دیگران، خودت هم شادی و گرمی احساس می‌کنی.",
-    "ar": "بعد مساعدة الآخرين تشعر أنت أيضًا بالسرور والدفء."
+    "ar": "بعد مساعدة الآخرين تشعر أنت أيضًا بالسرور والدفء.",
+    "id": "Setelah membantu orang lain, diri sendiri juga akan merasakan kebahagiaan dan kehangatan.",
+    "vi": "Tặng hoa hồng, tay còn lưu hương, ví dụ giúp đỡ người khác rồi bản thân cũng cảm thấy vui vẻ và ấm áp.",
+    "km": "ក្រោយ ពេល ជួយ អ្នក ដទៃ អ្នក នឹង មាន អារម្មណ៍ រីករាយ និង សប្បាយ រីករាយ ។"
   },
   {
     "sentence": "擒贼先擒王",
@@ -2117,7 +2750,10 @@
     "ru": "Чтобы решить проблему основательно, нужно сначала бить по ключевой фигуре или сути вопроса.",
     "tr": "Sorunu kökten çözmek için önce kilit kişiyi ya da temel noktayı hedefle.",
     "fa": "برای حل ریشه‌ای مسئله باید اول سراغ فرد کلیدی یا هسته اصلی مشکل رفت.",
-    "ar": "لحل المشكلة جذريًا، ابدأ بالشخص المحوري أو بجوهر المشكلة."
+    "ar": "لحل المشكلة جذريًا، ابدأ بالشخص المحوري أو بجوهر المشكلة.",
+    "id": "Untuk menyelesaikan masalah secara tuntas, sasarkan dulu orang kuncinya atau inti masalahnya.",
+    "vi": "Bắt trộm trước bắt vua, ví dụ làm việc phải nắm bắt nhân vật then chốt hoặc vấn đề cốt lõi mới giải quyết triệt để được.",
+    "km": "ដើម្បីដោះស្រាយបញ្ហាឱ្យបានហ្មត់ចត់ ត្រូវកំណត់គោលដៅមនុស្សសំខាន់ ឬបញ្ហាស្នូលជាមុនសិន ។"
   },
   {
     "sentence": "二两铁打大刀——不够料",
@@ -2127,7 +2763,10 @@
     "ru": "Материала не хватает; не сделать дело.",
     "tr": "Malzeme yetmez; iş olmaz.",
     "fa": "مواد کافی نیست؛ کار ساخته نمی‌شود.",
-    "ar": "المادة غير كافية لإنجاز العمل."
+    "ar": "المادة غير كافية لإنجاز العمل.",
+    "id": "Bahannya tidak cukup, tidak bisa mengerjakan sesuatu.",
+    "vi": "Hai lạng thép rèn đại đao —— không đủ nguyên liệu, ý nói tài liệu không đủ, không thể hoàn thành việc.",
+    "km": "គ្មាន វត្ថុ គ្រប់គ្រាន់ ដើម្បី ធ្វើ ការងារ នោះ ទេ ។"
   },
   {
     "sentence": "金玉其外，败絮其中",
@@ -2137,7 +2776,10 @@
     "ru": "Снаружи блистательно, внутри всё запущено и плохо.",
     "tr": "Dışı süslü ve parlak, içi çürük ve perişan.",
     "fa": "ظاهر آراسته و زرین، باطن فاسد و ویران.",
-    "ar": "لامع من الخارج، فاسد من الداخل."
+    "ar": "لامع من الخارج، فاسد من الداخل.",
+    "id": "Luarannya bagus dan indah, tapi isinya sangat buruk.",
+    "vi": "Ngoài vàng ngọc, trong rơm nát, ví dụ bề ngoài trông đẹp đẽ lộng lẫy nhưng bên trong lại tồi tệ hỏng hóc.",
+    "km": "វា មាន ភាព ស្រស់ ស្អាត ខាង ក្រៅ ប៉ុន្តែ វា មាន ភាព រលោង ខាង ក្នុង ។"
   },
   {
     "sentence": "铁匠铺的买卖——样样都过硬",
@@ -2147,7 +2789,10 @@
     "ru": "Во всём крепкий и надёжный.",
     "tr": "Her konuda sağlam ve güvenilir.",
     "fa": "در هر چیز محکم و قابل اعتماد.",
-    "ar": "متينٌ موثوقٌ في كلّ شيء."
+    "ar": "متينٌ موثوقٌ في كلّ شيء.",
+    "id": "Kokoh dan dapat diandalkan dalam segala hal.",
+    "vi": "Tiệm thợ rèn buôn bán —— món nào cũng cứng cáp, ý nói đồ đạc bền chắc, đáng tin cậy.",
+    "km": "វា មាន ភាព រឹងមាំ និង អាច ទុកចិត្ត បាន គ្រប់ បែប យ៉ាង ។"
   },
   {
     "sentence": "哑巴吃黄连——有苦难言",
@@ -2157,7 +2802,10 @@
     "ru": "Страдает, но не может вымолвить.",
     "tr": "İçi acıyla dolu; anlatamıyor.",
     "fa": "درد دارد اما نمی‌تواند بگوید.",
-    "ar": "له ألمٌ باطنٌ ولا يستطيع البوح."
+    "ar": "له ألمٌ باطنٌ ولا يستطيع البوح.",
+    "id": "Menderita di dalam hati tapi tidak bisa mengungkapkannya.",
+    "vi": "Người câm ăn hoa hoè —— có khổ không nói được, ý nói chịu đựng nỗi khổ mà không thể bộc lộ.",
+    "km": "គាត់ មាន ការ ឈឺចាប់ ក្នុង ខ្លួន ប៉ុន្តែ គាត់ មិន អាច និយាយ អំពី វា បាន ទេ ។"
   },
   {
     "sentence": "茶壶里开染房——不好摆布",
@@ -2167,7 +2815,10 @@
     "ru": "Тесная ситуация; трудно всё уладить.",
     "tr": "Dar bir durum; yönetmesi zor.",
     "fa": "موقعیت تنگ است؛ سخت جمع‌وجور می‌شود.",
-    "ar": "وضعٌ ضيّقٌ يصعب ضبطه."
+    "ar": "وضعٌ ضيّقٌ يصعب ضبطه.",
+    "id": "Situasi sempit dan sulit untuk dikelola.",
+    "vi": "Trong ấm trà mở tiệm nhuộm —— không dễ sắp xếp, ý nói tình thế nhỏ mà khó xử lý.",
+    "km": "ស្ថានភាព នេះ មាន ភាព តានតឹង ខ្លាំង ណាស់ ដែល មិន អាច គ្រប់គ្រង បាន ដោយ ងាយ ស្រួល នោះ ទេ ។"
   },
   {
     "sentence": "少壮不努力，老大徒伤悲",
@@ -2177,7 +2828,10 @@
     "ru": "Кто не трудится в молодости, в старости лишь тщетно жалеет.",
     "tr": "Gençliğinde çabalamazsan yaşlılıkta boşuna pişman olursun.",
     "fa": "اگر در جوانی تلاش نکنی، در پیری جز پشیمانی بی‌ثمر نخواهی داشت.",
-    "ar": "من لا يجتهد في الشباب يبقى نادمًا عبثًا في الشيخوخة."
+    "ar": "من لا يجتهد في الشباب يبقى نادمًا عبثًا في الشيخوخة.",
+    "id": "Jika tidak berjuang keras saat muda, saat tua hanya akan menyesal sia-sia.",
+    "vi": "Thanh thiếu niên không nỗ lực, đến già chỉ còn hối hận, ý nói lúc trẻ không cố gắng phấn đấu, đến tuổi già sẽ chỉ uổng công tiếc nuối.",
+    "km": "ប្រសិន បើ អ្នក មិន ព្យាយាម នៅ ក្នុង វ័យ ក្មេង អ្នក នឹង ខក ចិត្ត នៅ ក្នុង វ័យ ចាស់ តែ ប៉ុណ្ណោះ ។"
   },
   {
     "sentence": "冰天雪地发牢骚——冷言冷语",
@@ -2187,7 +2841,10 @@
     "ru": "Колкие, ледяные слова.",
     "tr": "Sinsi, soğuk sözler.",
     "fa": "حرف‌های تند و سرد.",
-    "ar": "أقوالٌ باردةٌ لاذعة."
+    "ar": "أقوالٌ باردةٌ لاذعة.",
+    "id": "Perkataan yang tajam dan dingin.",
+    "vi": "Phàn nàn giữa trời tuyết đất băng —— lời lạnh tình lạnh, ý nói nói chuyện sắc sảo, lạnh lùng.",
+    "km": "សូមអញ្ជើញមកមើលវីដេអូ ។"
   },
   {
     "sentence": "天作孽，犹可违；自作孽，不可活",
@@ -2197,7 +2854,10 @@
     "ru": "Небесное бедствие ещё можно обойти; сам наделал — не уйдёшь от последствий.",
     "tr": "Dışarıdan gelen bela bazen savunulabilir; kendi elinle yarattığın felaketten kaçış olmaz.",
     "fa": "بلای نازل‌شده شاید بتوان دفع کرد؛ اما آسیب خودساخته گریزناپذیر است و عاقبت به خودت برمی‌گردد.",
-    "ar": "قد يُتقى بعض بلاء السماء، أما ما ارتكبته بنفسك فلا مفر من عواقبه."
+    "ar": "قد يُتقى بعض بلاء السماء، أما ما ارتكبته بنفسك فلا مفر من عواقبه.",
+    "id": "Bencana dari langit mungkin masih bisa dihindari; bencana yang ditimbulkan sendiri tidak bisa lolos dan akan menanggung akibatnya.",
+    "vi": "Tai họa do trời tạo vẫn còn tránh được, tai họa tự gây ra thì không thể sống, ý nói disasters từ thiên nhiên còn có cách tránh, nhưng tự gây họa thì không thoát nổi.",
+    "km": "ការ រង គ្រោះ ពី ស្ថាន បរមសុខ នៅ តែ អាច ចៀសវាង បាន; ការ រង គ្រោះ ដោយ ខ្លួន ឯង មិន អាច រត់ គេច បាន និង នាំ មក នូវ ការ ទណ្ឌកម្ម របស់ ខ្លួន បាន ទេ ។"
   },
   {
     "sentence": "厨师进厨房——来了内行",
@@ -2207,7 +2867,10 @@
     "ru": "Пришёл знаток — дело пошло легче.",
     "tr": "Uzman gelince iş kolaylaşır.",
     "fa": "کارشناس آمد؛ کار راحت می‌شود.",
-    "ar": "جاء الخبير فسهُل الأمر."
+    "ar": "جاء الخبير فسهُل الأمر.",
+    "id": "Ahli datang, masalah menjadi lebih mudah.",
+    "vi": "Đầu bếp vào bếp —— chuyên gia đến rồi, ý nói người trong nghề đến thì việc sẽ dễ giải quyết.",
+    "km": "អ្នកជំនាញមកដល់ហើយរឿងកាន់តែងាយស្រួល ។"
   },
   {
     "sentence": "十年树木，百年树人",
@@ -2217,7 +2880,10 @@
     "ru": "Воспитание людей долгое и трудное дело, требует гораздо больше времени и сил, чем выращивание деревьев.",
     "tr": "İnsan yetiştirmek ağaç yetiştirmekten uzun ve zordur; çok zaman ve emek ister.",
     "fa": "پرورش انسان سال‌ها زمان و تلاش می‌خواهد؛ سخت‌تر از رشد درخت است.",
-    "ar": "تربية الناس أطول وأصعب من نمو الأشجار وتحتاج وقتًا وجهدًا كبيرين."
+    "ar": "تربية الناس أطول وأصعب من نمو الأشجار وتحتاج وقتًا وجهدًا كبيرين.",
+    "id": "Mendidik bakat membutuhkan waktu bertahun-tahun dan upaya besar, lebih sulit dari menumbuhkan pohon.",
+    "vi": "Mười năm trồng cây, trăm năm trồng người, ví dụ việc bồi dưỡng nhân tài cần thời gian dài và công sức lớn lao.",
+    "km": "ការ កើន ឡើង នៃ ទេពកោសល្យ គឺ ត្រូវ ការ ពេលវេលា និង ការ ខិតខំ ប្រឹងប្រែង ជា ច្រើន ជំនាន់ ដែល ពិបាក ជាង ការ កើន ឡើង នៃ ដើម ឈើ ។"
   },
   {
     "sentence": "凡事预则立，不预则废",
@@ -2227,7 +2893,10 @@
     "ru": "Кто заранее готовится — преуспевает; кто нет — терпит неудачу.",
     "tr": "Önceden hazırlıklı olursan başarırsın; hazırlıksız kalırsan başarısız olursun.",
     "fa": "با آمادگی از پیش موفق می‌شوی؛ بی‌آمادگی به شکست می‌انجامد.",
-    "ar": "من أعدّ نجح؛ من لم يُعدّ فشل."
+    "ar": "من أعدّ نجح؛ من لم يُعدّ فشل.",
+    "id": "Dengan persiapan akan berhasil; tanpa persiapan akan gagal.",
+    "vi": "Việc gì có chuẩn bị thì thành công, không chuẩn bị thì thất bại, nhấn mạnh tầm quan trọng của việc lập kế hoạch trước.",
+    "km": "ដោយ ការ ត្រៀម ខ្លួន អ្នក នឹង ទទួល បាន ជោគជ័យ ហើយ ដោយ គ្មាន ការ ត្រៀម ខ្លួន អ្នក នឹង បរាជ័យ ។"
   },
   {
     "sentence": "冤冤相报何时了",
@@ -2237,7 +2906,10 @@
     "ru": "Взаимная месть бесконечна; нужно прощать и снимать противоречия.",
     "tr": "Göz göre göre intikam bitmez; hoşgörülü ol, anlaşmazlığı çöz.",
     "fa": "انتقام متقابل پایانی ندارد؛ ببخش و اختلاف را حل کن.",
-    "ar": "ثأرٌ بثأر لا ينتهي؛ تسامح وحل الخلاف."
+    "ar": "ثأرٌ بثأر لا ينتهي؛ تسامح وحل الخلاف.",
+    "id": "Balas dendam saling membalas tidak ada habisnya, harus memaafkan dan menyelesaikan konflik.",
+    "vi": "Oán thù báo thù nhau đến bao giờ mới hết, ví dụ trả thù lẫn nhau không bao giờ dứt, nhấn mạnh cần bao dung hóa giải mâu thuẫn.",
+    "km": "Tit-for-tat ការសងសឹកមិនចេះចប់ទេ ត្រូវអត់ធ្មត់ និងដោះស្រាយជម្លោះ ។"
   },
   {
     "sentence": "欲速则不达",
@@ -2247,7 +2919,10 @@
     "ru": "Торопливость мешает достичь цели; нужно двигаться постепенно.",
     "tr": "Acele hedefe ulaşmayı engeller; adım adım ilerle.",
     "fa": "عجله مانع رسیدن به هدف می‌شود؛ قدم‌به‌قدم پیش برو.",
-    "ar": "الاستعجال يعيق الوصول؛ تقدم تدريجيًا."
+    "ar": "الاستعجال يعيق الوصول؛ تقدم تدريجيًا.",
+    "id": "Terburu-buru justru menghambat pencapaian tujuan, harus maju selangkah demi selangkah.",
+    "vi": "Muốn nhanh thì không đạt, ví dụ quá nôn nóng muốn thành công mà lại không đạt được mục đích, nhấn mạnh làm việc cần từng bước.",
+    "km": "ការ លឿន ធ្វើ ឲ្យ មាន ការ បំផ្លាញ សំរាម; ដើរ ជំហាន មួយ ជំហាន ដើម្បី សម្រេច គោលដៅ របស់ អ្នក ។"
   },
   {
     "sentence": "水仙不开花——装蒜",
@@ -2257,7 +2932,10 @@
     "ru": "Притворяется дурачком; делает вид, что не знает.",
     "tr": "Aptal numarası yapıyor; bilmiyormuş gibi.",
     "fa": "خود را نفهم جا می‌زند؛ وانمود می‌کند نمی‌داند.",
-    "ar": "يتظاهر بالغباء أو الجهل."
+    "ar": "يتظاهر بالغباء أو الجهل.",
+    "id": "Berpura-pura bodoh, berpura-pura tidak tahu.",
+    "vi": "Hoa thủy tiên không nở —— giả điên, ý nói giả vờ ngớ ngẩn, giả vờ không biết.",
+    "km": "ល្ងីល្ងើ, ល្ងីល្ងើ, មិនដឹងខ្លួន"
   },
   {
     "sentence": "磨刀不误砍柴工",
@@ -2267,7 +2945,10 @@
     "ru": "Заблаговременная подготовка повышает эффективность и не мешает основному делу.",
     "tr": "Önceden hazırlık yapmanın verimi artırdığını ve asıl işi geciktirmediğini anlatır.",
     "fa": "یعنی آماده‌سازی از پیش کار را مؤثرتر می‌کند و مانع انجام کار اصلی نمی‌شود.",
-    "ar": "يعني أن التحضير المسبق يزيد الكفاءة ولا يؤخر العمل الجوهري."
+    "ar": "يعني أن التحضير المسبق يزيد الكفاءة ولا يؤخر العمل الجوهري.",
+    "id": "Persiapan terlebih dahulu justru meningkatkan efisiensi dan tidak menghalangi pekerjaan utama.",
+    "vi": "Mài dao không lỡ việc chặt củi, ví dụ chuẩn bị kỹ trước sẽ tăng hiệu quả, không ảnh hưởng đến công việc chính.",
+    "km": "វា មាន ន័យ ថា ការ រៀបចំ ជា មុន នឹង ធ្វើ ឲ្យ មាន ប្រសិទ្ធភាព និង មិន ពន្យារ ពេល ការងារ សំខាន់ នោះ ទេ ។"
   },
   {
     "sentence": "甘蔗地里长草——荒糖（唐）",
@@ -2277,7 +2958,10 @@
     "ru": "Полный бардак (каламбур).",
     "tr": "Tam bir karmaşa (kelime oyunu).",
     "fa": "آشفتگی کامل (بازی با «荒唐»).",
-    "ar": "فوضى تامّةٌ (توريةٌ)."
+    "ar": "فوضى تامّةٌ (توريةٌ).",
+    "id": "Situasi sangat kacau.",
+    "vi": "Mía mọc cỏ —— loạn đường (Đường), ý nói lộn xộn, hỗn độn (nghĩa lái từ hoang đường).",
+    "km": "ភាពច្របូកច្របល់សរុប (សរសេរលើ \"ភាពមិនល្ងង់ខ្លៅ\") ។"
   },
   {
     "sentence": "文武之道，一张一弛",
@@ -2287,7 +2971,10 @@
     "ru": "В управлении и в жизни нужны чередование напряжения и отдыха, без крайностей.",
     "tr": "Yönetimde ve hayatta gerginlik ile gevşeme dengelenmeli; sürekli ya gergin ya gevşek olunmaz.",
     "fa": "در مدیریت و زندگی باید تناوب میان سخت‌گیری و آسودگی بود؛ نه همیشه فشار و نه همیشه سستی.",
-    "ar": "في الحكم والحياة ينبغي الجمع بين الشد والرخاء دون إفراط في أحدهما."
+    "ar": "في الحكم والحياة ينبغي الجمع بين الشد والرخاء دون إفراط في أحدهما.",
+    "id": "Dalam pemerintahan atau kehidupan, harus bergantian antara ketegangan dan kelonggaran.",
+    "vi": "Đạo văn võ, một căng một thả, ví dụ trị quốc hay làm việc đều phải kết hợp linh hoạt giữa căng thẳng và thư giãn.",
+    "km": "នៅក្នុងការគ្រប់គ្រង ឬការរស់នៅ ភាពតានតឹងជំនួសជាមួយនឹងការសម្រាក ។ មិនមានភាពតានតឹង ឬភាពយឺតយ៉ាវជានិច្ច ។"
   },
   {
     "sentence": "好事多磨",
@@ -2297,7 +2984,10 @@
     "ru": "Хорошее нередко сбывается лишь после многих испытаний и препятствий.",
     "tr": "Güzel şeyler çoğu zaman çok engel ve sıkıntıdan sonra gerçekleşir.",
     "fa": "کارهای نیکو اغلب پس از فرازونشیب بسیار به بار می‌نشینند.",
-    "ar": "الأمور الجميلة لا تتحقق إلا بعد منعرجات وعقبات كثيرة."
+    "ar": "الأمور الجميلة لا تتحقق إلا بعد منعرجات وعقبات كثيرة.",
+    "id": "Hal-hal baik sering kali harus melewati banyak rintangan sebelum terwujud.",
+    "vi": "Việc tốt nhiều trắc trở, ví dụ điều tốt đẹp thường phải trải qua nhiều sóng gió mới thực hiện được.",
+    "km": "រឿង ល្អ ជា ញឹកញាប់ ត្រូវ ការ ការ បត់ និង បត់ ច្រើន មុន ពេល វា កើត ឡើង ។"
   },
   {
     "sentence": "麻绳串豆腐——提不起来",
@@ -2307,7 +2997,10 @@
     "ru": "Не поднять; не на что опереться.",
     "tr": "Kaldırılamaz; tutup kaldıramazsın.",
     "fa": "بلند نمی‌شود؛ نمی‌شود نگهش داشت.",
-    "ar": "لا يُرفع ولا يُسند."
+    "ar": "لا يُرفع ولا يُسند.",
+    "id": "Tidak bisa diangkat atau disokong, tidak ada gunanya membantu.",
+    "vi": "Dây thừng xâu đậu phụ —— không nâng nổi, ý nói không thể nâng đỡ, không thể giúp đỡ.",
+    "km": "មិន អាច លើក ឡើង ឬ គាំទ្រ បាន ទេ វា គ្មាន ប្រយោជន៍ អ្វី ក្នុង ការ ជួយ ។"
   },
   {
     "sentence": "远亲不如近邻",
@@ -2317,7 +3010,10 @@
     "ru": "Дальний родственник не так полезен, как близкий сосед, когда нужна срочная помощь.",
     "tr": "Uzak akraba, yardım gerektiğinde yakın komşu kadar yetişmez.",
     "fa": "خویشاوند دور از همسایه نزدیک در کمک به‌موقع نمی‌رسد.",
-    "ar": "القريب البعيد لا ينفع كالجار القريب وقت الحاجة."
+    "ar": "القريب البعيد لا ينفع كالجار القريب وقت الحاجة.",
+    "id": "Kerabat jauh kurang membantu dibanding tetangga terdekat saat membutuhkan bantuan.",
+    "vi": "Thân xa không bằng láng giềng gần, ví dụ họ hàng ở xa không bằng hàng xóm bên cạnh kịp thời giúp đỡ.",
+    "km": "សាច់ញាតិ ឆ្ងាយ គឺ ជា ការ ជួយ តិច ជាង អ្នក ជិត ខាង នៅ ពេល ដែល អ្នក ត្រូវ ការ ជំនួយ ។"
   },
   {
     "sentence": "画蛇添足——多此一举",
@@ -2327,7 +3023,10 @@
     "ru": "Лишнее действие портит дело.",
     "tr": "Fazladan iş işi berbat eder.",
     "fa": "کار اضافه که خراب می‌کند.",
-    "ar": "زيادةٌ تفسد الأمر."
+    "ar": "زيادةٌ تفسد الأمر.",
+    "id": "Melakukan hal yang berlebihan justru merusak.",
+    "vi": "Vẽ rắn thêm chân —— làm thừa, ý nói làm việc thừa thãi, phản tác dụng.",
+    "km": "វា ជា ជំហាន បន្ថែម មួយ ដែល ធ្វើ ឲ្យ មាន ការ ខូចខាត ។"
   },
   {
     "sentence": "霉烂了的莲藕——坏心眼",
@@ -2337,7 +3036,10 @@
     "ru": "Злой дух; не добрый человек.",
     "tr": "Kötü niyetli; yüreği iyi değil.",
     "fa": "بددل و بدجنس؛ مهربان نیست.",
-    "ar": "سيّئ النيّة؛ ليس طيب القلب."
+    "ar": "سيّئ النيّة؛ ليس طيب القلب.",
+    "id": "Dengan niat jahat, tidak baik hati.",
+    "vi": "Củ sen thối rữa —— ý dại hẹp hòi, ý nói người xấu xa, không thiện lương.",
+    "km": "មិន មែន ជា មនុស្ស មាន ចិត្ត ស្មោះ ត្រង់ ទេ គឺ ជា មនុស្ស មាន ចិត្ត ស្មោះ ត្រង់"
   },
   {
     "sentence": "大蒜发芽——多心",
@@ -2347,7 +3049,10 @@
     "ru": "Слишком много думает; подозрителен без причины.",
     "tr": "Fazla düşünüyor; her şeyden şüpheleniyor.",
     "fa": "زیادی فکر می‌کند؛ به خودش شک دارد.",
-    "ar": "كثرة التفكير والوسواس."
+    "ar": "كثرة التفكير والوسواس.",
+    "id": "Terlalu banyak berpikir, terlalu curiga.",
+    "vi": "Tỏi mọc mầm —— đa tâm, ý nghĩ quá nhiều, hay nghi ngờ.",
+    "km": "ការ អាន ច្រើន ពេក: ការ អាន ច្រើន ពេក ក្នុង រឿង ។"
   },
   {
     "sentence": "不开花的玫瑰——净刺",
@@ -2357,7 +3062,10 @@
     "ru": "Говорит язвительно; к нему трудно подступиться.",
     "tr": "Sözleri dikenli; yakınlaşmak zor.",
     "fa": "حرف‌هایش تیغ دارد؛ نزدیک شدن سخت است.",
-    "ar": "كلامه شائك؛ صعب الاقتراب منه."
+    "ar": "كلامه شائك؛ صعب الاقتراب منه.",
+    "id": "Bicara dengan menyakitkan, sulit didekati.",
+    "vi": "Hoa hồng không nở —— toàn gai, ý nói lời nói sắc nhọn, khó gần gũi.",
+    "km": "និយាយ ជាមួយ Barbs; វា ពិបាក ក្នុង ការ ឈាន ទៅ ជិត ។"
   },
   {
     "sentence": "天有不测风云，人有旦夕祸福",
@@ -2367,7 +3075,10 @@
     "ru": "Погода непредсказуема; в жизни тоже внезапно случаются и удача, и беда.",
     "tr": "Hava beklenmedik değişir; hayatta da ansızın talih veya felaket gelir.",
     "fa": "آسمان غیرقابل پیش‌بینی است؛ زندگی هم ناگهان بلا یا نعمت می‌آورد.",
-    "ar": "الطقس لا يُضبط؛ والحياة تحمل بغتة سراء وضراء."
+    "ar": "الطقس لا يُضبط؛ والحياة تحمل بغتة سراء وضراء.",
+    "id": "Cuaca tidak bisa diprediksi, hidup juga bisa mendatangkan keuntungan atau kerugian secara tiba-tiba.",
+    "vi": "Trời có giông bão khó lường, người có vận hạn bất ngờ, ví dụ thời tiết thay đổi thất thường, cuộc đời cũng khó tránh khỏi tai nạn.",
+    "km": "អាកាសធាតុ មិន អាច ទស្សន៍ទាយ បាន ទេ ជីវិត ក៏ នាំ មក នូវ សំណាង ឬ គ្រោះថ្នាក់ ជា រំពេច ដែរ ។"
   },
   {
     "sentence": "钱不是万能的，但没有钱是万万不能的",
@@ -2377,7 +3088,10 @@
     "ru": "Деньги не всесильны, но без денег многие дела вообще невозможно начать.",
     "tr": "Para her şeyi çözmez, ama para olmadan birçok işe başlanamaz.",
     "fa": "پول همه‌چیز را حل نمی‌کند، اما بدون پول خیلی کارها اصلا شروع نمی‌شوند.",
-    "ar": "المال لا يحل كل المشكلات، لكن من دونه لا يمكن بدء كثير من الأمور."
+    "ar": "المال لا يحل كل المشكلات، لكن من دونه لا يمكن بدء كثير من الأمور.",
+    "id": "Uang tidak bisa menyelesaikan semua masalah, tetapi tanpa uang banyak hal tidak bisa dimulai.",
+    "vi": "Tiền không phải vạn năng, nhưng không có tiền thì vạn việc không thể, ý nói tiền không giải quyết được mọi thứ nhưng không có tiền thì không làm được gì.",
+    "km": "ប្រាក់ មិន អាច ដោះស្រាយ គ្រប់ រឿង បាន ទេ ប៉ុន្តែ បើ គ្មាន ប្រាក់ ទេ រឿង ច្រើន មិន អាច ចាប់ ផ្តើម បាន ទេ ។"
   },
   {
     "sentence": "老鼠过街——人人喊打",
@@ -2387,7 +3101,10 @@
     "ru": "Плохих людей и дурные поступки все ненавидят и отвергают.",
     "tr": "Kötü insanlar ve kötülükler herkesçe nefret edilir ve karşı çıkılır.",
     "fa": "آدم‌های بد و کارهای بد را همه منفور می‌دانند و با آن‌ها مخالف‌اند.",
-    "ar": "الناس يكرهون الأشرار والأعمال السيئة ويعارضونها."
+    "ar": "الناس يكرهون الأشرار والأعمال السيئة ويعارضونها.",
+    "id": "Semua orang benci orang jahat dan perbuatan buruk, dan menentangnya.",
+    "vi": "Chuột qua đường —— ai cũng đánh, ý nói kẻ xấu, việc ác ai cũng ghét bỏ và phản đối.",
+    "km": "មនុស្ស គ្រប់ គ្នា ស្អប់ មនុស្ស អាក្រក់ និង អំពើ អាក្រក់ ហើយ ប្រឆាំង នឹង ពួក គេ ។"
   },
   {
     "sentence": "前车之鉴，后车之师",
@@ -2397,7 +3114,10 @@
     "ru": "Чужие прошлые неудачи должны служить уроком, чтобы не наступать на те же грабли.",
     "tr": "Öncekilerin başarısızlığını ders al ki aynı hataya düşmeyesin.",
     "fa": "شکست پیشینیان را درس بگیر تا خودت همان اشتباه را تکرار نکنی.",
-    "ar": "اجعل إخفاقات من سبقوك عِبرةً لك حتى لا تكرر الأخطاء نفسها."
+    "ar": "اجعل إخفاقات من سبقوك عِبرةً لك حتى لا تكرر الأخطاء نفسها.",
+    "id": "Jadikan kegagalan orang lain sebagai pelajaran, agar tidak mengulangi kesalahan yang sama.",
+    "vi": "Xe trước là bài học, xe sau là thầy, ví dụ lấy thất bại của người đi trước làm gương để tránh lặp lại sai lầm.",
+    "km": "ចូរ យក ការ បរាជ័យ របស់ អ្នក ដទៃ ជា ការ រៀនសូត្រ ដើម្បី កុំ ឲ្យ អ្នក ធ្វើ ខុស ត្រូវ ដូច គ្នា ឡើង វិញ ។"
   },
   {
     "sentence": "熟过头的石榴——不攻自破",
@@ -2407,7 +3127,10 @@
     "ru": "Слабые места сами вылезают; без нападения всё рушится.",
     "tr": "Zayıf noktalar kendiliğinden ortaya çıkar; saldırı olmadan çöker.",
     "fa": "نقاط ضعف خودش بیرون می‌آید؛ بدون حمله می‌ریزد.",
-    "ar": "تنكشف الثغرات وحدها وينهار الأمر دون هجومٍ."
+    "ar": "تنكشف الثغرات وحدها وينهار الأمر دون هجومٍ.",
+    "id": "Titik lemah muncul dengan sendirinya, runtuh tanpa perlu diserang.",
+    "vi": "Lựu chín quá —— tự bục, ý nói khuyết điểm tự lộ ra, không cần đánh cũng tự sụp đổ.",
+    "km": "ចំណុចខ្សោយបង្ហាញដោយខ្លួនឯង; ករណីធ្លាក់ចុះដោយគ្មានការវាយប្រហារ ។"
   },
   {
     "sentence": "船到桥头自然直",
@@ -2417,7 +3140,10 @@
     "ru": "Дойдя до известной стадии, дело само найдёт решение; не стоит чрезмерно волноваться.",
     "tr": "İş olgunlaşınca çözüm doğal olarak çıkar; aşırı endişeye gerek yok.",
     "fa": "وقتی کار به مرحله‌ای برسد، راه‌حل خود به خود پدید می‌آید؛ نگرانی بی‌مورد لازم نیست.",
-    "ar": "عندما ينضج الأمر، يظهر الحل من تلقاء نفسه؛ لا داعي للقلق المفرط."
+    "ar": "عندما ينضج الأمر، يظهر الحل من تلقاء نفسه؛ لا داعي للقلق المفرط.",
+    "id": "Saat kondisinya sudah matang, solusi akan muncul dengan sendirinya, tidak perlu khawatir berlebihan.",
+    "vi": "Thuyền đến cầu đầu tự thẳng, ví dụ sự việc phát triển đến một mức độ nhất định sẽ tự có cách giải quyết,不必 quá lo lắng.",
+    "km": "ពេល ដែល រឿង បាន ពេញ វ័យ ការ ដោះស្រាយ នឹង កើត ឡើង ជា ធម្មតា មិន ចាំបាច់ មាន ការ ព្រួយ បារម្ភ ច្រើន ពេក ទេ ។"
   },
   {
     "sentence": "裁缝铺的衣服——成套成套的",
@@ -2427,7 +3153,10 @@
     "ru": "Полные комплекты; всё подобрано.",
     "tr": "Tam takım; hepsi uyumlu.",
     "fa": "مجموعه‌ای کامل؛ همه‌چیز جور است.",
-    "ar": "مجموعات كاملة متناسقة."
+    "ar": "مجموعات كاملة متناسقة.",
+    "id": "Hadir dalam set lengkap, semuanya serasi.",
+    "vi": "Tiệm thợ may bán quần áo —— thành bộ thành bộ, ý nói áo quần xứng đôi, nguyên bộ.",
+    "km": "វា មក ក្នុង កម្រិត ពេញ លេញ; វា ទាំង អស់ គ្នា ស្រប គ្នា."
   },
   {
     "sentence": "关帝庙里拜观音——找错了门",
@@ -2437,7 +3166,10 @@
     "ru": "Не туда зашёл; не к тому человеку.",
     "tr": "Yanlış kapı; yanlış adres.",
     "fa": "جای یا آدم اشتباه.",
-    "ar": "مكانٌ أو شخصٌ خاطئٌ."
+    "ar": "مكانٌ أو شخصٌ خاطئٌ.",
+    "id": "Pergi ke tempat yang salah atau meminta orang yang salah.",
+    "vi": "Đền Quan Vũ bái Quan Âm —— tìm sai cửa, ý nói tìm sai đối tượng, tìm sai nơi.",
+    "km": "ខ្ញុំ បាន ទៅ កន្លែង ខុស ឬ សួរ មនុស្ស ខុស ។"
   },
   {
     "sentence": "精诚所至，金石为开",
@@ -2447,7 +3179,10 @@
     "ru": "Искренность трогает даже камень и металл; подчёркивается сила подлинности.",
     "tr": "Samimiyet taşı bile eritir; içtenliğin gücünü vurgular.",
     "fa": "اگر دل پاک و راست باشد حتی سنگ و فلز هم نرم می‌شود؛ بر قدرت صداقت تأکید دارد.",
-    "ar": "الإخلاص يحرك حتى المعدن والحجر؛ يبرز قوة الصدق."
+    "ar": "الإخلاص يحرك حتى المعدن والحجر؛ يبرز قوة الصدق.",
+    "id": "Ketulusan bahkan bisa menggerakkan batu dan logam, menekankan kekuatan kejujuran.",
+    "vi": "Thành tâm đến đâu, kim đá cũng mở, ví dụ只要 chân thành, ngay cả kim loại đá cứng cũng có thể bị lay động.",
+    "km": "ការ ស្មោះត្រង់ អាច ធ្វើ ឲ្យ រ៉ែ និង ដុំថ្ម រត់ រត់ បាន ដែរ វា បញ្ជាក់ ពី អំណាច នៃ ការ ស្មោះត្រង់ ។"
   },
   {
     "sentence": "怀里抱冰——心寒",
@@ -2457,7 +3192,10 @@
     "ru": "На душе холодно и пусто от разочарования.",
     "tr": "İçi üşümüş, hayal kırıklığı.",
     "fa": "دلش سرد و ناامید است.",
-    "ar": "قلبٌ باردٌ من خيبة الأمل."
+    "ar": "قلبٌ باردٌ من خيبة الأمل.",
+    "id": "Kecewa dan dingin di dalam hati.",
+    "vi": "Ôm viên đá lạnh —— lòng lạnh, ý nói trong lòng thất vọng, buồn bã.",
+    "km": "ខ្ញុំ មាន អារម្មណ៍ ថា ខ្ញុំ ខក ចិត្ត ខ្លាំង ណាស់ ។"
   },
   {
     "sentence": "浑身贴膏药——毛病不少",
@@ -2467,7 +3205,10 @@
     "ru": "Много недостатков и проблем.",
     "tr": "Bir sürü kusur veya sorun.",
     "fa": "مشکلات یا عادت‌های بد زیاد.",
-    "ar": "كثرة العيوب أو المشكلات."
+    "ar": "كثرة العيوب أو المشكلات.",
+    "id": "Banyak masalah atau kebiasaan buruk.",
+    "vi": "Dán đầy cao dược —— đủ thứ bệnh, ý nói一身毛病, nhiều vấn đề.",
+    "km": "មាន បញ្ហា ឬ ទម្លាប់ អាក្រក់ ជាច្រើន ។"
   },
   {
     "sentence": "刀子刻碑——尽说石话（实）",
@@ -2477,7 +3218,10 @@
     "ru": "Говорит чистую правду (игра слов).",
     "tr": "Dürüst konuşuyor; saf gerçek (çift anlam).",
     "fa": "راست می‌گوید؛ حقیقت محض (دو معنی).",
-    "ar": "يقول الحقّ الصريحٌ (توريةٌ)."
+    "ar": "يقول الحقّ الصريحٌ (توريةٌ).",
+    "id": "Mengatakan kebenaran murni.",
+    "vi": "Dao khắc bia —— toàn nói lời thật, ý nói nói đều là sự thật (nghĩa kép).",
+    "km": "ការនិយាយការពិតច្បាស់លាស់ (សរសេរលើថ្ម/ពិត) ។"
   },
   {
     "sentence": "清官难断家务事",
@@ -2487,7 +3231,10 @@
     "ru": "Семейные конфликты настолько сложны, что даже справедливому человеку трудно рассудить, кто прав.",
     "tr": "Aile içi anlaşmazlıklar o kadar karmaşıktır ki adil biri bile hüküm vermekte zorlanır.",
     "fa": "اختلافات خانوادگی آن‌قدر پیچیده است که حتی آدم عادل هم به‌سختی می‌تواند داوری کند.",
-    "ar": "خلافات الأسرة معقدة لدرجة أن حتى العادل يصعب عليه الفصل فيها."
+    "ar": "خلافات الأسرة معقدة لدرجة أن حتى العادل يصعب عليه الفصل فيها.",
+    "id": "Konflik internal keluarga sangat rumit, bahkan orang yang adil pun sulit menentukan benar salah.",
+    "vi": "Người thanh liêm khó phán việc gia đình, ví dụ mâu thuẫn trong gia đình phức tạp, ngay cả người công bằng cũng khó phân định phải trái.",
+    "km": "ជម្លោះ ក្នុង គ្រួសារ មាន ភាព លំបាក ខ្លាំង ណាស់ ដែល សូម្បី តែ មនុស្ស សុចរិត ក៏ ពិបាក ក្នុង ការ កាត់ ទោស ថា តើ អ្វី ជា ការ ត្រឹមត្រូវ និង អ្វី ជា ការ ខុស ។"
   },
   {
     "sentence": "祸不单行",
@@ -2497,7 +3244,10 @@
     "ru": "Несчастья нередко сыплются одно за другим.",
     "tr": "Talihsizlikler çoğu zaman peş peşe gelir.",
     "fa": "بلایا اغلب پشت سر هم می‌آیند.",
-    "ar": "المصائب غالبًا تتتابع."
+    "ar": "المصائب غالبًا تتتابع.",
+    "id": "Kebencian atau musibah sering datang berturut-turut.",
+    "vi": "Họa không đơn hành, ý nói điều bất hạnh thường liên tiếp xảy ra.",
+    "km": "ការ លំបាក ជា ញឹកញាប់ កើត ឡើង ក្នុង ក្រុម ។"
   },
   {
     "sentence": "往者不可谏，来者犹可追",
@@ -2507,7 +3257,10 @@
     "ru": "Прошлого не вернёшь; будущее ещё можно изменить усилиями.",
     "tr": "Geçmişi değiştiremezsin; geleceği hâlâ çabayla şekillendirebilirsin.",
     "fa": "گذشته را نمی‌توان عوض کرد؛ آینده را هنوز می‌توان با تلاش ساخت.",
-    "ar": "الماضي لا يُرد، أما المستقبل فيمكن العمل من أجله."
+    "ar": "الماضي لا يُرد، أما المستقبل فيمكن العمل من أجله.",
+    "id": "Masa lalu tidak bisa diubah, masa depan masih bisa diperjuangkan.",
+    "vi": "Quá khứ không thể thay đổi, tương lai vẫn còn có thể theo đuổi, ý nói chuyện đã qua không thể lấy lại, việc tương lai còn có thể nỗ lực.",
+    "km": "រឿងដែលបានកន្លងទៅមិនអាចត្រលប់វិញបានទេ ប៉ុន្តែរឿងដែលនៅមុខនៅតែអាចព្យាយាមបាន។"
   },
   {
     "sentence": "刘备借荆州——有借无还",
@@ -2517,7 +3270,10 @@
     "ru": "Берёт в долг и не возвращает.",
     "tr": "Alır, geri vermez.",
     "fa": "قرض می‌گیرد و پس نمی‌دهد.",
-    "ar": "يقترض ولا يعيد."
+    "ar": "يقترض ولا يعيد.",
+    "id": "Meminjam tanpa mengembalikan.",
+    "vi": "Lưu Bị mượn Kinh Châu —— mượn không trả, ý nói vay không trả.",
+    "km": "ខ្ចីរបស់ហើយមិនសងវិញ។"
   },
   {
     "sentence": "煤铺的掌柜——赚黑钱",
@@ -2527,7 +3283,10 @@
     "ru": "Зарабатывает грязные деньги.",
     "tr": "Kirli veya haksız para kazanır.",
     "fa": "پول حرام یا ناپاک درمی‌آورد.",
-    "ar": "يكسب مالًا قذرًا أو حرامًا."
+    "ar": "يكسب مالًا قذرًا أو حرامًا.",
+    "id": "Mencari uang kotor.",
+    "vi": "Ông chủ tiệm than —— kiếm tiền bẩn, ý nói kiếm tiền phi pháp, gian dối.",
+    "km": "រកលុយពីរបរិស្ថានមិនត្រឹមត្រូវ។"
   },
   {
     "sentence": "养兵千日，用兵一时",
@@ -2537,7 +3296,10 @@
     "ru": "Долгая подготовка ради того решающего момента, когда она понадобится.",
     "tr": "Uzun hazırlık, gerektiği kritik an için yapılır.",
     "fa": "آماده‌سازی درازمدت برای لحظه‌ای است که واقعا به کار آید.",
-    "ar": "الإعداد الطويل لأجل اللحظة الحاسمة التي يُستدعى فيها."
+    "ar": "الإعداد الطويل لأجل اللحظة الحاسمة التي يُستدعى فيها.",
+    "id": "Mempersiapkan kekuatan dalam waktu lama untuk digunakan pada saat kritis.",
+    "vi": "Nuôi quân ngàn ngày, dùng quân một lúc, ví dụ nuôi dưỡng nhân tài lâu dài là để dùng vào thời khắc quan trọng.",
+    "km": "ប្រកបរគ្រឿងទ័ពយូរ ប្រើត្រឹមថ្ងៃមួយ ប្រៀបដូចគេចំណាយពេលយូរអង្វែងដើម្បីបណ្តុះបណ្តាលមនុស្សឬរៀបចំកម្លាំង ដើម្បីប្រើក្នុងពេលចាំបាច់។"
   },
   {
     "sentence": "不听老人言，吃亏在眼前",
@@ -2547,7 +3309,10 @@
     "ru": "У пожилых большой опыт; не слушать их советы часто ведёт к неприятностям и убыткам.",
     "tr": "Yaşlıların deneyimi boldur; öğütlerini dinlememek çoğu zaman baş belası ve zarar getirir.",
     "fa": "سالمندان تجربه زیادی دارند؛ نادیده گرفتن نصیحتشان اغلب به دردسر و ضرر می‌انجامد.",
-    "ar": "كبار السن ذوو خبرة؛ تجاهل نصائحهم يوقعك في مشاكل وخسائر."
+    "ar": "كبار السن ذوو خبرة؛ تجاهل نصائحهم يوقعك في مشاكل وخسائر.",
+    "id": "Orang tua berpengalaman, mengabaikan nasihat mereka mudah terkena masalah.",
+    "vi": "Không nghe lời người già, chịu thiệt ngay trước mắt, ý nói người lớn tuổi kinh nghiệm phong phú, không nghe khuyên bảo sẽ dễ gặp rắc rối.",
+    "km": "មនុស្សចាស់មានបទពិសោធន៍ច្រើន ប្រសិនបើមិនព្រមតាមពាក្យគេប្រាប់ គោះទឹកជ្រៅងាយនឹងជួបបញ្ហា។"
   },
   {
     "sentence": "言必信，行必果",
@@ -2557,7 +3322,10 @@
     "ru": "Слово держи, дело доводи до результата; акцент на честности и исполнительности.",
     "tr": "Sözünü tut, işi sonuçlandır; dürüstlük ve icrayı vurgular.",
     "fa": "به گفته‌ات وفا کن و کار را به نتیجه برسان؛ بر صداقت و اجرا تأکید است.",
-    "ar": "أوفِ بقولك وأتمّ عملك؛ يؤكد على الأمانة والتنفيذ."
+    "ar": "أوفِ بقولك وأتمّ عملك؛ يؤكد على الأمانة والتنفيذ.",
+    "id": "Menepati janji dan menyelesaikan apa yang dimulai, menekankan kejujuran dan eksekusi.",
+    "vi": "Nói phải giữ chữ tín, làm phải có kết quả, nhấn mạnh sự thành tín và khả năng thực thi.",
+    "km": "និយាយត្រូវទទួលខ្លួន ធ្វើត្រូវមានលទ្ធផល រក្សាភាពស្មោះត្រង់និងសមត្ថភាពអនុវត្ត។"
   },
   {
     "sentence": "林黛玉葬花——多愁善感",
@@ -2567,7 +3335,10 @@
     "ru": "Меланхоличен; склонен к грусти.",
     "tr": "Hüzünlü; kolay üzülür.",
     "fa": "افسرده و غمگین؛ آسان می‌گرید.",
-    "ar": "كئيبٌ سريع الحزن."
+    "ar": "كئيبٌ سريع الحزن.",
+    "id": "Melankolis, mudah bersedih.",
+    "vi": "Lâm Đại Ngọc táng hoa —— đa sầu đa cảm, ý nói hay buồn rầu, dễ xúc động.",
+    "km": "ងងឹតងងៃ ស្រមៃច្រើន ងឿងឆ្ងល់។"
   },
   {
     "sentence": "瓜熟蒂落，水到渠成",
@@ -2577,7 +3348,10 @@
     "ru": "Когда условия созрели, успех приходит естественно; торопиться не нужно.",
     "tr": "Koşullar olgunlaşınca iş kendiliğinden yoluna girer; acele etmeye gerek yok.",
     "fa": "وقتی شرایط فراهم شد، کار خودبه‌خود به نتیجه می‌رسد؛ نیازی به شتاب بی‌جا نیست.",
-    "ar": "إذا اكتملت الشروط نجح الأمر تلقائيًا دون حاجة إلى الاستعجال."
+    "ar": "إذا اكتملت الشروط نجح الأمر تلقائيًا دون حاجة إلى الاستعجال.",
+    "id": "Saat kondisinya matang, keberhasilan datang dengan sendirinya, tidak perlu terburu-buru.",
+    "vi": "Dưa chín cuống rụng, nước đến kênh thành, ví dụ điều kiện chín muồi thì sự việc sẽ tự nhiên thành công.",
+    "km": "ពេលវេលាដល់ហើយ រឿងក៏រួចរាល់ដោយស្វ័យប្រវត្តិ មិនចាំបាច់រហ័សឡើយ។"
   },
   {
     "sentence": "八级工拜师傅——精益求精",
@@ -2587,7 +3361,10 @@
     "ru": "Мастерство или требования всё выше.",
     "tr": "Ustalık veya beklenti sürekli yükselir.",
     "fa": "مهارت یا معیارها مدام بالاتر می‌رود.",
-    "ar": "تتصاعد المهارات أو المعايير."
+    "ar": "تتصاعد المهارات أو المعايير.",
+    "id": "Keterampilan atau standar terus meningkat.",
+    "vi": "Thợ bậc tám bái sư phụ —— tinh tiến thêm tinh, ý nói trình độ hay yêu cầu ngày càng cao hơn.",
+    "km": "បច្ចេកទេសឬទាមទារកាន់តែខ្ពស់ឡើងៗ។"
   },
   {
     "sentence": "梅兰芳唱霸王别姬——拿手好戏",
@@ -2597,7 +3374,10 @@
     "ru": "Конёк; фирменный номер.",
     "tr": "En iyi marifeti; numarası.",
     "fa": "بهترین مهارت یا نمایش امضایی.",
-    "ar": "أمهر ما عنده أو عرضه المميّز."
+    "ar": "أمهر ما عنده أو عرضه المميّز.",
+    "id": "Keterampilan terbaik yang dimiliki seseorang.",
+    "vi": "Mai Lan Phương hát Bá Vương biệt Cơ —— trổ tài xuất sắc nhất, ý nói bản lĩnh giỏi nhất.",
+    "km": "ជំនាញដែលចេះបំផុត។"
   },
   {
     "sentence": "虎父无犬子",
@@ -2607,7 +3387,10 @@
     "ru": "У способного отца дети обычно тоже неплохи; часто так хвалят чужих детей.",
     "tr": "Yetenekli babanın çocukları da genelde iyidir; çoğunlukla başkasının çocuğunu övmek için kullanılır.",
     "fa": "پدر بااستعداد فرزندانی شایسته دارد؛ بیشتر برای ستودن فرزند دیگران به کار می‌رود.",
-    "ar": "الأب الموهوب غالبًا له أبناء متميزون؛ يُستخدم غالبًا في مدح أبناء الغير."
+    "ar": "الأب الموهوب غالبًا له أبناء متميزون؛ يُستخدم غالبًا في مدح أبناء الغير.",
+    "id": "Ayah yang hebat pasti memiliki anak yang tidak buruk, biasanya digunakan untuk memuji anak orang lain.",
+    "vi": "Cha hổ không sinh ra chó con, ví dụ người cha có tài năng thì con cái cũng không kém, dùng để khen con người khác.",
+    "km": "ឪពុកពូកែ កូនមិនអាចខ្សោយទេ ប្រើហៅថាកូនគេក៏មានសមត្ថភាព។"
   },
   {
     "sentence": "馋嘴跑进药材店——净找苦吃",
@@ -2617,7 +3400,10 @@
     "ru": "Сам напросился на страдания.",
     "tr": "Kendi kendine dert arıyor.",
     "fa": "دنبال دردسر است؛ خودش را به بدبختی می‌اندازد.",
-    "ar": "يطلب المتاعب بنفسه."
+    "ar": "يطلب المتاعب بنفسه.",
+    "id": "Mencari kesulitan bagi diri sendiri.",
+    "vi": "Miệng tham bước vào tiệm thuốc bắc —— tự tìm khổ ăn, ý nói tự chuốc khổ vào mình.",
+    "km": "រកទុក្ខដោយខ្លួនឯង។"
   },
   {
     "sentence": "八寸脚穿七寸鞋——硬装",
@@ -2627,7 +3413,10 @@
     "ru": "Втискивает насильно; делает вид, что подходит.",
     "tr": "Olmazı olur gösterir; zorlar.",
     "fa": "زور می‌زند؛ ناجور هم وانمود می‌کند.",
-    "ar": "يُجبرُ ما لا يلائم ويتظاهر بالملاءمة."
+    "ar": "يُجبرُ ما لا يلائم ويتظاهر بالملاءمة.",
+    "id": "Memaksakan diri meskipun tidak cocok.",
+    "vi": "Chân tám tấc mang giày bảy tấc —— cố cho vào, ý nói cố gắng nhét vào dù không vừa.",
+    "km": "ហូបហ្វឹង មិនសមក៏ប្រកបប្រក្រតី។"
   },
   {
     "sentence": "王子犯法，与庶民同罪",
@@ -2637,7 +3426,10 @@
     "ru": "Перед законом все равны: и знать несёт наказание за нарушение.",
     "tr": "Kanun önünde herkes eşittir; soylu da suç işlerse ceza görür.",
     "fa": "پیش قانون همه برابرند؛ حتی نجیب‌زاده هم قانون‌شکن مجازات می‌شود.",
-    "ar": "أمام القانون الجميع سواء؛ حتى ذوو المناصب يُعاقَبون إذا خالفوا."
+    "ar": "أمام القانون الجميع سواء؛ حتى ذوو المناصب يُعاقَبون إذا خالفوا.",
+    "id": "Di depan hukum semua orang sama, bahkan orang berkedudukan tinggi yang melanggar hukum akan dihukum.",
+    "vi": "Hoàng tử phạm tội cùng tội thường dân, ví dụ trước pháp luật mọi người bình đẳng, dù địa vị cao cũng bị trừng phạt.",
+    "km": "ច្បាប់មុខងារស្មើគ្នា ទោះបីជាមនុស្សមានជានិស្ស័យខ្ពស់ក៏ដោយ ប្រសិនបើប្រព្រឹត្តខុសច្បាប់ក៏ត្រូវទទួលផល។"
   },
   {
     "sentence": "众志成城",
@@ -2647,7 +3439,10 @@
     "ru": "Единая воля крепка, как стена, и преодолевает любые трудности.",
     "tr": "Birleşik irade sur kadar sağlamdır, her zorluğun üstesinden gelir.",
     "fa": "اراده یکپارچه مانند دیوار شهر است و هر سختی را می‌شکند.",
-    "ar": "الإرادة الجماعية قوية كسور المدينة وتتغلب على الشدائد."
+    "ar": "الإرادة الجماعية قوية كسور المدينة وتتغلب على الشدائد.",
+    "id": "Kemauan bersatu kuat seperti tembok kota dan dapat mengatasi kesulitan apa pun.",
+    "vi": "Quyết tâm của mọi người tạo thành thành trì, ví dụ mọi người đồng lòng thì sức mạnh vững chắc như tường thành.",
+    "km": "ប្រជាជនរួមគ្នាដោយចិត្តតែមួយ មានភាពរឹងមាំដូចថ្មគ្រី អាចឈ្នះឧបសគ្គណាមួយបាន។"
   },
   {
     "sentence": "捉贼捉赃，捉奸捉双",
@@ -2657,7 +3452,10 @@
     "ru": "Убеждают лишь неопровержимые доказательства — как вора с уликой.",
     "tr": "İnsanı ancak kesin kanıtla ikna edersin; hırsızı malıyla yakalarsın.",
     "fa": "با مدارک محکم متقاعد کن؛ دزد را با مسروقات بگیر.",
-    "ar": "أقنع بالدليل القاطع؛ أمسك السارق بالمسروقات."
+    "ar": "أقنع بالدليل القاطع؛ أمسك السارق بالمسروقات.",
+    "id": "Meyakinkan orang lain hanya dengan bukti yang kuat.",
+    "vi": "Bắt trộm phải bắt được tang vật, bắt gian phải bắt được đôi, ví dụ làm việc phải nắm được bằng chứng xác凿.",
+    "km": "ចាប់ចំណុចដោយភស្តុតាងច្បាស់លាស់ ទើបគេជឿចិត្តបាន។"
   },
   {
     "sentence": "蚕豆开花——黑心",
@@ -2667,7 +3465,10 @@
     "ru": "Устойчивое выражение о злом сердце.",
     "tr": "Sabit söz: kötü niyetli demek.",
     "fa": "تعبیر ثابت برای بدجنی و بدنیت.",
-    "ar": "تعبير متداول عن سوء النيّة."
+    "ar": "تعبير متداول عن سوء النيّة.",
+    "id": "Istilah tetap yang berarti berhati buruk.",
+    "vi": "Hoa đậu nở —— lòng đen, ý nói người ác độc, xấu xa (câu nói cố định).",
+    "km": "ចិត្តអាក្រក់។"
   },
   {
     "sentence": "猫爪伸到鱼缸里——想捞一把",
@@ -2677,7 +3478,10 @@
     "ru": "Хочет урвать выгоду при случае.",
     "tr": "Fırsattan yararlanıp bir çıkar kapmak istiyor.",
     "fa": "می‌خواهد از فرصت کمی سود ببرد.",
-    "ar": "يسعى لاغتنام الفرصة لنفعٍ ما."
+    "ar": "يسعى لاغتنام الفرصة لنفعٍ ما.",
+    "id": "Ingin mengambil keuntungan saat ada kesempatan.",
+    "vi": "Mèo thò móng vuốt vào bể cá —— muốn vớt lợi, ý nói muốn nhân cơ hội kiếm chút lợi ích.",
+    "km": "ចង់រកប្រយោជន៍បន្តិចពីឱកាស។"
   },
   {
     "sentence": "阎王爷贴告示——鬼话连篇",
@@ -2687,7 +3491,10 @@
     "ru": "Одна ложь и чушь.",
     "tr": "Yalan dolan; boş laf.",
     "fa": "فقط دروغ و حرف مفت.",
-    "ar": "كذبٌ وهراءٌ فقط."
+    "ar": "كذبٌ وهراءٌ فقط.",
+    "id": "Hanya dusta dan omong kosong.",
+    "vi": "Diêm Vương dán thông báo —— toàn lời quỷ, ý nói toàn là lời dối trá.",
+    "km": "និយាយអស់ហើយ គ្មានពាក្យពិតទេ។"
   },
   {
     "sentence": "因势利导",
@@ -2697,7 +3504,10 @@
     "ru": "Направляй развитие вдоль тенденции, чтобы оно шло к выгодному исходу.",
     "tr": "Gelişimin akışıyla uyumlu yönlendir; işleri yararlı yöne çek.",
     "fa": "با جریان روند همراه شو و آن را به سوی سودمندی هدایت کن.",
-    "ar": "وجّه الأمور مع اتجاه تطورها نحو ما يفيد."
+    "ar": "وجّه الأمور مع اتجاه تطورها نحو ما يفيد.",
+    "id": "Mengarahkan perkembangan sesuai tren agar bergerak ke arah yang menguntungkan.",
+    "vi": "Thuận thế dẫn đạo, ý nói nắm bắt xu hướng phát triển của sự vật để dẫn dắt theo hướng có lợi.",
+    "km": "អនុវត្តតាមទំនៀមទម្លាក់នៃរឿងរ៉ាវ ដើម្បីឱ្យវាទៅរកទិសដៅល្អប្រសើរ។"
   },
   {
     "sentence": "沙滩上盖楼房——不牢靠",
@@ -2707,7 +3517,10 @@
     "ru": "На слабом фундаменте; ненадёжно.",
     "tr": "Temeli zayıf; güvenilmez.",
     "fa": "روی پایه سست؛ قابل اعتماد نیست.",
-    "ar": "على أساسٍ زلقٍ غير موثوق."
+    "ar": "على أساسٍ زلقٍ غير موثوق.",
+    "id": "Fondasi tidak kuat, tidak dapat diandalkan.",
+    "vi": "Xây nhà trên cát —— không vững chắc, ý nói nền tảng không chắc chắn, không đáng tin.",
+    "km": "មូលដ្ឋានមិនរឹងមាំ មិនគួរជឿទុកចិត្ត។"
   },
   {
     "sentence": "尺有所短，寸有所长",
@@ -2717,7 +3530,10 @@
     "ru": "У каждого есть достоинства и недостатки; никто не безупречен.",
     "tr": "Herkesin güçlü ve zayıf yönleri vardır; kimse mükemmel değildir.",
     "fa": "هر کس نقاط قوت و ضعف دارد؛ کسی کامل نیست.",
-    "ar": "لكل إنسان محاسن ومساوئ؛ لا أحد كامل."
+    "ar": "لكل إنسان محاسن ومساوئ؛ لا أحد كامل.",
+    "id": "Setiap orang memiliki kelebihan dan kekurangan, tidak ada yang sempurna.",
+    "vi": "Thước có phần ngắn, tấc có phần dài, ví dụ mỗi người đều có ưu điểm và khuyết điểm, không ai hoàn hảo.",
+    "km": "មនុស្សគ្រប់គ្នាមានគុណសម្បត្តិនិងគុណវិបត្តិផ្ទាល់ខ្លួន គ្មាននរណាសុទ្ធស្រឡះទេ។"
   },
   {
     "sentence": "学海无涯苦作舟",
@@ -2727,7 +3543,10 @@
     "ru": "Учёба бесконечна; прогресс возможен лишь через упорный труд.",
     "tr": "Öğrenmenin sonu yok; ancak çok çalışarak ilerlersin.",
     "fa": "راه یادگیری بی‌پایان است؛ تنها با سخت‌کوشی پیشرفت می‌کنی.",
-    "ar": "لا نهاية للتعلم؛ التقدم يتطلب جهدًا دؤوبًا."
+    "ar": "لا نهاية للتعلم؛ التقدم يتطلب جهدًا دؤوبًا.",
+    "id": "Belajar tidak memiliki batas, hanya dengan kerja keras dapat terus berkembang.",
+    "vi": "Biển học không bờ, lấy khổ làm thuyền, ví dụ con đường học tập không có终点, chỉ có nỗ lực khắc khổ mới tiến bộ được.",
+    "km": "ផ្លូវរៀនគ្មានទីបញ្ចប់ តែត្រូវព្យាយាមយ៉ាងខ្លាំងបានតែបានប្រសើរឡើង។"
   },
   {
     "sentence": "种瓜得瓜，种豆得豆",
@@ -2737,7 +3556,10 @@
     "ru": "Метафора о том, что каковы поступки, таковы и последствия; подчёркивается соответствие причин и результатов.",
     "tr": "Ne ekersen onu biçersin anlamına gelen bir mecazdır; sonuçların yaptıklarına uyduğunu vurgular.",
     "fa": "استعاره‌ای است مبنی بر اینکه هر کاری بکنی همان نتیجه را می‌گیری و بر تناسب علت و اثر تأکید دارد.",
-    "ar": "استعارة مفادها أنك تحصد ما تزرع، وتؤكد على توافق الأفعال والنتائج."
+    "ar": "استعارة مفادها أنك تحصد ما تزرع، وتؤكد على توافق الأفعال والنتائج.",
+    "id": "Hasil yang diperoleh sesuai dengan apa yang dikerjakan, menekankan hubungan sebab-akibat.",
+    "vi": "Trồng dưa được dưa, trồng đậu được đậu, ví dụ làm gì sẽ được nấy, nhấn mạnh nhân quả tương ứng.",
+    "km": "ធ្វើអ្វីបានផលនោះ ដូចគ្នានឹងប្រកាសបានផលដូចគ្នា មានហេតុការណ៍មានផល។"
   },
   {
     "sentence": "圣人庙——供养贤（闲）人",
@@ -2747,7 +3569,10 @@
     "ru": "Содержит бездельников.",
     "tr": "İşe yaramayan boş gezenleri geçindirir.",
     "fa": "راحت‌طلبان بی‌فایده را نگه می‌دارد.",
-    "ar": "يرعى الكسالى بلا فائدةٍ."
+    "ar": "يرعى الكسالى بلا فائدةٍ.",
+    "id": "Memberi makan orang yang tidak berguna.",
+    "vi": "Miếu Thánh nhân —— nuôi kẻ hiền (nhàn), ý nói nuôi người rảnh rỗi.",
+    "km": "ចិញ្ចឹមមនុស្សស្រអាប់។"
   },
   {
     "sentence": "狗捉老鼠——多管闲事",
@@ -2757,7 +3582,10 @@
     "ru": "Лезет не в своё дело.",
     "tr": "İşine karışmaması gereken işlere burnunu sokuyor.",
     "fa": "در کارهایی دخالت می‌کند که به او ربطی ندارد.",
-    "ar": "يتدخل في أمور لا تعنيه."
+    "ar": "يتدخل في أمور لا تعنيه.",
+    "id": "Mencampuri urusan yang bukan urusannya.",
+    "vi": "Chó bắt chuột —— lo chuyện người khác, ý nói quản chuyện không nên quản.",
+    "km": "រក្សារឿងដែលមិនស្មានថាខ្លួន។"
   },
   {
     "sentence": "老鼠啃碟子——全是瓷（词）",
@@ -2767,7 +3595,10 @@
     "ru": "Пустые слова; много болтовни ни о чём.",
     "tr": "Boş laf; gereksiz söz çok.",
     "fa": "فقط حرف و کلمه؛ حرف بی‌ربط زیاد.",
-    "ar": "كلام فارغ؛ كثرة الكلام بلا فائدة."
+    "ar": "كلام فارغ؛ كثرة الكلام بلا فائدة.",
+    "id": "Hanya kata-kata kosong dan omong kosong.",
+    "vi": "Chuột gặm đĩa —— toàn sứ (từ), ý nói toàn là lời lẽ, nhiều lời vô ích.",
+    "km": "និយាយច្រើនតែពាក្យទទេ។"
   },
   {
     "sentence": "有备无患",
@@ -2777,7 +3608,10 @@
     "ru": "Заблаговременная подготовка помогает избежать беды.",
     "tr": "Önceden hazırlık belayı önler.",
     "fa": "آمادگی از پیش بلایا را دفع می‌کند.",
-    "ar": "الاستعداد المسبق يقي من البلاء."
+    "ar": "الاستعداد المسبق يقي من البلاء.",
+    "id": "Persiapan sebelumnya dapat mencegah bencana.",
+    "vi": "Có chuẩn bị thì không lo, ý nói chuẩn bị trước kỹ lưỡng thì có thể tránh được tai nạn.",
+    "km": "រៀបចំខ្លួនល្អ អាចចៀសវាងបញ្ហាបាន។"
   },
   {
     "sentence": "予人玫瑰，手有余香",
@@ -2787,7 +3621,10 @@
     "ru": "Помогая другим, ты сам получаешь радость и отдачу.",
     "tr": "Başkasına yardım etmek sana da mutluluk ve karşılık getirir.",
     "fa": "کمک به دیگران شادی و پاداش به خودت هم می‌دهد.",
-    "ar": "مساعدة الآخرين تمنحك فرحًا ومكافأة أيضًا."
+    "ar": "مساعدة الآخرين تمنحك فرحًا ومكافأة أيضًا.",
+    "id": "Membantu orang lain juga membawa kebahagiaan dan imbalan bagi diri sendiri.",
+    "vi": "Tặng hoa hồng, tay còn lưu hương, ví dụ giúp đỡ người khác, bản thân cũng nhận được niềm vui và đáp đền.",
+    "km": "ជួយអ្នកដទៃ ខ្លួនឯងក៏ទទួលបានភាពរីករាយនិងការតបស្នង។"
   },
   {
     "sentence": "千里之行，始于足下",
@@ -2797,7 +3634,10 @@
     "ru": "Большие цели начинаются с малых шагов здесь и сейчас и достигаются постепенно.",
     "tr": "Büyük hedefler bugünün küçük adımlarıyla başlar ve adım adım gerçekleşir.",
     "fa": "هدف‌های بزرگ از قدم‌های کوچک امروز شروع می‌شوند و مرحله‌به‌مرحله محقق می‌گردند.",
-    "ar": "الأهداف العظيمة تبدأ بخطوات صغيرة من الحاضر وتتحقق تدريجيًا."
+    "ar": "الأهداف العظيمة تبدأ بخطوات صغيرة من الحاضر وتتحقق تدريجيًا.",
+    "id": "Tujuan besar dimulai dari hal-hal kecil di depan mata dan dicapai langkah demi langkah.",
+    "vi": "Hành trình ngàn dặm bắt đầu từ bước chân, ví dụ mục tiêu lớn phải bắt đầu từ việc nhỏ trước mắt.",
+    "km": "គោលដៅធំត្រូវចាប់ផ្តើមពីរឿងតូចៗពីជិតខ្លួន ហើយរួចទើបទៅមុខបន្តិចម្តងៗ។"
   },
   {
     "sentence": "一寸光阴一寸金，寸金难买寸光阴",
@@ -2807,7 +3647,10 @@
     "ru": "Время бесценно; деньгами его не купишь.",
     "tr": "Zaman çok değerlidir; parayla satın alınamaz.",
     "fa": "زمان بسیار گرانبهاست و با پول هم خریدنی نیست.",
-    "ar": "الوقت ثمين جدًا ولا يُشترى بالمال."
+    "ar": "الوقت ثمين جدًا ولا يُشترى بالمال.",
+    "id": "Waktu sangat berharga, uang tidak bisa membeli waktu.",
+    "vi": "Một tấc thời gian một tấc vàng, tấc vàng khó mua tấc thời gian, ý nói thời gian rất quý giá, tiền không mua được.",
+    "km": "ពេលវេលាមានតម្លៃខ្ពស់ណាស់ លុយកាក់មិនអាចទិញពេលវេលាបានទេ។"
   },
   {
     "sentence": "霸王敬酒——不干也得干",
@@ -2817,7 +3660,10 @@
     "ru": "Заставляют сделать, хочешь не хочешь.",
     "tr": "İster istemez yapmak zorunda.",
     "fa": "چه بخواهد چه نخواهد مجبور است انجام دهد.",
-    "ar": "مُجبرٌ على الفعل رغمًا عنه."
+    "ar": "مُجبرٌ على الفعل رغمًا عنه.",
+    "id": "Dipaksa melakukan sesuatu mau tidak mau.",
+    "vi": "Bá Vương mời rượu —— không uống cũng phải uống, ý nói ép buộc người khác làm việc, không làm cũng phải làm.",
+    "km": "បង្ខំឱ្យធ្វើ មិនចង់ធ្វើក៏ត្រូវធ្វើ។"
   },
   {
     "sentence": "硬按公鸡下蛋——指望不上",
@@ -2827,7 +3673,10 @@
     "ru": "Просто нельзя; не рассчитывай.",
     "tr": "Hiç olmaz; ona güvenme.",
     "fa": "اصلاً ممکن نیست؛ روی آن حساب نکنید.",
-    "ar": "لا يمكن أصلًا؛ لا تعتمد عليه."
+    "ar": "لا يمكن أصلًا؛ لا تعتمد عليه.",
+    "id": "Sama sekali tidak bisa dilakukan, jangan berharap.",
+    "vi": "Ép gà trống đẻ trứng —— không thể trông cậy, ý nói hoàn toàn không làm được, đừng hy vọng.",
+    "km": "មិនអាចធ្វើបានទេ កុំរំពឹង។"
   },
   {
     "sentence": "人逢喜事精神爽",
@@ -2837,7 +3686,10 @@
     "ru": "Когда с человеком случается радостное событие, он становится бодрее и душевно светлее.",
     "tr": "İnsan güzel bir olayla karşılaşınca morali yükselir ve canlanır.",
     "fa": "وقتی انسان با خبر خوش روبه‌رو می‌شود، روحیه‌اش شاداب و پرانرژی می‌گردد.",
-    "ar": "عندما يلقى الإنسان أمرًا سارًا، تنتعش روحه ويزداد نشاطه."
+    "ar": "عندما يلقى الإنسان أمرًا سارًا، تنتعش روحه ويزداد نشاطه.",
+    "id": "Saat bertemu kebahagiaan, semangat seseorang menjadi sangat cerah dan bergairah.",
+    "vi": "Người gặp chuyện vui thì tinh thần sảng khoái, ý nói gặp việc vui thì tinh thần trở nên đặc biệt vui vẻ phấn chấn.",
+    "km": "មនុស្សបានជួបរឿងសប្បាយ ចិត្តនឹងរីករាយខ្លាំងណាស់។"
   },
   {
     "sentence": "一朝被蛇咬，十年怕井绳",
@@ -2847,7 +3699,10 @@
     "ru": "Один болезненный опыт надолго вселяет страх перед похожим.",
     "tr": "Bir kötü deneyim, benzer şeylere karşı uzun süre korku bırakır.",
     "fa": "یک تجربه بد ترس از چیزهای شبیه را سال‌ها نگه می‌دارد.",
-    "ar": "تجربة أليمة واحدة تولّد خوفًا طويلًا من ما يشبهها."
+    "ar": "تجربة أليمة واحدة تولّد خوفًا طويلًا من ما يشبهها.",
+    "id": "Setelah satu pengalaman buruk, akan ketakutan terhadap hal serupa dalam waktu lama.",
+    "vi": "Một lần bị rắn cắn, mười năm sợ dây thừng, ví dụ sau khi trải qua tổn thương sẽ sợ hãi những thứ tương tự.",
+    "km": "បន្ទាប់ពីបានប្រឈមនឹងឧប្បត្តិមួយដល់ គេនឹងភ័យជានិច្ចចំពោះរឿងដែលដូចគ្នា។"
   },
   {
     "sentence": "读书破万卷，下笔如有神",
@@ -2857,7 +3712,10 @@
     "ru": "Обширное чтение накапливает знания, писать становится легко, мысли текут свободно.",
     "tr": "Çok okumak bilgi biriktirir; yazmak kolaylaşır, düşünceler akıcı gelir.",
     "fa": "مطالعه زیاد دانش می‌افزاید و نوشتن را آسان می‌کند و اندیشه‌ها را روان می‌سازد.",
-    "ar": "كثرة القراءة تثري المعرفة فيسهل الكتابة وتتدفق الأفكار."
+    "ar": "كثرة القراءة تثري المعرفة فيسهل الكتابة وتتدفق الأفكار.",
+    "id": "Banyak membaca memperkaya pengetahuan sehingga menulis menjadi lancar dan ide mengalir.",
+    "vi": "Đọc nát vạn cuốn sách, viết ra như có thần, ý nói đọc nhiều sách thì viết văn sẽ dễ dàng và trôi chảy.",
+    "km": "អានសៀវភៅច្រើន ចំណេះដឹងក៏ច្រើន សរសេរអត្ថបទក៏ងាយស្រួល។"
   },
   {
     "sentence": "兔子尾巴——长不了",
@@ -2867,7 +3725,10 @@
     "ru": "Хорошее недолго длится; скоро кончается.",
     "tr": "İyi günler uzun sürmez; çabuk biter.",
     "fa": "روزهای خوب دوام ندارند؛ زود تمام می‌شوند.",
-    "ar": "لا يدوم الخير طويلاً؛ ينتهي قريبًا."
+    "ar": "لا يدوم الخير طويلاً؛ ينتهي قريبًا.",
+    "id": "Masa baik tidak akan lama, cepat berakhir.",
+    "vi": "Đuôi thỏ —— không dài được, ý nói thời tốt đẹp không kéo dài được, sẽ kết thúc sớm.",
+    "km": "អាយុខ្លី នឹងបញ្ចប់ឆាប់ៗ។"
   },
   {
     "sentence": "雷声大雨点小——虚张声势",
@@ -2877,7 +3738,10 @@
     "ru": "Много шума, мало толку.",
     "tr": "Gürültü çok, icraat az.",
     "fa": "صدا بلند، اثر کم.",
-    "ar": "صخبٌ كبيرٌ وأثرٌ قليلٌ."
+    "ar": "صخبٌ كبيرٌ وأثرٌ قليلٌ.",
+    "id": "Suara besar tetapi efeknya kecil.",
+    "vi": "Sấm lớn mưa nhỏ —— hư trương thanh thế, ý nói tiếng vang lớn nhưng thực tế ít.",
+    "km": "សម្លេងខ្លាំង តែផលតូច។"
   },
   {
     "sentence": "没有规矩，不成方圆",
@@ -2887,7 +3751,10 @@
     "ru": "Без правил и норм невозможно делать дела качественно и упорядоченно.",
     "tr": "Kural ve düzen olmadan işler ne düzgün ne de standart şekilde yürür.",
     "fa": "بدون قانون و چارچوب، کارها درست و منظم پیش نمی‌رود.",
-    "ar": "من دون قواعد وأنظمة، لا يمكن إنجاز الأمور بإتقان وانتظام."
+    "ar": "من دون قواعد وأنظمة، لا يمكن إنجاز الأمور بإتقان وانتظام.",
+    "id": "Tanpa aturan dan sistem, hal-hal tidak bisa dilakukan dengan baik dan teratur.",
+    "vi": "Không có quy tắc thì không thành hình tròn, ví dụ không có quy chế thì không thể làm việc tốt.",
+    "km": "ប្រសិនបើគ្មានច្បាប់ គ្មានរដ្ឋបាល រឿងមិនអាចធ្វើទៅបានទេ។"
   },
   {
     "sentence": "宰相肚里能撑船",
@@ -2897,7 +3764,10 @@
     "ru": "Широкая душа прощает чужие ошибки и недостатки.",
     "tr": "Geniş gönül başkalarının hata ve eksiklerine tahammül eder.",
     "fa": "دل بزرگ خطا و کمبود دیگران را می‌پذیرد.",
-    "ar": "صدر واسع يتسامح مع زلات الناس ونواقصهم."
+    "ar": "صدر واسع يتسامح مع زلات الناس ونواقصهم.",
+    "id": "Hati yang luas dapat memaafkan kesalahan dan kekurangan orang lain.",
+    "vi": "Bụng tể tướng dựng được thuyền, ví dụ lòng người bao dung rộng lượng, có thể chứa đựng lỗi lầm của người khác.",
+    "km": "មនុស្សមានចិត្តទូលំទូលាយ អាចទទួលយកកំហុសរបស់អ្នកដទៃបាន។"
   },
   {
     "sentence": "刘姥姥进大观园——眼花缭乱",
@@ -2907,7 +3777,10 @@
     "ru": "Ошеломлён новизной; рябит в глазах.",
     "tr": "Çok yenilik gözünü döndürmüş.",
     "fa": "از تازگی گیج شده؛ چیزهای زیاد یک‌جا.",
-    "ar": "مذهولٌ بالجديدٍ؛ كثرةٌ دفعةً واحدة."
+    "ar": "مذهولٌ بالجديدٍ؛ كثرةٌ دفعةً واحدة.",
+    "id": "Terkesima oleh hal baru, matanya berkunang-kunang.",
+    "vi": "Lão Giả Mả vào Đại Quan Viên —— hoa cả mắt, ý nói nhìn quá nhiều thứ mới lạ, hoa mắt chóng mặt.",
+    "km": "ឃើញអ្វីថ្មីៗ ភ្នែកភ្លឺភ្លាំងទាំងស្រុង។"
   },
   {
     "sentence": "大意失荆州",
@@ -2917,7 +3790,10 @@
     "ru": "Излишняя самоуверенность и невнимательность ведут к потере важного или к провалу.",
     "tr": "Dikkatsizlik ve kibir önemli şeyleri kaybettirir veya başarısızlığa yol açar.",
     "fa": "به معنای آن است که سهل‌انگاری و غرور موجب از دست دادن چیزهای مهم یا شکست می‌شود.",
-    "ar": "يعني أن التهاون والغرور قد يفقدانك أشياء مهمة أو يوديان بالفشل."
+    "ar": "يعني أن التهاون والغرور قد يفقدانك أشياء مهمة أو يوديان بالفشل.",
+    "id": "Kecerobohan dan kesombongan membuat kehilangan hal penting atau mengalami kegagalan.",
+    "vi": "Bất ý mất Kinh Châu, ví dụ vì sơ ý chủ quan, kiêu ngạo mà mất đi thứ quan trọng hoặc dẫn đến thất bại.",
+    "km": "ដោយសារភាពប្រមាថនិងមិនប្រុងប្រយ័ត្ន ធ្វើបានបាត់បង់របស់សំខាន់ឬបរាជ័យ។"
   },
   {
     "sentence": "身在曹营心在汉",
@@ -2927,7 +3803,10 @@
     "ru": "Тело в одном лагере, душа — на прежней стороне.",
     "tr": "Beden bir tarafta, yürek hâlâ eski taraftadır.",
     "fa": "جسم در یک جبهه، دل هنوز با سوی اصلی است.",
-    "ar": "الجسد في معسكر والقلب مع الجهة الأصلية."
+    "ar": "الجسد في معسكر والقلب مع الجهة الأصلية.",
+    "id": "Secara fisik berada di satu pihak, tetapi hatinya masih setia pada pihak asalnya.",
+    "vi": "Thân ở trại Tào, lòng hướng Hán, ví dụ tuy ở phe đối phương nhưng lòng vẫn hướng về bên mình.",
+    "km": "រស់នៅក្នុងជួររបស់គេ ប៉ុន្តែចិត្តនៅតែជាមួយជួររបស់ខ្លួន។"
   },
   {
     "sentence": "无巧不成书",
@@ -2937,7 +3816,10 @@
     "ru": "В жизни бывают совпадения, из-за которых сюжет становится запутаннее и интереснее.",
     "tr": "Hayatta tesadüfler olur; olayı daha dolambaçlı ve ilginç kılar.",
     "fa": "گاه اتفاق‌های تصادفی روند را پیچیده و جذاب می‌کند.",
-    "ar": "غالبًا توجد صدف تجعل المسار أكثر تعقيدًا وإثارة."
+    "ar": "غالبًا توجد صدف تجعل المسار أكثر تعقيدًا وإثارة.",
+    "id": "Perkembangan sering memiliki kebetulan yang membuat cerita menjadi lebih menarik.",
+    "vi": "Không có sự trùng hợp thì không thành chuyện, ví dụ trong câu chuyện thường có những tình tiết trùng hợp thú vị.",
+    "km": "រឿងរ៉ាវមានជួរហេតុជាញឹកញាប់ ធ្វើឱ្យរឿងកាន់តែចាប់អារម្មណ៍។"
   },
   {
     "sentence": "江山易改，本性难移",
@@ -2947,7 +3829,10 @@
     "ru": "Натура человека трудно изменить; она не легко меняется даже при смене обстоятельств.",
     "tr": "İnsanın doğası değiştirmesi zordur; ortam değişse bile kolay kolay dönmez.",
     "fa": "سرشت انسان دشوار تغییر می‌کند؛ حتی با تغییر محیط به‌سادگی عوض نمی‌شود.",
-    "ar": "طبيعة الإنسان صعبة التغيير ولا تنقلب بسهولة مع تبدل الظروف."
+    "ar": "طبيعة الإنسان صعبة التغيير ولا تنقلب بسهولة مع تبدل الظروف.",
+    "id": "Sifat asli seseorang sulit diubah, bahkan jika lingkungan berubah.",
+    "vi": "Non nước dễ đổi, bản tính khó dời, ví dụ bản tính con người rất khó thay đổi.",
+    "km": "ទម្លាក់មនុស្សងាយ ប៉ុន្តែទម្លាក់សីលធម៌មនុស្សពុំងាយទេ។"
   },
   {
     "sentence": "己所不欲，勿施于人",
@@ -2957,7 +3842,10 @@
     "ru": "Не делай другим того, чего не желаешь себе.",
     "tr": "Kendin için istemediğini başkasına dayatma.",
     "fa": "آنچه خود نمی‌پسندی بر دیگران تحمیل نکن.",
-    "ar": "لا تفعل بالناس ما تكرهه لنفسك."
+    "ar": "لا تفعل بالناس ما تكرهه لنفسك.",
+    "id": "Jangan memaksakan pada orang lain apa yang tidak kamu inginkan sendiri.",
+    "vi": "Việc mình không muốn thì đừng làm với người khác, ý nói đừng áp đặt điều mình ghét lên người khác.",
+    "km": "អ្វីដែលខ្លួនមិនចង់បាន កុំបង្ខំអ្នកដទៃឱ្យទទួល។"
   },
   {
     "sentence": "多行不义必自毙",
@@ -2967,7 +3855,10 @@
     "ru": "Поступая нечестно снова и снова, человек неизбежно пожнёт последствия на себе.",
     "tr": "Ahlaksızlığı sürdüren sonunda cezasını kendi başına çeker.",
     "fa": "تکرار کار نادرست و ناعادلانه در نهایت عواقبش را به خود شخص بازمی‌گرداند.",
-    "ar": "تكرار الأعمال غير الأخلاقية ينتهي بالوقوع في الويل على فاعلها."
+    "ar": "تكرار الأعمال غير الأخلاقية ينتهي بالوقوع في الويل على فاعلها.",
+    "id": "Melakukan hal tidak bermoral berulang-ulang pada akhirnya akan menanggung konsekuensinya sendiri.",
+    "vi": "Làm nhiều việc bất nghĩa chắc chắn sẽ tự diệt, ý nói thường làm việc xấu cuối cùng sẽ tự chuốc lấy hậu quả.",
+    "km": "អ្នកធ្វើអំពើអាក្រក់ញឹកញាប់ នៅទីបំផុតត្រូវទទួលផលអាក្រក់ដោយខ្លួនឯង។"
   },
   {
     "sentence": "眼中钉，肉中刺",
@@ -2977,7 +3868,10 @@
     "ru": "Человек или вещь, которые сильно раздражают и от которых хотят избавиться.",
     "tr": "Nefret edilen ve kurtulmak istenen biri veya bir şey.",
     "fa": "کسی یا چیزی که از آن متنفری و می‌خواهی زود از بین برود.",
-    "ar": "شخص أو شيء مكروه يرغب المرء في التخلص منه."
+    "ar": "شخص أو شيء مكروه يرغب المرء في التخلص منه.",
+    "id": "Seseorang atau sesuatu yang sangat dibenci dan ingin segera disingkirkan.",
+    "vi": "Gai trong mắt, xương trong thịt, ví dụ người hoặc vật mà người ta rất ghét, muốn loại bỏ.",
+    "km": "របស់អ្វីដែលគេស្អប់ណាស់ ចង់យកចេញពីមុខ។"
   },
   {
     "sentence": "不积跬步，无以至千里",
@@ -2987,7 +3881,10 @@
     "ru": "Без накопления малых шагов недостижимы большие цели.",
     "tr": "Küçük ilerlemeler birikmeden büyük hedeflere varılamaz.",
     "fa": "بدون انباشتن پیشرفت‌های کوچک، به اهداف بزرگ نمی‌رسی.",
-    "ar": "بلا تراكم تقدم طفيف لا تُحقَّق أهداف عظيمة."
+    "ar": "بلا تراكم تقدم طفيف لا تُحقَّق أهداف عظيمة.",
+    "id": "Tanpa mengumpulkan kemajuan kecil, tujuan besar tidak bisa dicapai.",
+    "vi": "Không tích nửa bước thì không đi được ngàn dặm, ví dụ không tích lũy từng chút thì không đạt được mục tiêu lớn.",
+    "km": "មិនប្រមូលផលតូចៗ មិនអាចទៅដល់ចម្ងាយឆ្ងាយបានទេ។"
   },
   {
     "sentence": "路遥知马力，日久见人心",
@@ -2997,6 +3894,9 @@
     "ru": "Истинные чувства и способности человека познаются лишь со временем и испытаниями.",
     "tr": "Birinin yüreğini ve yeteneğini ancak uzun süreli birliktelik ve sınavlarla anlarsın.",
     "fa": "تنها با معاشرت و آزمایش درازمدت می‌توان دل و توان واقعی کسی را شناخت.",
-    "ar": "لا يُعرف قلب الإنسان وقدرته إلا بممارسة طويلة وامتحانات."
+    "ar": "لا يُعرف قلب الإنسان وقدرته إلا بممارسة طويلة وامتحانات.",
+    "id": "Hanya melalui pergaulan dan ujian waktu yang lama dapat melihat hati dan kemampuan sejati seseorang.",
+    "vi": "Đường xa biết sức ngựa, ngày lâu thấy lòng người, ví dụ trải qua thời gian dài mới thấy rõ phẩm chất và năng lực của một người.",
+    "km": "រយៈពេលយូរស្តីពីកម្លាំងនិងចិត្តក្រុមមនុស្ស ទើបដឹងថាអ្នកណាស្មោះហើយមានសមត្ថភាព។"
   }
 ]

@@ -10,6 +10,9 @@ class PoetryModel {
   final String turkish;        // 土耳其语翻译
   final String arabic;         // 阿拉伯语翻译
   final String persian;        // 波斯语翻译
+  final String indonesian;     // 印尼语翻译
+  final String vietnamese;     // 越南语翻译
+  final String khmer;         // 高棉语翻译
 
   const PoetryModel({
     required this.title,
@@ -22,6 +25,9 @@ class PoetryModel {
     required this.turkish,
     required this.arabic,
     required this.persian,
+    required this.indonesian,
+    required this.vietnamese,
+    required this.khmer,
   });
 
   /// 从 JSON Map 构造
@@ -40,6 +46,9 @@ class PoetryModel {
     final turkish = translations['tr'] as String? ?? '';
     final arabic = translations['ar'] as String? ?? '';
     final persian = translations['fa'] as String? ?? '';
+    final indonesian = translations['id'] as String? ?? '';
+    final vietnamese = translations['vi'] as String? ?? '';
+    final khmer = translations['km'] as String? ?? '';
 
     return PoetryModel(
       title: title,
@@ -52,6 +61,9 @@ class PoetryModel {
       turkish: turkish,
       arabic: arabic,
       persian: persian,
+      indonesian: indonesian,
+      vietnamese: vietnamese,
+      khmer: khmer,
     );
   }
 
@@ -74,6 +86,12 @@ class PoetryModel {
         return arabic;
       case 'fa':
         return persian;
+      case 'id':
+        return indonesian;
+      case 'vi':
+        return vietnamese;
+      case 'km':
+        return khmer;
       default:
         return english;
     }

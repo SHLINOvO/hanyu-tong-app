@@ -66,6 +66,30 @@ const List<AppLanguage> supportedLanguages = [
     flag: '🇹🇷',
     isRTL: false,
   ),
+  AppLanguage(
+    code: 'id',
+    englishName: 'Indonesian',
+    nativeName: 'Bahasa Indonesia',
+    country: 'Indonesia',
+    flag: '🇮🇩',
+    isRTL: false,
+  ),
+  AppLanguage(
+    code: 'vi',
+    englishName: 'Vietnamese',
+    nativeName: 'Tiếng Việt',
+    country: 'Vietnam',
+    flag: '🇻🇳',
+    isRTL: false,
+  ),
+  AppLanguage(
+    code: 'km',
+    englishName: 'Khmer',
+    nativeName: 'ភាសាខ្មែរ',
+    country: 'Cambodia',
+    flag: '🇰🇭',
+    isRTL: false,
+  ),
 ];
 
 // 语言代码到语言对象的映射

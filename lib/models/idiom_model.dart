@@ -8,6 +8,9 @@ class IdiomModel {
   final String turkish;     // 土耳其语翻译
   final String arabic;      // 阿拉伯语翻译
   final String persian;     // 波斯语翻译
+  final String indonesian;   // 印尼语翻译
+  final String vietnamese;   // 越南语翻译
+  final String khmer;        // 高棉语翻译
 
   const IdiomModel({
     required this.word,
@@ -18,6 +21,9 @@ class IdiomModel {
     required this.turkish,
     required this.arabic,
     required this.persian,
+    required this.indonesian,
+    required this.vietnamese,
+    required this.khmer,
   });
 
   /// 从 JSON Map 构造
@@ -31,6 +37,9 @@ class IdiomModel {
       turkish: json['tr'] as String? ?? '',
       arabic: json['ar'] as String? ?? '',
       persian: json['fa'] as String? ?? '',
+      indonesian: json['id'] as String? ?? '',
+      vietnamese: json['vi'] as String? ?? '',
+      khmer: json['km'] as String? ?? '',
     );
   }
 
@@ -47,6 +56,12 @@ class IdiomModel {
         return arabic;
       case 'fa':
         return persian;
+      case 'id':
+        return indonesian;
+      case 'vi':
+        return vietnamese;
+      case 'km':
+        return khmer;
       default:
         return english;
     }

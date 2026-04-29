@@ -80,6 +80,18 @@ flutter:
     - assets/grammar/fa/hsk3/
     - assets/grammar/fa/hsk4/
     - assets/grammar/fa/hsk5_6/
+    - assets/grammar/id/hsk1_2/
+    - assets/grammar/id/hsk3/
+    - assets/grammar/id/hsk4/
+    - assets/grammar/id/hsk5_6/
+    - assets/grammar/vi/hsk1_2/
+    - assets/grammar/vi/hsk3/
+    - assets/grammar/vi/hsk4/
+    - assets/grammar/vi/hsk5_6/
+    - assets/grammar/km/hsk1_2/
+    - assets/grammar/km/hsk3/
+    - assets/grammar/km/hsk4/
+    - assets/grammar/km/hsk5_6/
 
 flutter_launcher_icons:
   android: true

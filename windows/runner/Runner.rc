@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "chinese_go_app" "\0"
+            VALUE "FileDescription", "hanyutong_app" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "chinese_go_app" "\0"
+            VALUE "InternalName", "hanyutong_app" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2026 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "chinese_go_app.exe" "\0"
-            VALUE "ProductName", "chinese_go_app" "\0"
+            VALUE "OriginalFilename", "hanyutong_app.exe" "\0"
+            VALUE "ProductName", "hanyutong_app" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

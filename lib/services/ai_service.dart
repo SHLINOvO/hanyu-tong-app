@@ -31,6 +31,9 @@ class AiService {
     'tr': 'Turkish',
     'ar': 'Arabic',
     'fa': 'Persian',
+    'id': 'Indonesian',
+    'vi': 'Vietnamese',
+    'km': 'Khmer',
   };
 
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

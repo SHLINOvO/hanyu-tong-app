@@ -1,4 +1,4 @@
-package com.example.chinese_go_app
+package com.example.hanyutong_app
 
 import io.flutter.embedding.android.FlutterActivity
 
