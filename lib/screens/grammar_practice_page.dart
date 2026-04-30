@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -53,7 +54,9 @@ class _GrammarPracticePageState extends State<GrammarPracticePage> {
     final state = context.read<AppState>();
     final folder = _levelFolderMap[state.level] ?? 'hsk1_2';
     final lang = _supportedLanguages.contains(state.language) ? state.language : 'en';
-    return 'assets/assets/grammar/$lang/$folder/${_currentIndex + 1}.png';
+    // Web 平台 assets 路径需要双重嵌套，原生平台只需单层
+    final basePath = kIsWeb ? 'assets/assets/grammar/' : 'assets/grammar/';
+    return '$basePath$lang/$folder/${_currentIndex + 1}.png';
   }
 
   /// 获取难度标题

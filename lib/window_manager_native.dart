@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:window_manager/window_manager.dart';
 
 Future<void> initWindowManager() async {

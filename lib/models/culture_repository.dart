@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'culture_model.dart';
 
@@ -6,7 +7,9 @@ import 'culture_model.dart';
 class CultureRepository {
   /// 加载文化知识列表（节气 + 节日）
   static Future<List<CultureModel>> loadCulture() async {
-    final jsonString = await rootBundle.loadString('assets/assets/culture/culture.json');
+    // Web 平台 assets 路径需要双重嵌套，原生平台只需单层
+    final basePath = kIsWeb ? 'assets/assets/culture/' : 'assets/culture/';
+    final jsonString = await rootBundle.loadString('${basePath}culture.json');
     final Map<String, dynamic> data = jsonDecode(jsonString);
 
     final List<dynamic> solarTerms = data['solar_terms'] as List<dynamic>? ?? [];

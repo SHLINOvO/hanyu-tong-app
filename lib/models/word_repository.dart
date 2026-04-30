@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'word_model.dart';
 
@@ -8,7 +9,9 @@ class WordRepository {
   /// level: 'beginner' | 'elementary' | 'intermediate' | 'advanced'
   static Future<List<WordModel>> loadWords(String level) async {
     final fileName = _levelToFileName(level);
-    final jsonString = await rootBundle.loadString('assets/assets/words/$fileName');
+    // Web 平台 assets 路径需要双重嵌套，原生平台只需单层
+    final basePath = kIsWeb ? 'assets/assets/words/' : 'assets/words/';
+    final jsonString = await rootBundle.loadString('$basePath$fileName');
     final List<dynamic> jsonList = jsonDecode(jsonString);
     return jsonList
         .map((item) => WordModel.fromJson(item as Map<String, dynamic>))
