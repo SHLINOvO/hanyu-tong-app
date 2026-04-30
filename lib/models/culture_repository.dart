@@ -6,7 +6,7 @@ import 'culture_model.dart';
 class CultureRepository {
   /// 加载文化知识列表（节气 + 节日）
   static Future<List<CultureModel>> loadCulture() async {
-    final jsonString = await rootBundle.loadString('assets/culture/culture.json');
+    final jsonString = await rootBundle.loadString('assets/assets/culture/culture.json');
     final Map<String, dynamic> data = jsonDecode(jsonString);
 
     final List<dynamic> solarTerms = data['solar_terms'] as List<dynamic>? ?? [];

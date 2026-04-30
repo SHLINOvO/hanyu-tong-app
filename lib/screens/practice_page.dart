@@ -1,5 +1,4 @@
-﻿import 'dart:io';
-import 'dart:math';
+﻿import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:path_provider/path_provider.dart';
@@ -12,6 +11,8 @@ import '../models/word_model.dart';
 import '../models/word_repository.dart';
 import '../services/ai_service.dart';
 import '../services/tts_service.dart';
+import '../utils/platform_helper.dart';
+import '../utils/file_helper.dart';
 import '../widgets/sound_wave_button.dart';
 
 class PracticePage extends StatefulWidget {
@@ -94,7 +95,7 @@ class _PracticePageState extends State<PracticePage> {
   // ── 申请麦克风权限 ──
   Future<bool> _requestMicPermission() async {
     // Windows 直接通过 AudioRecorder 检查（系统会弹授权窗口）
-    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+    if (isDesktop) {
       return await _audioRecorder.hasPermission();
     }
     // Android / iOS 通过 permission_handler 申请
@@ -150,9 +151,7 @@ class _PracticePageState extends State<PracticePage> {
     if (_isCancelling) {
       // 取消录音，删除临时文件
       if (path != null) {
-        try {
-          File(path).deleteSync();
-        } catch (_) {}
+        await deleteFileIfExists(path);
       }
       if (mounted) {
         setState(() {

@@ -53,7 +53,7 @@ class _GrammarPracticePageState extends State<GrammarPracticePage> {
     final state = context.read<AppState>();
     final folder = _levelFolderMap[state.level] ?? 'hsk1_2';
     final lang = _supportedLanguages.contains(state.language) ? state.language : 'en';
-    return 'assets/grammar/$lang/$folder/${_currentIndex + 1}.png';
+    return 'assets/assets/grammar/$lang/$folder/${_currentIndex + 1}.png';
   }
 
   /// 获取难度标题

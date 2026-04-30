@@ -2,7 +2,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:window_manager/window_manager.dart';
+import 'window_manager_helper.dart';
 import 'app_state.dart';
 import 'router.dart';
 import 'config/app_languages.dart';
@@ -18,18 +18,7 @@ void main() async {
 
   // ── Windows 桌面：设置窗口为手机比例 390 × 844（仅桌面平台调用）──
   if (_isDesktop) {
-    await windowManager.ensureInitialized();
-    const windowOptions = WindowOptions(
-      size: Size(390, 844),
-      minimumSize: Size(360, 640),
-      center: true,
-      title: '汉语通',
-      titleBarStyle: TitleBarStyle.normal,
-    );
-    await windowManager.waitUntilReadyToShow(windowOptions, () async {
-      await windowManager.show();
-      await windowManager.focus();
-    });
+    await initWindowManager();
   }
   // ─────────────────────────────────────────────────
 

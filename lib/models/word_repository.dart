@@ -8,7 +8,7 @@ class WordRepository {
   /// level: 'beginner' | 'elementary' | 'intermediate' | 'advanced'
   static Future<List<WordModel>> loadWords(String level) async {
     final fileName = _levelToFileName(level);
-    final jsonString = await rootBundle.loadString('assets/words/$fileName');
+    final jsonString = await rootBundle.loadString('assets/assets/words/$fileName');
     final List<dynamic> jsonList = jsonDecode(jsonString);
     return jsonList
         .map((item) => WordModel.fromJson(item as Map<String, dynamic>))

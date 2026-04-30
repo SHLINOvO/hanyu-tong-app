@@ -6,7 +6,7 @@ import 'poetry_model.dart';
 class PoetryRepository {
   /// 加载诗词列表
   static Future<List<PoetryModel>> loadPoetry() async {
-    final jsonString = await rootBundle.loadString('assets/poetry/poetry.json');
+    final jsonString = await rootBundle.loadString('assets/assets/poetry/poetry.json');
     final List<dynamic> jsonList = jsonDecode(jsonString);
     return jsonList
         .map((item) => PoetryModel.fromJson(item as Map<String, dynamic>))

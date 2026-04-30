@@ -1,11 +1,12 @@
-﻿import 'dart:io';
-import 'dart:math';
+﻿import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:provider/provider.dart';
 import 'package:record/record.dart';
+import '../utils/platform_helper.dart';
+import '../utils/file_helper.dart';
 import '../app_state.dart';
 import '../l10n/app_localizations.dart';
 import '../models/idiom_model.dart';
@@ -359,7 +360,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
 
   // ── 申请麦克风权限 ──
   Future<bool> _requestMicPermission() async {
-    if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
+    if (isDesktop) {
       return await _audioRecorder.hasPermission();
     }
     final status = await Permission.microphone.request();
@@ -410,7 +411,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
     if (_isCancelling) {
       if (path != null) {
         try {
-          File(path).deleteSync();
+          await deleteFileIfExists(path);
         } catch (_) {}
       }
       if (mounted) {
