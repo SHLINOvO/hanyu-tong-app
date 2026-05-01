@@ -94,6 +94,15 @@ class AppLocalizations {
       'editUsername': 'Edit Username',
       'enterNewUsername': 'Enter new username',
       'save': 'Save',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'Chinese Speech Recognition Engine',
+      'nativeAsrEngineLabel': 'Native Language Recognition Engine',
+      'asrEngineAuto': 'Auto (Recommended)',
+      'asrEngineAutoDesc': 'Automatically selects the best engine based on your language',
+      'asrEngineQwen': 'Qwen Cloud',
+      'asrEngineQwenDesc': 'Fast, requires internet. Supports English, Russian, Turkish, Arabic only',
+      'asrEngineWhisper': 'Whisper Local',
+      'asrEngineWhisperDesc': 'Works offline, supports all 8 languages',
       'language': 'Language',
       'dailyGoal': 'Daily Goal',
       'notifications': 'Notifications',
@@ -348,6 +357,15 @@ class AppLocalizations {
       'editUsername': 'Изменить имя пользователя',
       'enterNewUsername': 'Введите новое имя пользователя',
       'save': 'Сохранить',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'Движок распознавания китайской речи',
+      'nativeAsrEngineLabel': 'Движок распознавания родного языка',
+      'asrEngineAuto': 'Авто (Рекомендуется)',
+      'asrEngineAutoDesc': 'Автоматически выбирает лучший движок',
+      'asrEngineQwen': 'Qwen Облако',
+      'asrEngineQwenDesc': 'Быстрый, требует интернет. Только EN/RU/TR/AR',
+      'asrEngineWhisper': 'Whisper Локально',
+      'asrEngineWhisperDesc': 'Работает офлайн, поддерживает все 8 языков',
       'language': 'Язык',
       'dailyGoal': 'Ежедневная цель',
       'notifications': 'Уведержения',
@@ -621,6 +639,15 @@ class AppLocalizations {
       'editUsername': 'ویرایش نام کاربری',
       'enterNewUsername': 'نام کاربری جدید را وارد کنید',
       'save': 'ذخیره',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'موتور تشخیص گفتار چینی',
+      'nativeAsrEngineLabel': 'موتور تشخیص زبان مادری',
+      'asrEngineAuto': 'خودکار (توصیه می‌شود)',
+      'asrEngineAutoDesc': 'به طور خودکار بهترین موتور را بر اساس زبان شما انتخاب می‌کند',
+      'asrEngineQwen': 'Qwen ابری',
+      'asrEngineQwenDesc': 'سریع، نیاز به اینترنت. فقط EN/RU/TR/AR',
+      'asrEngineWhisper': 'Whisper محلی',
+      'asrEngineWhisperDesc': 'بدون اینترنت کار می‌کند، 8 زبان پشتیبانی می‌شود',
       'language': 'زبان',
       'dailyGoal': 'هدف روزانه',
       'notifications': 'اعلان‌ها',
@@ -896,6 +923,15 @@ class AppLocalizations {
       'editUsername': 'تعديل اسم المستخدم',
       'enterNewUsername': 'أدخل اسم المستخدم الجديد',
       'save': 'حفظ',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'محرك التعرف على الكلام الصيني',
+      'nativeAsrEngineLabel': 'محرك التعرف على اللغة الأم',
+      'asrEngineAuto': 'تلقائي (موصى به)',
+      'asrEngineAutoDesc': 'يختار تلقائيا أفضل محرك بناء على لغتك',
+      'asrEngineQwen': 'Qwen سحابي',
+      'asrEngineQwenDesc': 'سريع، يتطلب إنترنت. الإنجليزية/الروسية/التركية/العربية فقط',
+      'asrEngineWhisper': 'Whisper محلي',
+      'asrEngineWhisperDesc': 'يعمل بدون إنترنت، يدعم 8 لغات',
       'language': 'اللغة',
       'dailyGoal': 'الهدف اليومي',
       'notifications': 'الإشعارات',
@@ -1171,6 +1207,15 @@ class AppLocalizations {
       'editUsername': 'Kullanıcı Adını Düzenle',
       'enterNewUsername': 'Yeni kullanıcı adı girin',
       'save': 'Kaydet',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'Çince Konuşma Tanıma Motoru',
+      'nativeAsrEngineLabel': 'Ana Dil Konuşma Tanıma Motoru',
+      'asrEngineAuto': 'Otomatik (Önerilen)',
+      'asrEngineAutoDesc': 'Dilinize göre en iyi motoru otomatik seçer',
+      'asrEngineQwen': 'Qwen Bulut',
+      'asrEngineQwenDesc': 'Hızlı, internet gerektirir. Yalnızca EN/RU/TR/AR',
+      'asrEngineWhisper': 'Whisper Yerel',
+      'asrEngineWhisperDesc': 'Çevrimdışı çalışır, 8 dili destekler',
       'language': 'Dil',
       'dailyGoal': 'Günlük Hedef',
       'notifications': 'Bildirimler',
@@ -1443,6 +1488,15 @@ class AppLocalizations {
       'editUsername': 'Edit Nama Pengguna',
       'enterNewUsername': 'Masukkan nama pengguna baru',
       'save': 'Simpan',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'Mesin Pengenalan Ucapan Mandarin',
+      'nativeAsrEngineLabel': 'Mesin Pengenalan Bahasa Ibu',
+      'asrEngineAuto': 'Otomatis (Disarankan)',
+      'asrEngineAutoDesc': 'Otomatis memilih mesin terbaik berdasarkan bahasa Anda',
+      'asrEngineQwen': 'Qwen Cloud',
+      'asrEngineQwenDesc': 'Cepat, butuh internet. Hanya EN/RU/TR/AR',
+      'asrEngineWhisper': 'Whisper Lokal',
+      'asrEngineWhisperDesc': 'Beroperasi tanpa internet, mendukung 8 bahasa',
       'language': 'Bahasa',
       'dailyGoal': 'Target Harian',
       'notifications': 'Notifikasi',
@@ -1694,6 +1748,15 @@ class AppLocalizations {
       'editUsername': 'Sửa Tên người dùng',
       'enterNewUsername': 'Nhập tên người dùng mới',
       'save': 'Lưu',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'Động cơ Nhận dạng Giọng nói Trung Quốc',
+      'nativeAsrEngineLabel': 'Động cơ Nhận dạng Ngôn ngữ Mẹ đẻ',
+      'asrEngineAuto': 'Tự động (Đề xuất)',
+      'asrEngineAutoDesc': 'Tự động chọn động cơ tốt nhất theo ngôn ngữ của bạn',
+      'asrEngineQwen': 'Qwen Đám mây',
+      'asrEngineQwenDesc': 'Nhanh, cần internet. Chỉ hỗ trợ EN/RU/TR/AR',
+      'asrEngineWhisper': 'Whisper Cục bộ',
+      'asrEngineWhisperDesc': 'Hoạt động offline, hỗ trợ 8 ngôn ngữ',
       'language': 'Ngôn ngữ',
       'dailyGoal': 'Mục tiêu Hàng ngày',
       'notifications': 'Thông báo',
@@ -1945,6 +2008,15 @@ class AppLocalizations {
       'editUsername': 'កែសម្រួលឈ្មោះអ្នកប្រើប្រាស់',
       'enterNewUsername': 'បញ្ចូលឈ្មោះអ្នកប្រើប្រាស់ថ្មី',
       'save': 'រក្សាទុក',
+      // ASR 引擎设置
+      'chineseAsrEngineLabel': 'ម៉ាស៊ីនស្គាល់សំឡេងចិន',
+      'nativeAsrEngineLabel': 'ម៉ាស៊ីនស្គាល់ភាសាកំណើត',
+      'asrEngineAuto': 'ស្វ័យប្រូកិច្ច (ណែនាំ)',
+      'asrEngineAutoDesc': 'ជ្រើសរើសម៉ាស៊ីនល្អបំផុតដោយស្វ័យប្រូកិច្ច',
+      'asrEngineQwen': 'Qwen ពេលវេលា',
+      'asrEngineQwenDesc': 'លឿន ត្រូវការអុីនធឺណេត។ គាំទ្រ EN/RU/TR/AR ប៉ុណ្ណោះ',
+      'asrEngineWhisper': 'Whisper មូលដ្ឋាន',
+      'asrEngineWhisperDesc': 'ដំណើរការក្រៅប្រព័ន្ធ គាំទ្រ 8 ភាសា',
       'language': 'ភាសា',
       'dailyGoal': 'គោលដៅប្រចាំថ្ងៃ',
       'notifications': 'ការជូនដំណឹង',
@@ -2179,6 +2251,15 @@ class AppLocalizations {
   String get editUsername => _localizedValues[locale.languageCode]?['editUsername'] ?? 'Edit Username';
   String get enterNewUsername => _localizedValues[locale.languageCode]?['enterNewUsername'] ?? 'Enter new username';
   String get save => _localizedValues[locale.languageCode]?['save'] ?? 'Save';
+  // ASR 引擎设置
+  String get chineseAsrEngineLabel => _localizedValues[locale.languageCode]?['chineseAsrEngineLabel'] ?? 'Chinese Speech Recognition Engine';
+  String get nativeAsrEngineLabel => _localizedValues[locale.languageCode]?['nativeAsrEngineLabel'] ?? 'Native Language Recognition Engine';
+  String get asrEngineAuto => _localizedValues[locale.languageCode]?['asrEngineAuto'] ?? 'Auto (Recommended)';
+  String get asrEngineAutoDesc => _localizedValues[locale.languageCode]?['asrEngineAutoDesc'] ?? 'Automatically selects the best engine based on your language';
+  String get asrEngineQwen => _localizedValues[locale.languageCode]?['asrEngineQwen'] ?? 'Qwen Cloud';
+  String get asrEngineQwenDesc => _localizedValues[locale.languageCode]?['asrEngineQwenDesc'] ?? 'Fast, requires internet. Supports English, Russian, Turkish, Arabic only';
+  String get asrEngineWhisper => _localizedValues[locale.languageCode]?['asrEngineWhisper'] ?? 'Whisper Local';
+  String get asrEngineWhisperDesc => _localizedValues[locale.languageCode]?['asrEngineWhisperDesc'] ?? 'Works offline, supports all 8 languages';
   String get language => _localizedValues[locale.languageCode]?['language'] ?? 'Language';
   String get dailyGoal => _localizedValues[locale.languageCode]?['dailyGoal'] ?? 'Daily Goal';
   String get notifications => _localizedValues[locale.languageCode]?['notifications'] ?? 'Notifications';

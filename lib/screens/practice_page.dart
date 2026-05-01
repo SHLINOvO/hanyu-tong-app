@@ -116,13 +116,17 @@ class _PracticePageState extends State<PracticePage> {
       return;
     }
 
-    // 生成临时文件路径
+    // 生成临时文件路径（使用 WAV 格式，Whisper 可直接处理）
     final dir = await getTemporaryDirectory();
     final path =
-        '${dir.path}/rec_${DateTime.now().millisecondsSinceEpoch}.m4a';
+        '${dir.path}/rec_${DateTime.now().millisecondsSinceEpoch}.wav';
 
     await _audioRecorder.start(
-      const RecordConfig(encoder: AudioEncoder.aacLc),
+      const RecordConfig(
+        encoder: AudioEncoder.pcm16bits,
+        sampleRate: 16000,
+        numChannels: 1,
+      ),
       path: path,
     );
 
@@ -190,6 +194,7 @@ class _PracticePageState extends State<PracticePage> {
           audioPath: path,
           correctChinese: word.word,
           pinyin: word.pinyin,
+          asrEngine: state.chineseAsrEngine.name,
         );
         if (mounted) {
           setState(() {
@@ -205,6 +210,7 @@ class _PracticePageState extends State<PracticePage> {
           correctTranslation: word.translationFor(state.language),
           languageCode: state.language,
           chineseWord: word.word,
+          asrEngine: state.asrEngine.name,
         );
         if (mounted) {
           setState(() {

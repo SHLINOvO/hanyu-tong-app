@@ -381,10 +381,14 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
 
     final dir = await getTemporaryDirectory();
     final path =
-        '${dir.path}/rec_${DateTime.now().millisecondsSinceEpoch}.m4a';
+        '${dir.path}/rec_${DateTime.now().millisecondsSinceEpoch}.wav';
 
     await _audioRecorder.start(
-      const RecordConfig(encoder: AudioEncoder.aacLc),
+      const RecordConfig(
+        encoder: AudioEncoder.pcm16bits,
+        sampleRate: 16000,
+        numChannels: 1,
+      ),
       path: path,
     );
 
@@ -466,6 +470,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
           correctTranslation: _currentTranslation,
           languageCode: state.language,
           chineseWord: _currentChinese,
+          asrEngine: state.asrEngine.name,
         );
         if (mounted) {
           setState(() {

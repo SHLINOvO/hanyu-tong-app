@@ -2,6 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
 
+/// ASR 引擎选项
+enum AsrEngine {
+  auto,   // 自动选择（根据语言推荐）
+  qwen,   // 通义千问（云端，速度快，支持英/俄/土/阿）
+  whisper, // Whisper 本地（支持全部 8 种语言）
+}
+
 /// 全局状态，对应 React 版本的 AppContext
 class AppState extends ChangeNotifier {
   // ---------- 用户设置 ----------
@@ -10,6 +17,8 @@ class AppState extends ChangeNotifier {
   int _dailyGoal = 15;
   bool _isOnboarded = false;
   String _username = '';
+  AsrEngine _asrEngine = AsrEngine.auto; // 第二步语义评分 ASR 引擎
+  AsrEngine _chineseAsrEngine = AsrEngine.qwen; // 第一步中文语音识别引擎（默认千问）
 
   // ---------- 学习统计 ----------
   int _streak = 0;
@@ -49,6 +58,8 @@ class AppState extends ChangeNotifier {
   int get dailyGoal => _dailyGoal;
   bool get isOnboarded => _isOnboarded;
   String get username => _username.isEmpty ? 'Learner' : _username;
+  AsrEngine get asrEngine => _asrEngine;
+  AsrEngine get chineseAsrEngine => _chineseAsrEngine;
   int get streak => _streak;
   int get totalDays => _totalDays;
   /// 累计学习时长（小时），每 30 分钟进 0.5 小时
@@ -83,6 +94,22 @@ class AppState extends ChangeNotifier {
     _dailyGoal = prefs.getInt('dailyGoal') ?? 15;
     _isOnboarded = prefs.getBool('isOnboarded') ?? false;
     _username = prefs.getString('username') ?? '';
+    // 读取 ASR 引擎设置
+    final asrEngineStr = prefs.getString('asrEngine');
+    if (asrEngineStr != null) {
+      _asrEngine = AsrEngine.values.firstWhere(
+        (e) => e.name == asrEngineStr,
+        orElse: () => AsrEngine.auto,
+      );
+    }
+    // 读取中文语音识别引擎设置
+    final chineseAsrEngineStr = prefs.getString('chineseAsrEngine');
+    if (chineseAsrEngineStr != null) {
+      _chineseAsrEngine = AsrEngine.values.firstWhere(
+        (e) => e.name == chineseAsrEngineStr,
+        orElse: () => AsrEngine.qwen,
+      );
+    }
     _streak = prefs.getInt('streak') ?? 0;
     _totalDays = prefs.getInt('totalDays') ?? 0;
     // 兼容旧版 totalHours（int，单位小时），转为分钟数
@@ -266,6 +293,18 @@ class AppState extends ChangeNotifier {
   void setUsername(String name) {
     _username = name;
     _save((p) async => p.setString('username', name));
+    notifyListeners();
+  }
+
+  void setAsrEngine(AsrEngine engine) {
+    _asrEngine = engine;
+    _save((p) async => p.setString('asrEngine', engine.name));
+    notifyListeners();
+  }
+
+  void setChineseAsrEngine(AsrEngine engine) {
+    _chineseAsrEngine = engine;
+    _save((p) async => p.setString('chineseAsrEngine', engine.name));
     notifyListeners();
   }
 

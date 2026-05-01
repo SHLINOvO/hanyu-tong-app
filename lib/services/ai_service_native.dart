@@ -1,13 +1,16 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
+import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/foundation.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:whisper_flutter_new/whisper_flutter_new.dart';
 
 /// 通义千问（Qwen）+ Qwen-ASR API 服务
 ///
 /// 封装阿里云百炼 DashScope API，提供完整的两步评测能力：
-/// 1. ASR 语音转文字（Qwen-ASR-Flash）
+/// 1. ASR 语音转文字（Qwen-ASR-Flash 或本地 Whisper）
 /// 2. 发音评分：ASR 转出文字 vs 正确答案 → 通义千问评分
 /// 3. 语义评分：ASR 转出母语解释 vs 标准翻译 → 通义千问评分
 class AiService {
@@ -24,6 +27,13 @@ class AiService {
   // TODO: 生产环境应从安全存储（如 flutter_secure_storage）读取
   static const String _apiKey = 'sk-70155f8874904b399d684634e083d02c';
 
+  // ── Whisper 本地语音识别 ──
+  Whisper? _whisper;
+  bool _whisperInitialized = false;
+  static const WhisperModel _whisperModel = WhisperModel.base;
+  // 使用 HuggingFace 镜像（中国大陆访问）
+  static const String _whisperDownloadHost = 'https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main';
+
   // 语言代码 → 语言名称（用于 prompt）
   static const Map<String, String> _languageNames = {
     'en': 'English',
@@ -35,6 +45,238 @@ class AiService {
     'vi': 'Vietnamese',
     'km': 'Khmer',
   };
+
+  // Whisper 语种代码映射
+  static const Map<String, String> _whisperLanguageCodes = {
+    'zh': 'zh',
+    'en': 'en',
+    'ru': 'ru',
+    'tr': 'tr',
+    'ar': 'ar',
+    'fa': 'fa',
+    'id': 'id',
+    'vi': 'vi',
+    'km': 'km',
+  };
+
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  // Whisper 本地语音识别
+  // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  /// Whisper 模型文件名（与 WhisperService 保持一致）
+  static const String _whisperModelFile = 'ggml-base.bin';
+
+  /// 从 assets 复制模型到应用目录（仅首次执行）
+  Future<String> _ensureWhisperModelFromAssets() async {
+    final appSupportDir = await getApplicationSupportDirectory();
+    final modelPath = '${appSupportDir.path}/$_whisperModelFile';
+
+    if (await File(modelPath).exists()) {
+      debugPrint('📦 Whisper 模型已存在于: $modelPath');
+      return appSupportDir.path;
+    }
+
+    debugPrint('📦 首次使用，正在从 assets 复制 Whisper 模型...');
+
+    try {
+      final ByteData byteData =
+          await rootBundle.load('assets/whisper/$_whisperModelFile');
+      final file = File(modelPath);
+      await file.writeAsBytes(byteData.buffer.asUint8List());
+      debugPrint('✅ Whisper 模型已从 assets 复制到: $modelPath');
+      return appSupportDir.path;
+    } catch (e) {
+      debugPrint('❌ 从 assets 复制模型失败: $e，回退到网络下载');
+      return '';
+    }
+  }
+
+  /// 初始化 Whisper 模型（优先从 assets 加载）
+  Future<void> initWhisper() async {
+    if (_whisperInitialized) return;
+
+    debugPrint('🤖 初始化 Whisper 模型: $_whisperModel');
+
+    try {
+      // 优先从 assets 加载模型
+      final modelDir = await _ensureWhisperModelFromAssets();
+
+      _whisper = Whisper(
+        model: _whisperModel,
+        modelDir: modelDir.isNotEmpty ? modelDir : null,
+        downloadHost: _whisperDownloadHost,
+      );
+
+      // 获取版本验证初始化成功
+      final version = await _whisper!.getVersion();
+      debugPrint('✅ Whisper 模型已就绪，版本: $version');
+
+      _whisperInitialized = true;
+    } catch (e) {
+      debugPrint('❌ Whisper 初始化失败: $e');
+      _whisperInitialized = false;
+      rethrow;
+    }
+  }
+
+  /// 检查 Whisper 是否已初始化
+  bool get isWhisperReady => _whisperInitialized && _whisper != null;
+
+  /// 获取 Whisper 版本
+  Future<String?> getWhisperVersion() async {
+    if (_whisper == null) {
+      await initWhisper();
+    }
+    return await _whisper?.getVersion();
+  }
+
+  /// 将录音文件转为文字（使用本地 Whisper）
+  ///
+  /// [audioPath] 录音文件路径（如 .m4a）
+  /// [languageHint] 可选语种提示（如 'zh', 'en', 'ru'）
+  /// 返回识别出的文字内容
+  Future<String> transcribeAudioLocal(String audioPath, {String? languageHint}) async {
+    if (!_whisperInitialized) {
+      await initWhisper();
+    }
+
+    final file = File(audioPath);
+    if (!await file.exists()) {
+      throw Exception('音频文件不存在: $audioPath');
+    }
+
+    // 检测静音/空音频
+    final bytes = await file.readAsBytes();
+    if (bytes.length < 5 * 1024) {
+      debugPrint('🔇 音频文件过小 (${bytes.length}B)，判定为未发声');
+      throw const _SilentAudioException('音频为空或未发声');
+    }
+
+    debugPrint('🎙️ Whisper ASR 请求: 文件=${audioPath.split("/").last}, 大小=${bytes.length}B');
+
+    // 转换为 WAV 格式（Whisper 需要）
+    final wavPath = await _convertToWav(audioPath);
+
+    try {
+      // 确定语言代码
+      final langCode = languageHint ?? 'auto';
+      final whisperLang = _whisperLanguageCodes[langCode] ?? 'auto';
+
+      debugPrint('🎙️ Whisper 识别语言: $whisperLang');
+
+      // 执行转录
+      final result = await _whisper!.transcribe(
+        transcribeRequest: TranscribeRequest(
+          audio: wavPath,
+          language: whisperLang,
+          isNoTimestamps: true,
+          splitOnWord: false,
+        ),
+      );
+
+      final text = result.text;
+      debugPrint('🎙️ Whisper 识别结果: $text');
+      return text.trim();
+    } finally {
+      // 清理临时 WAV 文件
+      if (wavPath != audioPath) {
+        try {
+          await File(wavPath).delete();
+        } catch (_) {}
+      }
+    }
+  }
+
+  /// 将音频文件转换为 WAV 格式（16kHz, mono, 16-bit PCM）
+  ///
+  /// Whisper 需要特定格式的音频输入。如果输入已经是 WAV 格式，直接返回原路径。
+  Future<String> _convertToWav(String audioPath) async {
+    final ext = audioPath.split('.').last.toLowerCase();
+
+    // 如果已经是 WAV 格式，直接返回
+    if (ext == 'wav') {
+      return audioPath;
+    }
+
+    debugPrint('🔄 转换音频为 WAV 格式: $audioPath');
+
+    // 读取原始音频文件
+    final file = File(audioPath);
+    final bytes = await file.readAsBytes();
+
+    // 获取应用临时目录
+    final tempDir = await getTemporaryDirectory();
+    final wavPath = '${tempDir.path}/recording_${DateTime.now().millisecondsSinceEpoch}.wav';
+
+    // 简化转换：直接包装为 WAV（假设录音已经是 16kHz mono 格式）
+    final wavBytes = _createWavFile(bytes, sampleRate: 16000, numChannels: 1, bitsPerSample: 16);
+
+    await File(wavPath).writeAsBytes(wavBytes);
+    debugPrint('✅ WAV 文件已创建: $wavPath');
+
+    return wavPath;
+  }
+
+  /// 创建 WAV 文件头 + 数据
+  Uint8List _createWavFile(Uint8List audioData, {int sampleRate = 16000, int numChannels = 1, int bitsPerSample = 16}) {
+    final dataSize = audioData.length;
+    final fileSize = 44 + dataSize;
+
+    final buffer = ByteData(fileSize);
+    int offset = 0;
+
+    // RIFF header
+    buffer.setUint8(offset++, 0x52); // 'R'
+    buffer.setUint8(offset++, 0x49); // 'I'
+    buffer.setUint8(offset++, 0x46); // 'F'
+    buffer.setUint8(offset++, 0x46); // 'F'
+    buffer.setUint32(offset, fileSize - 8, Endian.little); offset += 4;
+    buffer.setUint8(offset++, 0x57); // 'W'
+    buffer.setUint8(offset++, 0x41); // 'A'
+    buffer.setUint8(offset++, 0x56); // 'V'
+    buffer.setUint8(offset++, 0x45); // 'E'
+
+    // fmt chunk
+    buffer.setUint8(offset++, 0x66); // 'f'
+    buffer.setUint8(offset++, 0x6D); // 'm'
+    buffer.setUint8(offset++, 0x74); // 't'
+    buffer.setUint8(offset++, 0x20); // ' '
+    buffer.setUint32(offset, 16, Endian.little); offset += 4; // chunk size
+    buffer.setUint16(offset, 1, Endian.little); offset += 2; // audio format (PCM)
+    buffer.setUint16(offset, numChannels, Endian.little); offset += 2;
+    buffer.setUint32(offset, sampleRate, Endian.little); offset += 4;
+    buffer.setUint32(offset, sampleRate * numChannels * bitsPerSample ~/ 8, Endian.little); offset += 4; // byte rate
+    buffer.setUint16(offset, numChannels * bitsPerSample ~/ 8, Endian.little); offset += 2; // block align
+    buffer.setUint16(offset, bitsPerSample, Endian.little); offset += 2;
+
+    // data chunk
+    buffer.setUint8(offset++, 0x64); // 'd'
+    buffer.setUint8(offset++, 0x61); // 'a'
+    buffer.setUint8(offset++, 0x74); // 't'
+    buffer.setUint8(offset++, 0x61); // 'a'
+    buffer.setUint32(offset, dataSize, Endian.little); offset += 4;
+
+    // 复制音频数据
+    for (int i = 0; i < audioData.length && offset < fileSize; i++) {
+      buffer.setUint8(offset++, audioData[i]);
+    }
+
+    return buffer.buffer.asUint8List();
+  }
+
+  /// 初始化 Whisper 模型（供外部调用）
+  ///
+  /// 返回模型信息
+  Future<Map<String, dynamic>> initWhisperModel() async {
+    if (!_whisperInitialized) {
+      await initWhisper();
+    }
+    return {
+      'initialized': _whisperInitialized,
+      'model': _whisperModel.name,
+      'version': await _whisper?.getVersion(),
+    };
+  }
 
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   // ASR 语音转文字
@@ -167,15 +409,24 @@ class AiService {
   /// [audioPath] 用户录音文件路径
   /// [correctChinese] 正确的中文词语/成语
   /// [pinyin] 拼音
+  /// [asrEngine] ASR 引擎选择（默认 qwen，可选 whisper）
   /// 返回 0-100 的分数
   Future<int> evaluatePronunciation({
     required String audioPath,
     required String correctChinese,
     required String pinyin,
+    String asrEngine = 'qwen',
   }) async {
     try {
-      // 1. ASR 转文字
-      final transcript = await transcribeAudio(audioPath, languageHint: 'zh');
+      // 1. ASR 转文字（根据引擎选择）
+      String transcript;
+      if (asrEngine == 'whisper') {
+        debugPrint('🎙️ 发音评分 ASR: 使用 Whisper 本地识别 (语言: zh)');
+        transcript = await transcribeAudioLocal(audioPath, languageHint: 'zh');
+      } else {
+        debugPrint('🎙️ 发音评分 ASR: 使用 Qwen 云端识别 (语言: zh)');
+        transcript = await transcribeAudio(audioPath, languageHint: 'zh');
+      }
 
       if (transcript.isEmpty) {
         debugPrint('🔇 ASR 返回空文字，发音评分为 0');
@@ -225,24 +476,48 @@ class AiService {
   // 语义评分（第二步）
   // ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+  /// 通义千问支持的 ASR 语言
+  static const Set<String> _qwenSupportedLanguages = {'en', 'ru', 'tr', 'ar'};
+
   /// 第二步：语义评分（母语解释评分）
   ///
   /// 流程：用户用母语解释 → ASR 转文字 → 与标准翻译对比 → 评分
   ///
   /// [audioPath] 用户录音文件路径
   /// [correctTranslation] 标准翻译（用户的母语）
-  /// [languageCode] 用户的母语代码（en/ru/tr/ar/fa）
+  /// [languageCode] 用户的母语代码（en/ru/tr/ar/fa/id/vi/km）
   /// [chineseWord] 中文词语（提供上下文）
+  /// [asrEngine] ASR 引擎选择（默认 auto，自动根据语言选择）
   /// 返回 0-100 的分数
   Future<int> evaluateMeaning({
     required String audioPath,
     required String correctTranslation,
     required String languageCode,
     required String chineseWord,
+    String asrEngine = 'auto',
   }) async {
     try {
-      // 1. ASR 转文字（用用户母语作为语种提示）
-      final transcript = await transcribeAudio(audioPath, languageHint: languageCode);
+      // 1. 选择 ASR 引擎
+      String chosenEngine = asrEngine;
+
+      // 自动模式：根据语言选择
+      if (asrEngine == 'auto') {
+        if (_qwenSupportedLanguages.contains(languageCode)) {
+          chosenEngine = 'qwen';
+        } else {
+          chosenEngine = 'whisper';
+        }
+      }
+
+      // 2. ASR 转文字
+      String transcript;
+      if (chosenEngine == 'whisper') {
+        debugPrint('🎙️ 语义评分 ASR: 使用 Whisper 本地识别 (语言: $languageCode)');
+        transcript = await transcribeAudioLocal(audioPath, languageHint: languageCode);
+      } else {
+        debugPrint('🎙️ 语义评分 ASR: 使用 Qwen 云端识别 (语言: $languageCode)');
+        transcript = await transcribeAudio(audioPath, languageHint: languageCode);
+      }
 
       if (transcript.isEmpty) {
         debugPrint('🔇 ASR 返回空文字，语义评分为 0');
@@ -366,4 +641,153 @@ class _SilentAudioException implements Exception {
 
   @override
   String toString() => '_SilentAudioException: $message';
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// 公开的 Whisper 接口（供外部使用）
+// ═══════════════════════════════════════════════════════════════════════════════
+
+/// Whisper 服务（单例模式）
+///
+/// 使用示例：
+/// ```dart
+/// final whisperService = WhisperService();
+/// await whisperService.init();  // 初始化（从 assets 加载模型）
+/// final text = await whisperService.transcribe('/path/to/audio.m4a', languageHint: 'zh');
+/// ```
+class WhisperService {
+  static WhisperService? _instance;
+  Whisper? _whisper;
+  bool _initialized = false;
+  String? _modelDir;
+
+  WhisperService._();
+
+  /// 获取单例实例
+  static WhisperService get instance {
+    _instance ??= WhisperService._();
+    return _instance!;
+  }
+
+  /// 是否已初始化
+  bool get isInitialized => _initialized;
+
+  /// Whisper 模型文件名
+  static const String _modelFileName = 'ggml-base.bin';
+
+  /// 从 assets 复制模型到应用目录（仅首次执行）
+  Future<String> _ensureModelFromAssets() async {
+    // 获取应用支持目录（Android: ApplicationSupport, iOS/macOS: Library）
+    final appSupportDir = await getApplicationSupportDirectory();
+    final modelPath = '${appSupportDir.path}/$_modelFileName';
+
+    // 如果模型文件已存在，跳过复制
+    if (await File(modelPath).exists()) {
+      debugPrint('📦 Whisper 模型已存在于: $modelPath');
+      return appSupportDir.path;
+    }
+
+    // 从 assets 复制模型文件
+    debugPrint('📦 首次使用，正在从 assets 复制 Whisper 模型到: $modelPath');
+
+    try {
+      // 加载 assets 中的模型文件
+      final ByteData byteData =
+          await rootBundle.load('assets/whisper/$_modelFileName');
+
+      // 写入应用目录
+      final file = File(modelPath);
+      await file.writeAsBytes(byteData.buffer.asUint8List());
+
+      debugPrint('✅ Whisper 模型已从 assets 复制到: $modelPath');
+      return appSupportDir.path;
+    } catch (e) {
+      debugPrint('❌ 从 assets 复制模型失败: $e');
+      // 复制失败时，回退到从网络下载
+      debugPrint('⚠️ 回退：将从网络下载模型...');
+      return '';
+    }
+  }
+
+  /// 初始化 Whisper 模型
+  ///
+  /// 优先从 assets 加载（打包进 APK 的模型），如失败则回退到网络下载
+  Future<void> init({
+    WhisperModel model = WhisperModel.base,
+    String? downloadHost,
+  }) async {
+    if (_initialized) return;
+
+    debugPrint('🤖 初始化 Whisper 服务...');
+
+    // 优先从 assets 加载模型
+    _modelDir = await _ensureModelFromAssets();
+
+    if (_modelDir!.isEmpty) {
+      // 回退：使用 modelDir 为空，让插件从网络下载
+      _whisper = Whisper(
+        model: model,
+        downloadHost: downloadHost ?? 'https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main',
+      );
+    } else {
+      // 使用已复制的本地模型
+      _whisper = Whisper(
+        model: model,
+        modelDir: _modelDir,
+        downloadHost: downloadHost ?? 'https://hf-mirror.com/ggerganov/whisper.cpp/resolve/main',
+      );
+    }
+
+    try {
+      // 验证初始化成功
+      await _whisper!.getVersion();
+      _initialized = true;
+      debugPrint('✅ Whisper 服务初始化完成');
+    } catch (e) {
+      debugPrint('❌ Whisper 初始化失败: $e');
+      rethrow;
+    }
+  }
+
+  /// 获取 Whisper 版本
+  Future<String?> getVersion() async {
+    if (!_initialized) await init();
+    return await _whisper?.getVersion();
+  }
+
+  /// 语音转文字
+  ///
+  /// [audioPath] 音频文件路径
+  /// [language] 语言代码（null 表示自动检测）
+  Future<String?> transcribe(String audioPath, {String? language}) async {
+    if (!_initialized) await init();
+
+    try {
+      final result = await _whisper!.transcribe(
+        transcribeRequest: TranscribeRequest(
+          audio: audioPath,
+          language: language ?? 'auto',
+          isNoTimestamps: true,
+          splitOnWord: false,
+        ),
+      );
+
+      final text = result.text;
+      return text.trim();
+    } catch (e) {
+      debugPrint('❌ Whisper 转录失败: $e');
+      rethrow;
+    }
+  }
+
+  /// 获取模型信息
+  Future<Map<String, dynamic>> getModelInfo() async {
+    if (!_initialized) await init();
+    return {
+      'initialized': _initialized,
+      'version': await _whisper?.getVersion(),
+      'model': _whisper?.model.name,
+      'modelDir': _modelDir,
+    };
+  }
 }

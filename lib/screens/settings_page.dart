@@ -73,6 +73,7 @@ class _SettingsPageState extends State<SettingsPage> {
   @override
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
+    final state = context.watch<AppState>();
 
     return Scaffold(
       backgroundColor: const Color(0xFFF5F5F5),
@@ -174,6 +175,116 @@ class _SettingsPageState extends State<SettingsPage> {
                               ),
                             ),
                           ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+
+                  // 中文语音识别引擎选择
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Text(
+                            loc.chineseAsrEngineLabel,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              color: Color(0xFF333333),
+                            ),
+                          ),
+                        ),
+                        const Divider(height: 1, color: Color(0xFFE0E0E0)),
+                        RadioListTile<AsrEngine>(
+                          title: Text(loc.asrEngineQwen),
+                          subtitle: Text(
+                            loc.asrEngineQwenDesc,
+                            style: const TextStyle(fontSize: 13, color: Color(0xFF666666)),
+                          ),
+                          value: AsrEngine.qwen,
+                          groupValue: state.chineseAsrEngine,
+                          onChanged: (v) => state.setChineseAsrEngine(v!),
+                          activeColor: const Color(0xFF4285F4),
+                        ),
+                        const Divider(height: 1, color: Color(0xFFE0E0E0)),
+                        RadioListTile<AsrEngine>(
+                          title: Text(loc.asrEngineWhisper),
+                          subtitle: Text(
+                            loc.asrEngineWhisperDesc,
+                            style: const TextStyle(fontSize: 13, color: Color(0xFF666666)),
+                          ),
+                          value: AsrEngine.whisper,
+                          groupValue: state.chineseAsrEngine,
+                          onChanged: (v) => state.setChineseAsrEngine(v!),
+                          activeColor: const Color(0xFF4285F4),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 16),
+
+                  // 母语语音识别引擎选择（第二步语义评分）
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(16),
+                          child: Text(
+                            loc.nativeAsrEngineLabel,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                              color: Color(0xFF333333),
+                            ),
+                          ),
+                        ),
+                        const Divider(height: 1, color: Color(0xFFE0E0E0)),
+                        RadioListTile<AsrEngine>(
+                          title: Text(loc.asrEngineAuto),
+                          subtitle: Text(
+                            loc.asrEngineAutoDesc,
+                            style: const TextStyle(fontSize: 13, color: Color(0xFF666666)),
+                          ),
+                          value: AsrEngine.auto,
+                          groupValue: state.asrEngine,
+                          onChanged: (v) => state.setAsrEngine(v!),
+                          activeColor: const Color(0xFF4285F4),
+                        ),
+                        const Divider(height: 1, color: Color(0xFFE0E0E0)),
+                        RadioListTile<AsrEngine>(
+                          title: Text(loc.asrEngineQwen),
+                          subtitle: Text(
+                            loc.asrEngineQwenDesc,
+                            style: const TextStyle(fontSize: 13, color: Color(0xFF666666)),
+                          ),
+                          value: AsrEngine.qwen,
+                          groupValue: state.asrEngine,
+                          onChanged: (v) => state.setAsrEngine(v!),
+                          activeColor: const Color(0xFF4285F4),
+                        ),
+                        const Divider(height: 1, color: Color(0xFFE0E0E0)),
+                        RadioListTile<AsrEngine>(
+                          title: Text(loc.asrEngineWhisper),
+                          subtitle: Text(
+                            loc.asrEngineWhisperDesc,
+                            style: const TextStyle(fontSize: 13, color: Color(0xFF666666)),
+                          ),
+                          value: AsrEngine.whisper,
+                          groupValue: state.asrEngine,
+                          onChanged: (v) => state.setAsrEngine(v!),
+                          activeColor: const Color(0xFF4285F4),
                         ),
                       ],
                     ),
