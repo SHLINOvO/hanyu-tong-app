@@ -84,6 +84,41 @@ class _GrammarPracticePageState extends State<GrammarPracticePage> {
   Widget build(BuildContext context) {
     final loc = AppLocalizations.of(context)!;
 
+    // Web 平台提示
+    if (kIsWeb) {
+      return Scaffold(
+        backgroundColor: const Color(0xFFF5F5F5),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          leading: IconButton(
+            onPressed: () => context.pop(),
+            icon: const Icon(Icons.arrow_back, color: Color(0xFF333333)),
+          ),
+          title: Text(_levelTitle(loc),
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF333333))),
+          centerTitle: false,
+          elevation: 0,
+        ),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.download_for_offline, color: Color(0xFF4285F4), size: 64),
+                const SizedBox(height: 24),
+                Text(
+                  loc.webDownloadHint,
+                  style: const TextStyle(fontSize: 16, color: Color(0xFF333333)),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
     // 所有支持的语言 → 图片翻页
     return Scaffold(
       backgroundColor: const Color(0xFFF5F5F5),

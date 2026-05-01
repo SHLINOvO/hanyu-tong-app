@@ -1,5 +1,6 @@
 ﻿import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:go_router/go_router.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -421,6 +422,41 @@ class _PracticePageState extends State<PracticePage> {
     final state = context.watch<AppState>();
     final loc = AppLocalizations.of(context)!;
     final title = widget.type == 'words' ? loc.wordsPracticeTitle : loc.sentencesPracticeTitle;
+
+    // Web 平台提示
+    if (kIsWeb) {
+      return Scaffold(
+        backgroundColor: const Color(0xFFF5F5F5),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          leading: IconButton(
+            onPressed: () => context.pop(),
+            icon: const Icon(Icons.arrow_back, color: Color(0xFF333333)),
+          ),
+          title: Text(title,
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Color(0xFF333333))),
+          centerTitle: false,
+          elevation: 0,
+        ),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(32),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                const Icon(Icons.download_for_offline, color: Color(0xFF4285F4), size: 64),
+                const SizedBox(height: 24),
+                Text(
+                  loc.webDownloadHint,
+                  style: const TextStyle(fontSize: 16, color: Color(0xFF333333)),
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
 
     // Loading / Error state
     if (_isLoading) {

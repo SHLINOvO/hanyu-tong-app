@@ -289,6 +289,7 @@ class AppLocalizations {
       'nextItem': 'Next',
       'cultureSolarTerm': 'Solar Term',
       'cultureFestival': 'Festival',
+      'webDownloadHint': 'For the full experience, please download the mobile App or Windows desktop version',
     },
     'ru': {
       'appTitle': '汉语通',
@@ -561,6 +562,7 @@ class AppLocalizations {
       'nextItem': 'Следующий',
       'cultureSolarTerm': 'Солнечный термин',
       'cultureFestival': 'Праздник',
+      'webDownloadHint': 'Для полного опыта загрузите мобильное приложение или настольную версию для Windows',
     },
     'fa': {
       'appTitle': '汉语通',
@@ -835,6 +837,7 @@ class AppLocalizations {
       'nextItem': 'بعدی',
       'cultureSolarTerm': 'موقعیت خورشیدی',
       'cultureFestival': 'جشنواره',
+      'webDownloadHint': 'برای تجربه کامل، لطفاً برنامه تلفن همراه یا نسخه دسکتاپ ویندوز را دانلود کنید',
     },
     'ar': {
       'appTitle': '汉语通',
@@ -1109,6 +1112,7 @@ class AppLocalizations {
       'nextItem': 'التالي',
       'cultureSolarTerm': 'مصطلح شمسي',
       'cultureFestival': 'مهرجان',
+      'webDownloadHint': 'للحصول على التجربة الكاملة، يرجى تنزيل تطبيق الهاتف أو إصدار سطح المكتب لنظام Windows',
     },
     'tr': {
       'appTitle': '汉语通',
@@ -1381,6 +1385,7 @@ class AppLocalizations {
       'nextItem': 'Sonraki',
       'cultureSolarTerm': 'Güneş Dönemi',
       'cultureFestival': 'Festival',
+      'webDownloadHint': 'Tam deneyim için lütfen mobil uygulamayı veya Windows masaüstü sürümünü indirin',
     },
     'id': {
       'appTitle': '汉语通',
@@ -1631,6 +1636,7 @@ class AppLocalizations {
       'nextItem': 'Berikutnya',
       'cultureSolarTerm': 'Istilah Matahari',
       'cultureFestival': 'Festival',
+      'webDownloadHint': 'Untuk pengalaman lengkap, silakan unduh aplikasi seluler atau versi desktop Windows',
     },
     'vi': {
       'appTitle': '汉语通',
@@ -1881,6 +1887,7 @@ class AppLocalizations {
       'nextItem': 'Sau',
       'cultureSolarTerm': 'Tiết khí',
       'cultureFestival': 'Lễ hội',
+      'webDownloadHint': 'Để có trải nghiệm đầy đủ, vui lòng tải xuống ứng dụng di động hoặc phiên bản máy tính để bàn Windows',
     },
     'km': {
       'appTitle': '汉语通',
@@ -2131,6 +2138,7 @@ class AppLocalizations {
       'nextItem': 'បន្ទាប់',
       'cultureSolarTerm': 'ពិធីបុណ្យ ២៤ ម៉ោង (ឬ រដូវកាលទាំង ២៤)',
       'cultureFestival': 'ពិធីបុណ្យប្រពៃណី',
+      'webDownloadHint': 'សម្រាប់បទពិសោធន៍ពេញលេញ សូមទាញយកកម្មវិធីទូរស័ព្ទ ឬកំណែផ្នែកបន្ទាប់ Windows',
     },
   };
 
@@ -2394,6 +2402,7 @@ class AppLocalizations {
   String get nextItem => _localizedValues[locale.languageCode]?['nextItem'] ?? 'Next';
   String get cultureSolarTerm => _localizedValues[locale.languageCode]?['cultureSolarTerm'] ?? 'Solar Term';
   String get cultureFestival => _localizedValues[locale.languageCode]?['cultureFestival'] ?? 'Festival';
+  String get webDownloadHint => _localizedValues[locale.languageCode]?['webDownloadHint'] ?? 'For the full experience, please download the mobile App or Windows desktop version';
   String get cancel => _localizedValues[locale.languageCode]?['confirm'] ?? 'Cancel';
 
   // level_test.dart中的文本
