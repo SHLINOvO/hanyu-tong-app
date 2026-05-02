@@ -498,11 +498,12 @@ SplashScreen → 语言选择 → 水平测试 → 学习目标设置 → 主界
 
 ## 仓库信息
 
-| 平台 | 地址 |
-|------|------|
-| **Gitee 主仓库** | https://gitee.com/linlinsh/hanyutong_v1.0.1_test_1.git |
-| **Gitee 备份仓库** | https://gitee.com/linlinsh/hanyutong_v1.0.1_test_2.git |
-| **Flutter Web 源码** | https://github.com/SHLINOvO/hanyu-tong-web.git |
-| **Flutter Web 在线** | https://shlinovo.github.io/hanyu-tong-web/ |
-| **官网源码** | https://github.com/SHLINOvO/hanyu-tong-website |
-| **官网** | https://www.hanyutong.app |
+| 平台                 | 地址                                                     |
+|--------------------|--------------------------------------------------------|
+| **官网**             | https://www.hanyutong.app                              |
+| **Gitee 主仓库**      | https://gitee.com/linlinsh/hanyutong_v1.0.1_test_3.git |
+| **Github 主仓库**     | https://github.com/SHLINOvO/hanyu-tong-app.git         |
+| **Flutter Web 源码** | https://github.com/SHLINOvO/hanyu-tong-web.git         |
+| **Flutter Web 在线** | https://shlinovo.github.io/hanyu-tong-web/             |
+
+
