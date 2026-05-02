@@ -1315,6 +1315,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
                     ])
                   : Column(children: [
                       Container(
+                        width: double.infinity,
                         padding: const EdgeInsets.all(12),
                         margin: const EdgeInsets.only(bottom: 12),
                         decoration: BoxDecoration(
@@ -1322,6 +1323,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
                             borderRadius: BorderRadius.circular(8),
                             border: const Border(left: BorderSide(color: Colors.orange, width: 4))),
                         child: Text(loc.tryAgain,
+                            textAlign: TextAlign.center,
                             style: const TextStyle(color: Colors.orange, fontWeight: FontWeight.bold)),
                       ),
                       SizedBox(width: double.infinity,
