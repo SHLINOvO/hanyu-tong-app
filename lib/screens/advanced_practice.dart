@@ -1300,6 +1300,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
               action: _avgMeaning >= 70
                   ? Column(children: [
                       Container(
+                        width: double.infinity,
                         padding: const EdgeInsets.all(12),
                         margin: const EdgeInsets.only(bottom: 12),
                         decoration: BoxDecoration(
@@ -1307,6 +1308,7 @@ class _AdvancedPracticeState extends State<AdvancedPractice> {
                             borderRadius: BorderRadius.circular(8),
                             border: const Border(left: BorderSide(color: Colors.green, width: 4))),
                         child: Text(loc.masteredSuccess,
+                            textAlign: TextAlign.center,
                             style: const TextStyle(color: Colors.green, fontWeight: FontWeight.bold)),
                       ),
                       SizedBox(width: double.infinity,
